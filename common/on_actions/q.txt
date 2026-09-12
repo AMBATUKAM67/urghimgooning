@@ -1,0 +1,13 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            if = {
+                limit = { NOT = { has_global_flag = is_mp } }
+                every_possible_country = {
+                    limit = { is_ai = no }
+                    country_event = glorp.67
+                }
+            }
+        }
+    }
+}
