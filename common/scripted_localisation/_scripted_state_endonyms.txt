@@ -3106,10 +3106,10 @@ defined_text = {
 		trigger = {
 			OR = {
 				is_czechoslovak_tag = yes
-				is_russian_speaking_tag = yes
+				is_using_russian_alt = yes
 			}
 		}
-		localization_key = STATE_86_RUSSIAN
+		localization_key = STATE_86_RUSSIAN_ALT
 	}
 	text = {
 		trigger = { is_japanese_tag = yes }
@@ -11652,6 +11652,10 @@ defined_text = {
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
 		localization_key = STATE_358_RUSSIAN
+	}
+	text = {
+		trigger = { is_swedish_speaking_tag = yes }
+		localization_key = STATE_358_SWEDISH
 	}
 	text = {
 		localization_key = STATE_358 #New York City
@@ -39377,8 +39381,15 @@ defined_text = {
 		localization_key = STATE_1357_POLISH #Szczecin
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
-		localization_key = STATE_1357_RUSSIAN 
+		trigger = {
+			is_russian_speaking_tag = yes
+			is_using_russian_alt = no
+		}
+		localization_key = VICTORY_POINTS_6282_RUSSIAN
+	}
+	text = {
+		trigger = { is_using_russian_alt = yes }
+		localization_key = VICTORY_POINTS_6282_RUSSIAN_ALT
 	}
 	text = {
 		trigger = { is_japanese_tag = yes }

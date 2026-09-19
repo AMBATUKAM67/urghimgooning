@@ -554,7 +554,7 @@ is_germany_or_splinter_tag = {
 			tag = BAY
 			tag = NGF
 			tag = DDR
-			original_tag = EPR
+			tag = EPR
 		}
 	}
 }
@@ -778,6 +778,10 @@ is_russian_mio_tag = {
 		original_tag = DKB
 		original_tag = ORE
 	}
+}
+is_using_russian_alt = {
+	is_polish_tag = yes
+	is_russian_imposed_tag = yes
 }
 is_belgian_tag = {
 	custom_trigger_tooltip = {
