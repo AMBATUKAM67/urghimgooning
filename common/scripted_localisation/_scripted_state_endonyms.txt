@@ -278,6 +278,10 @@ defined_text = {
 		localization_key = STATE_7_SPANISH
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_7_CHINESE
+	}
+	text = {
 		localization_key = STATE_7 #Holland
 	}
 }
@@ -631,6 +635,10 @@ defined_text = {
 	text = {
 		trigger = { is_italian_speaking_tag = yes }
 		localization_key = STATE_16_ITALIAN
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_16_CHINESE
 	}
 	text = {
 		localization_key = STATE_16 #Île de France
@@ -4317,6 +4325,10 @@ defined_text = {
 		localization_key = STATE_123_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_123_CHINESE
+	}
+	text = {
 		localization_key = STATE_123 #Cornwall
 	}
 }
@@ -4361,6 +4373,10 @@ defined_text = {
 		localization_key = STATE_125_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_125_CHINESE
+	}
+	text = {
 		localization_key = STATE_125 #East Anglia
 	}
 }
@@ -4391,6 +4407,10 @@ defined_text = {
 		localization_key = STATE_126_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_126_CHINESE
+	}
+	text = {
 		localization_key = STATE_126 #Greater London
 	}
 }
@@ -4415,6 +4435,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = STATE_127_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_127_CHINESE
 	}
 	text = {
 		localization_key = STATE_127 #Sussex
@@ -4447,6 +4471,10 @@ defined_text = {
 		localization_key = STATE_128_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_128_CHINESE
+	}
+	text = {
 		localization_key = STATE_128 #West Midlands
 	}
 }
@@ -4477,6 +4505,10 @@ defined_text = {
 		localization_key = STATE_129_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_129_CHINESE
+	}
+	text = {
 		localization_key = STATE_129 #East Midlands
 	}
 }
@@ -4505,6 +4537,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = STATE_130_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_130_CHINESE
 	}
 	text = {
 		localization_key = STATE_130 #Yorkshire
@@ -4553,6 +4589,10 @@ defined_text = {
 		localization_key = STATE_131_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_131_CHINESE
+	}
+	text = {
 		localization_key = STATE_131 #Northern England
 	}
 }
@@ -4581,6 +4621,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = STATE_132_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_132_CHINESE
 	}
 	text = {
 		localization_key = STATE_132 #Lancashire
@@ -11057,6 +11101,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = STATE_338_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_338_CHINESE
 	}
 	text = {
 		localization_key = STATE_338 #Gloucestershire

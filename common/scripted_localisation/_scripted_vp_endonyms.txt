@@ -478,6 +478,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_221_ICELANDIC
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_221_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_221
 	}
 }
@@ -904,6 +908,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_322_ICELANDIC
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_322_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_322
 	}
 }
@@ -968,6 +976,10 @@ defined_text = {
 	text = {
 		trigger = { is_iceland = yes }
 		localization_key = VICTORY_POINTS_351_ICELANDIC
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_351_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_351
@@ -1300,6 +1312,10 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_391_SPANISH
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_391_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_391
@@ -1956,6 +1972,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_540_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_540_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_540
@@ -8722,6 +8742,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3369_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_3369_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_3369
 	}
 }
@@ -9042,6 +9066,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_3501_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_3501_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_3501
@@ -15813,6 +15841,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6237_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6237_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6237
 	}
 }
@@ -16078,6 +16110,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_6318_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6318_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6318
@@ -16609,6 +16645,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_6384_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6384_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6384
@@ -17143,6 +17183,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_6526_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6526_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6526
@@ -23988,6 +24032,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9239_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9239_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_9239
 	}
 }
@@ -24367,6 +24415,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9297_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9297_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_9297
 	}
 }
@@ -24422,6 +24474,10 @@ defined_text = {
 	text = {
 		trigger = { is_iceland = yes }
 		localization_key = VICTORY_POINTS_9315_ICELANDIC
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9315_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9315
@@ -24695,6 +24751,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_9379_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9379_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9379
@@ -25087,6 +25147,10 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = VICTORY_POINTS_9458_JAPANESE
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9458_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9458
@@ -31991,6 +32055,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11253_GREEK
 	}	
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_11253_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_11253
 	}
 }
@@ -32085,6 +32153,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11279_GREEK
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_11279_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_11279
 	}
 }
@@ -32132,6 +32204,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_11297_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_11297_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11297
@@ -32321,6 +32397,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_11332_GREEK
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_11332_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11332
@@ -33303,6 +33383,10 @@ defined_text = {
 	text = {
 		trigger = { is_finnish_tag = yes }
 		localization_key = VICTORY_POINTS_11506_FINNISH
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_11506_CHINESE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11506
