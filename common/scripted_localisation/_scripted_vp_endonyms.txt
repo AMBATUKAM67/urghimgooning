@@ -10691,6 +10691,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3878_SWEDISH
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_3878_CHINESE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_3878
 	}
 }

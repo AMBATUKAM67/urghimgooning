@@ -11664,6 +11664,10 @@ defined_text = {
 		localization_key = STATE_357_GERMAN
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_357_CHINESE
+	}
+	text = {
 		localization_key = STATE_357 #Maine
 	}
 }
@@ -11706,6 +11710,10 @@ defined_text = {
 		localization_key = STATE_358_SWEDISH
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_358_CHINESE
+	}
+	text = {
 		localization_key = STATE_358 #New York City
 	}
 }
@@ -11742,6 +11750,10 @@ defined_text = {
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
 		localization_key = STATE_359_RUSSIAN
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_359_CHINESE
 	}
 	text = {
 		localization_key = STATE_359 #New Jersey
@@ -11782,6 +11794,10 @@ defined_text = {
 		localization_key = STATE_360_RUSSIAN
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_360_CHINESE
+	}
+	text = {
 		localization_key = STATE_360 #Philadelphia
 	}
 }
@@ -11818,6 +11834,10 @@ defined_text = {
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
 		localization_key = STATE_361_RUSSIAN
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_361_CHINESE
 	}
 	text = {
 		localization_key = STATE_361 #Maryland
@@ -27347,7 +27367,11 @@ defined_text = {
 	text = {
 		trigger = { is_jewish = yes }
 		localization_key = STATE_930_JEWISH
-	}	
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_930_CHINESE
+	}
 	text = {
 		localization_key = STATE_930 #Delmarva
 	}
@@ -27388,6 +27412,10 @@ defined_text = {
 		localization_key = STATE_931_RUSSIAN
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_931_CHINESE
+	}
+	text = {
 		localization_key = STATE_931 #Connecticut
 	}
 }
@@ -27426,6 +27454,10 @@ defined_text = {
 		localization_key = STATE_932_GERMAN
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_932_CHINESE
+	}
+	text = {
 		localization_key = STATE_932 #Massachusetts
 	}
 }
@@ -27454,6 +27486,10 @@ defined_text = {
 	text = {
 		trigger = { is_jewish = yes }
 		localization_key = STATE_933_JEWISH
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_933_CHINESE
 	}
 	text = {
 		localization_key = STATE_933 #Vermont
@@ -27494,6 +27530,10 @@ defined_text = {
 		localization_key = STATE_934_RUSSIAN
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_934_CHINESE
+	}
+	text = {
 		localization_key = STATE_934 #New Hampshire
 	}
 }
@@ -27531,6 +27571,10 @@ defined_text = {
 	text = {
 		trigger = { is_albanian = yes }
 		localization_key = STATE_935_ALBANIAN
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_935_CHINESE
 	}
 	text = {
 		localization_key = STATE_935 #Rhode Island
@@ -33944,6 +33988,10 @@ defined_text = {
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
 		localization_key = STATE_1162_RUSSIAN
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_1162_CHINESE
 	}
 	text = {
 		localization_key = STATE_1162
