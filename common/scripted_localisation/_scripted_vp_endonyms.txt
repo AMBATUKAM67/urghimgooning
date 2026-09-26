@@ -1252,10 +1252,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_385
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			119 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					119 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_385_CELTIC
@@ -8732,10 +8735,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3379
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			119 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					119 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_3379_CELTIC
@@ -16041,10 +16047,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6313
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			135 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					135 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_6313_CELTIC
@@ -21033,10 +21042,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_7394
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			135 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					135 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_7394_CELTIC
@@ -24377,10 +24389,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9303
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			134 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					134 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_9303_CELTIC
@@ -31841,10 +31856,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11237
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			135 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					135 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_11237_CELTIC
@@ -32095,10 +32113,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11293
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			113 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					113 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_11293_CELTIC
@@ -50212,10 +50233,13 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11371
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-			is_celtic_tag = yes 
-			134 = { has_state_flag = renamed_state_celtic }
+				is_celtic_tag = yes
+				AND = {
+					original_tag = IRE
+					134 = { has_state_flag = renamed_state_celtic }
+				}
 			}
 		}
 		localization_key = VICTORY_POINTS_11371_CELTIC
