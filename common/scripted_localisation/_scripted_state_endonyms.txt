@@ -1935,6 +1935,10 @@ defined_text = {
 		localization_key = STATE_52_SPANISH
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_52_CHINESE
+	}
+	text = {
 		localization_key = STATE_52 #Upper Bavaria
 	}
 }
@@ -1979,6 +1983,10 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_53_SPANISH
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_53_CHINESE
 	}
 	text = {
 		localization_key = STATE_53 #Lower Bavaria
