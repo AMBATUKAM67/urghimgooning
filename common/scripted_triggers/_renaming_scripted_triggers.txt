@@ -57,7 +57,10 @@ is_arab_tag = {
 			is_arabic_imposed_tag = yes
 			is_arabian_tag = yes
 			is_libya_tag = yes
-			original_tag = EGY
+			AND = {
+				original_tag = EGY
+				is_italian_imposed = no
+			}
 			original_tag = YEM
 			original_tag = OMA
 			original_tag = TRU
@@ -245,6 +248,7 @@ is_dutch_tag = {
 			is_spanish_imposed_tag = no
 			is_finnish_imposed = no
 			is_basque_imposed = no
+			is_chinese_imposed_tag = no
 		}
 	}
 }
@@ -426,6 +430,7 @@ is_french_speaking_tag = {
 			is_spanish_imposed_tag = no
 			is_basque_imposed = no
 			is_italian_imposed = no
+			is_chinese_imposed_tag = no
 		}
 	}
 }
@@ -540,6 +545,7 @@ is_german_speaking_tag = {
 		is_czech_imposed = no
 		is_spanish_imposed_tag = no
 		is_finnish_imposed = no
+		is_chinese_imposed_tag = no
 	}	
 }
 
@@ -803,6 +809,7 @@ is_belgian_but_only_for_renames = {
 		is_italian_imposed = no
 		is_finnish_imposed = no
 		is_basque_imposed = no
+		is_chinese_imposed_tag = no
 	}
 }
 is_south_slav_tag = {
@@ -1898,6 +1905,7 @@ is_luxembourg = {
 		is_japanese_imposed_tag = no
 		is_czech_imposed = no
 		is_spanish_imposed_tag = no
+		is_chinese_imposed_tag = no
 	}
 }
 is_iceland = {
