@@ -34441,20 +34441,12 @@ defined_text = {
 		localization_key = STATE_1158
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes }
-		localization_key = STATE_1158_GERMAN
-	}
-	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_1158_JAPANESE
 	}
 	text = {
 		trigger = { is_native_american = yes }
 		localization_key = STATE_1158_NATIVE
-	}
-	text = {
-		trigger = { is_jewish = yes }
-		localization_key = STATE_1158_JEWISH
 	}
 	text = {
 		trigger = { is_celtic_tag = yes }
@@ -34465,7 +34457,12 @@ defined_text = {
 		localization_key = STATE_1158_ALBANIAN
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_russian_speaking_tag = yes
+				is_jewish = yes
+			}
+		}
 		localization_key = STATE_1158_RUSSIAN
 	}
 	text = {
