@@ -454,6 +454,10 @@ defined_text = {
 		localization_key = STATE_11_ESTONIAN
 	}
 	text = {
+		trigger = { is_latvia = yes }
+		localization_key = STATE_11_LATVIAN
+	}
+	text = {
 		localization_key = STATE_11 #Kaunas
 	}
 }
@@ -4222,6 +4226,10 @@ defined_text = {
 		localization_key = STATE_113_JAPANESE
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_113_CHINESE
+	}
+	text = {
 		localization_key = STATE_113 #Leinster
 	}
 }
@@ -4405,6 +4413,10 @@ defined_text = {
 		trigger = { is_british_tag = no 
 					is_japanese_tag = yes }
 		localization_key = STATE_119_JAPANESE
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_119_CHINESE
 	}
 	text = {
 		localization_key = STATE_119 #Northern Ireland
@@ -4897,6 +4909,10 @@ defined_text = {
 		localization_key = STATE_134_JAPANESE
 	}
 	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_134_CHINESE
+	}
+	text = {
 		localization_key = STATE_134 #Connacht
 	}
 }
@@ -4925,6 +4941,10 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_135_JAPANESE
+	}
+	text = {
+		trigger = { is_chinese_speaking_tag = yes }
+		localization_key = STATE_135_CHINESE
 	}
 	text = {
 		localization_key = STATE_135 #Munster
@@ -6650,6 +6670,10 @@ defined_text = {
 		localization_key = STATE_188_CHINESE
 	}
 	text = {
+		trigger = { is_latvia = yes }
+		localization_key = STATE_188_LATVIAN
+	}
+	text = {
 		localization_key = STATE_188 #Memel
 	}
 }
@@ -6660,7 +6684,12 @@ defined_text = {
 		localization_key = STATE_189 #Samogitia
 	}
 	text = {
-		trigger = { is_lithuania = yes }
+		trigger = {
+			OR = {
+				is_lithuania = yes
+				is_latvia = yes
+			}
+		}
 		localization_key = STATE_189_LITHUANIAN #Žemaitija
 	}
 	text = {
@@ -9446,10 +9475,6 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_261_JAPANESE
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_261_FRENCH
 	}
 	text = {
 		trigger = { is_celtic_tag = yes }
@@ -12603,10 +12628,6 @@ defined_text = {
 		localization_key = STATE_374
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_374_FRENCH
-	}
-	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_374_JAPANESE
 	}
@@ -12899,10 +12920,6 @@ defined_text = {
 		localization_key = STATE_381
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_381_FRENCH
-	}
-	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_381_JAPANESE
 	}
@@ -12982,10 +12999,6 @@ defined_text = {
 		localization_key = STATE_383
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_383_FRENCH
-	}
-	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_383_JAPANESE
 	}
@@ -13053,10 +13066,6 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_385
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_385_FRENCH
 	}
 	text = {
 		trigger = { is_celtic_tag = yes }
@@ -13183,10 +13192,6 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_388
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_388_FRENCH
 	}
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
@@ -13532,10 +13537,6 @@ defined_text = {
 	text = {
 		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_396_GERMAN
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_396_FRENCH
 	}
 	text = {
 		trigger = { is_celtic_tag = yes }
@@ -32336,6 +32337,10 @@ defined_text = {
 		localization_key = STATE_1091_CHINESE
 	}
 	text = {
+		trigger = { is_latvia = yes }
+		localization_key = STATE_1091_LATVIAN
+	}
+	text = {
 		localization_key = STATE_1091 #Welega
 	}
 }
@@ -34123,10 +34128,6 @@ defined_text = {
 		localization_key = STATE_1151_JAPANESE
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1151_FRENCH
-	}
-	text = {
 		trigger = { is_celtic_tag = yes }
 		localization_key = STATE_1151_GAELIC
 	}
@@ -34223,10 +34224,6 @@ defined_text = {
 		localization_key = STATE_1153_JAPANESE
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1153_FRENCH
-	}
-	text = {
 		trigger = { is_celtic_tag = yes }
 		localization_key = STATE_1153_GAELIC
 	}
@@ -34271,10 +34268,6 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_1154_JAPANESE
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1154_FRENCH
 	}
 	text = {
 		trigger = { is_celtic_tag = yes }
@@ -34656,10 +34649,6 @@ defined_text = {
 		localization_key = STATE_1163_GERMAN
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1163_FRENCH
-	}
-	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_1163_JAPANESE
 	}
@@ -34700,10 +34689,6 @@ defined_text = {
 	text = {
 		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_1164_GERMAN
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1164_FRENCH
 	}
 	text = {
 		trigger = { is_japanese_tag = yes }
@@ -34826,10 +34811,6 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_1167_JAPANESE
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1167_FRENCH
 	}
 	text = {
 		trigger = { is_celtic_tag = yes }
@@ -35046,10 +35027,6 @@ defined_text = {
 		localization_key = STATE_1172_JAPANESE
 	}
 	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1172_FRENCH
-	}
-	text = {
 		trigger = { is_celtic_tag = yes }
 		localization_key = STATE_1172_GAELIC
 	}
@@ -35169,10 +35146,6 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_tag = yes }
 		localization_key = STATE_1175_JAPANESE
-	}
-	text = {
-		trigger = { is_french_speaking_tag = yes }
-		localization_key = STATE_1175_FRENCH
 	}
 	text = {
 		trigger = { is_native_american = yes }

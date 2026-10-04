@@ -1,0 +1,374 @@
+defined_text = {
+    name = GetStateName_1477
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1477
+	}
+    text = {
+        trigger = { is_dano_norwegian = yes }
+        localization_key = STATE_1477_DANISH
+    }
+    text = {
+        trigger = { is_russian_speaking_tag = yes }
+        localization_key = STATE_1477_RUSSIAN
+    }
+    text = {
+        trigger = { is_iceland = yes }
+        localization_key = STATE_1477_ICELANDIC
+    }
+    text = {
+		localization_key = STATE_1477
+	}
+}
+defined_text = {
+    name = GetStateName_1369
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1369
+	}
+    text = {
+        trigger = { is_spanish_speaking_tag = yes }
+        localization_key = STATE_1369_SPANISH
+    }
+    text = {
+		localization_key = STATE_1369
+	}
+}
+defined_text = {
+    name = GetStateName_1378
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1378
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1378_GERMAN
+    }
+    text = {
+		localization_key = STATE_1378
+	}
+}
+defined_text = {
+    name = GetStateName_1435
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1435
+	}
+    text = {
+        trigger = { is_spanish_speaking_tag = yes }
+        localization_key = STATE_1435_SPANISH
+    }
+    text = {
+		localization_key = STATE_1435
+	}
+}
+defined_text = {
+    name = GetStateName_1450
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1450
+	}
+    text = {
+        trigger = { is_norwegian = yes }
+        localization_key = STATE_1450_NORWEGIAN
+    }
+    text = {
+        trigger = { is_danish = yes }
+        localization_key = STATE_1450_DANISH
+    }
+    text = {
+		localization_key = STATE_1450
+	}
+}
+defined_text = {
+    name = GetStateName_1451
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1451
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1451_GERMAN
+    }
+    text = {
+        trigger = { is_french_speaking_tag = yes }
+        localization_key = STATE_1451_FRENCH
+    }
+    text = {
+        trigger = { is_chinese_speaking_tag = yes }
+        localization_key = STATE_1451_CHINESE
+    }
+    text = {
+        trigger = { is_vietnamese_speaking = yes }
+        localization_key = STATE_1451_VIETNAMESE
+    }
+    text = {
+        trigger = { is_japanese_tag = yes }
+        localization_key = STATE_1451_JAPANESE
+    }
+    text = {
+		localization_key = STATE_1451
+	}
+}
+defined_text = {
+    name = GetStateName_1452
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1452
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1452_GERMAN
+    }
+    text = {
+        trigger = { is_french_speaking_tag = yes }
+        localization_key = STATE_1452_FRENCH
+    }
+    text = {
+        trigger = { is_chinese_speaking_tag = yes }
+        localization_key = STATE_1452_CHINESE
+    }
+    text = {
+        trigger = { is_vietnamese_speaking = yes }
+        localization_key = STATE_1452_VIETNAMESE
+    }
+    text = {
+        trigger = { is_japanese_tag = yes }
+        localization_key = STATE_1452_JAPANESE
+    }
+    text = {
+		localization_key = STATE_1452
+	}
+}
+defined_text = {
+    name = GetStateName_1452
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1452
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1452_GERMAN
+    }
+    text = {
+        trigger = { is_french_speaking_tag = yes }
+        localization_key = STATE_1452_FRENCH
+    }
+    text = {
+        trigger = { is_chinese_speaking_tag = yes }
+        localization_key = STATE_1452_CHINESE
+    }
+    text = {
+        trigger = { is_vietnamese_speaking = yes }
+        localization_key = STATE_1452_VIETNAMESE
+    }
+    text = {
+        trigger = { is_japanese_tag = yes }
+        localization_key = STATE_1452_JAPANESE
+    }
+    text = {
+		localization_key = STATE_1452
+	}
+}
+defined_text = {
+    name = GetStateName_1453
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1453
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1453_GERMAN
+    }
+    text = {
+        trigger = { is_chinese_speaking_tag = yes }
+        localization_key = STATE_1453_CHINESE
+    }
+    text = {
+        trigger = { is_japanese_tag = yes }
+        localization_key = STATE_1453_JAPANESE
+    }
+    text = {
+		localization_key = STATE_1453
+	}
+}
+defined_text = {
+    name = GetStateName_1454
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1454
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1454_GERMAN
+    }
+    text = {
+		localization_key = STATE_1454
+	}
+}
+defined_text = {
+    name = GetStateName_1455
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1455
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1455_GERMAN
+    }
+    text = {
+		localization_key = STATE_1455
+	}
+}
+defined_text = {
+    name = GetStateName_1456
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1456
+	}
+    text = {
+        trigger = { is_spanish_speaking_tag = yes }
+        localization_key = STATE_1456_SPANISH
+    }
+    text = {
+		localization_key = STATE_1456
+	}
+}
+defined_text = {
+    name = GetStateName_1457
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1457
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1457_GERMAN
+    }
+    text = {
+		localization_key = STATE_1457
+	}
+}
+defined_text = {
+    name = GetStateName_1458
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1458
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1458_GERMAN
+    }
+    text = {
+		localization_key = STATE_1458
+	}
+}
+defined_text = {
+    name = GetStateName_1460
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1460
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1460_GERMAN
+    }
+    text = {
+		localization_key = STATE_1460
+	}
+}
+defined_text = {
+    name = GetStateName_1465
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1465
+	}
+    text = {
+        trigger = { is_finnish_tag = yes }
+        localization_key = STATE_1465_FINNISH
+    }
+    text = {
+        trigger = { is_swedish_speaking_tag = yes }
+        localization_key = STATE_1465_SWEDISH
+    }
+    text = {
+		localization_key = STATE_1465
+	}
+}
+defined_text = {
+    name = GetStateName_1466
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1466
+	}
+    text = {
+        trigger = { is_russian_speaking_tag = yes }
+        localization_key = STATE_1466_RUSSIAN
+    }
+    text = {
+		localization_key = STATE_1466
+	}
+}
+defined_text = {
+    name = GetStateName_1470
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1470
+	}
+    text = {
+        trigger = { is_russian_speaking_tag = yes }
+        localization_key = STATE_1470_RUSSIAN
+    }
+    text = {
+		localization_key = STATE_1470
+	}
+}
+defined_text = {
+    name = GetStateName_1472
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1472
+	}
+    text = {
+        trigger = { is_spanish_speaking_tag = yes }
+        localization_key = STATE_1472_SPANISH
+    }
+    text = {
+		localization_key = STATE_1472
+	}
+}
+defined_text = {
+    name = GetStateName_1473
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1473
+	}
+    text = {
+        trigger = { is_dano_norwegian = yes }
+        localization_key = STATE_1473_DANISH
+    }
+    text = {
+        trigger = { is_russian_speaking_tag = yes }
+        localization_key = STATE_1473_RUSSIAN
+    }
+    text = {
+        trigger = { is_iceland = yes }
+        localization_key = STATE_1473_ICELANDIC
+    }
+    text = {
+		localization_key = STATE_1473
+	}
+}
+defined_text = {
+    name = GetStateName_1476
+    text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1476
+	}
+    text = {
+        trigger = { is_german_speaking_tag = yes }
+        localization_key = STATE_1476_GERMAN
+    }
+    text = {
+		localization_key = STATE_1476
+	}
+}

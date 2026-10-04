@@ -1,0 +1,370 @@
+﻿l_english:
+
+STATE_1477: "Northern Greenland"
+STATE_1477_ENDONYM: "[1477.Controller.GetStateName_1477]"
+STATE_1477_DANISH: "Nordgrønland"
+STATE_1477_RUSSIAN: "Severnaya Grenlandiya"
+STATE_1477_ICELANDIC: "Norður-Grænland"
+
+STATE_1368: "Bryan Coast Base"
+STATE_1368_ENDONYM: "[1368.Controller.GetStateName_1368]"
+
+STATE_1369: "Desventuradas Islands"
+STATE_1369_ENDONYM: "[1369.Controller.GetStateName_1369]"
+STATE_1369_SPANISH: "Islas Desventuradas"
+
+STATE_1370: "Fossil Bluff Station"
+STATE_1370_ENDONYM: "[1370.Controller.GetStateName_1370]"
+
+STATE_1371: "Cape Framnes"
+STATE_1371_ENDONYM: "[1371.Controller.GetStateName_1371]"
+
+STATE_1372: "Princess Martha Coast"
+STATE_1372_ENDONYM: "[1372.Controller.GetStateName_1372]"
+
+STATE_1373: "Eastern Queen Maud Land"
+STATE_1373_ENDONYM: "[1373.Controller.GetStateName_1373]"
+
+STATE_1374: "King Edward VII Land"
+STATE_1374_ENDONYM: "[1374.Controller.GetStateName_1374]"
+
+STATE_1375: "Eastern Queen Maud Land Base"
+STATE_1375_ENDONYM: "[1375.Controller.GetStateName_1375]"
+
+STATE_1376: "King Edward VII Land Base"
+STATE_1376_ENDONYM: "[1376.Controller.GetStateName_1376]"
+
+STATE_1377: "Eastern Queen Maud Land Station"
+STATE_1377_ENDONYM: "[1377.Controller.GetStateName_1377]"
+
+STATE_1378: "Gough Island"
+STATE_1378_ENDONYM: "[1378.Controller.GetStateName_1378]"
+STATE_1378_GERMAN: "Gough-Insel"
+
+STATE_1379: "Central Queen Maud Land Base"
+STATE_1379_ENDONYM: "[1379.Controller.GetStateName_1379]"
+
+STATE_1380: "Western Queen Maud Land Base"
+STATE_1380_ENDONYM: "[1380.Controller.GetStateName_1380]"
+
+STATE_1381: "Coats Land Base"
+STATE_1381_ENDONYM: "[1381.Controller.GetStateName_1381]"
+
+STATE_1382: "Batanes Islands"
+STATE_1382_ENDONYM: "[1382.Controller.GetStateName_1382]"
+
+STATE_1383: "Enderby Land Base"
+STATE_1383_ENDONYM: "[1383.Controller.GetStateName_1383]"
+
+STATE_1384: "Central Wilkes Land Base"
+STATE_1384_ENDONYM: "[1384.Controller.GetStateName_1384]"
+
+STATE_1385: "Eastern Wilhelm II Land"
+STATE_1385_ENDONYM: "[1385.Controller.GetStateName_1385]"
+
+STATE_1386: "Western Wilhelm II Land Base"
+STATE_1386_ENDONYM: "[1386.Controller.GetStateName_1386]"
+
+STATE_1387: "Eastern Wilhelm II Land Base"
+STATE_1387_ENDONYM: "[1387.Controller.GetStateName_1387]"
+
+STATE_1388: "Eastern Coral Sea Islands"
+STATE_1388_ENDONYM: "[1388.Controller.GetStateName_1388]"
+
+STATE_1389: "Central Wilkes Land"
+STATE_1389_ENDONYM: "[1389.Controller.GetStateName_1389]"
+
+STATE_1390: "Western Coral Sea Islands"
+STATE_1390_ENDONYM: "[1390.Controller.GetStateName_1390]"
+
+STATE_1391: "Western Wilkes Land Base"
+STATE_1391_ENDONYM: "[1391.Controller.GetStateName_1391]"
+
+STATE_1392: "Central Coral Sea Islands"
+STATE_1392_ENDONYM: "[1392.Controller.GetStateName_1392]"
+
+STATE_1393: "Eastern Wilkes Land Base"
+STATE_1393_ENDONYM: "[1393.Controller.GetStateName_1393]"
+
+STATE_1394: "Victoria Land"
+STATE_1394_ENDONYM: "[1394.Controller.GetStateName_1394]"
+
+STATE_1395: "Western Palmer Coast"
+STATE_1395_ENDONYM: "[1395.Controller.GetStateName_1395]"
+
+STATE_1396: "Eastern Palmer Coast"
+STATE_1396_ENDONYM: "[1396.Controller.GetStateName_1396]"
+
+STATE_1397: "Northeastern Palmer Coast"
+STATE_1397_ENDONYM: "[1397.Controller.GetStateName_1397]"
+
+STATE_1398: "Carney Island"
+STATE_1398_ENDONYM: "[1398.Controller.GetStateName_1398]"
+
+STATE_1399: "Palmer Land"
+STATE_1399_ENDONYM: "[1399.Controller.GetStateName_1399]"
+
+STATE_1400: "Western Ellsworth Land"
+STATE_1400_ENDONYM: "[1400.Controller.GetStateName_1400]"
+
+STATE_1401: "Ellsworth Land"
+STATE_1401_ENDONYM: "[1401.Controller.GetStateName_1401]"
+
+STATE_1402: "Bakutis Coast"
+STATE_1402_ENDONYM: "[1402.Controller.GetStateName_1402]"
+
+STATE_1403: "Biscoe Islands"
+STATE_1403_ENDONYM: "[1403.Controller.GetStateName_1403]"
+
+STATE_1404: "Ronne Islands"
+STATE_1404_ENDONYM: "[1404.Controller.GetStateName_1404]"
+
+STATE_1405: "Siple Island"
+STATE_1405_ENDONYM: "[1405.Controller.GetStateName_1405]"
+
+STATE_1406: "Princess Ragnhild Coast"
+STATE_1406_ENDONYM: "[1406.Controller.GetStateName_1406]"
+
+STATE_1407: "Princess Astrid Coast"
+STATE_1407_ENDONYM: "[1407.Controller.GetStateName_1407]"
+
+STATE_1408: "Princess Martha Coast"
+STATE_1408_ENDONYM: "[1408.Controller.GetStateName_1408]"
+
+STATE_1409: "Martha Island"
+STATE_1409_ENDONYM: "[1409.Controller.GetStateName_1409]"
+
+STATE_1410: "Western Queen Maud Land"
+STATE_1410_ENDONYM: "[1410.Controller.GetStateName_1410]"
+
+STATE_1411: "Jelbart Coast"
+STATE_1411_ENDONYM: "[1411.Controller.GetStateName_1411]"
+
+STATE_1412: "Princess Martha Coast Station"
+STATE_1412_ENDONYM: "[1412.Controller.GetStateName_1412]"
+
+STATE_1413: "Princess Astrid Coast Bases"
+STATE_1413_ENDONYM: "[1413.Controller.GetStateName_1413]"
+
+STATE_1414: "Princess Ragnhild Coast Bases"
+STATE_1414_ENDONYM: "[1414.Controller.GetStateName_1414]"
+
+STATE_1415: "Prince Harald Coast"
+STATE_1415_ENDONYM: "[1415.Controller.GetStateName_1415]"
+
+STATE_1416: "Prince Harald Coast Base"
+STATE_1416_ENDONYM: "[1416.Controller.GetStateName_1416]"
+
+STATE_1417: "Lars Christensen Coast"
+STATE_1417_ENDONYM: "[1417.Controller.GetStateName_1417]"
+
+STATE_1418: "Kemp Coast"
+STATE_1418_ENDONYM: "[1418.Controller.GetStateName_1418]"
+
+STATE_1419: "Mawson Coast"
+STATE_1419_ENDONYM: "[1419.Controller.GetStateName_1419]"
+
+STATE_1420: "Kemp Coast Station"
+STATE_1420_ENDONYM: "[1420.Controller.GetStateName_1420]"
+
+STATE_1421: "Wasa Station"
+STATE_1421_ENDONYM: "[1421.Controller.GetStateName_1421]"
+
+STATE_1422: "Central Queen Maud Land"
+STATE_1422_ENDONYM: "[1422.Controller.GetStateName_1422]"
+
+STATE_1423: "Prince Harald Land"
+STATE_1423_ENDONYM: "[1423.Controller.GetStateName_1423]"
+
+STATE_1424: "Eastern Enderby Land"
+STATE_1424_ENDONYM: "[1424.Controller.GetStateName_1424]"
+
+STATE_1425: "Western Enderby Land"
+STATE_1425_ENDONYM: "[1425.Controller.GetStateName_1425]"
+
+STATE_1426: "Ingrid Christensen Coast"
+STATE_1426_ENDONYM: "[1426.Controller.GetStateName_1426]"
+
+STATE_1427: "Leopold and Astrid Coast"
+STATE_1427_ENDONYM: "[1427.Controller.GetStateName_1427]"
+
+STATE_1428: "Wilhelm II Coast"
+STATE_1428_ENDONYM: "[1428.Controller.GetStateName_1428]"
+
+STATE_1429: "Queen Mary Coast"
+STATE_1429_ENDONYM: "[1429.Controller.GetStateName_1429]"
+
+STATE_1430: "Budd Coast"
+STATE_1430_ENDONYM: "[1430.Controller.GetStateName_1430]"
+
+STATE_1431: "Law Coast"
+STATE_1431_ENDONYM: "[1431.Controller.GetStateName_1431]"
+
+STATE_1432: "George V Coast"
+STATE_1432_ENDONYM: "[1432.Controller.GetStateName_1432]"
+
+STATE_1433: "Pennell Coast"
+STATE_1433_ENDONYM: "[1433.Controller.GetStateName_1433]"
+
+STATE_1434: "Victoria Land Base"
+STATE_1434_ENDONYM: "[1434.Controller.GetStateName_1434]"
+
+STATE_1435: "South Sandwich Islands"
+STATE_1435_ENDONYM: "[1435.Controller.GetStateName_1435]"
+STATE_1435_SPANISH: "Islas Esquivel"
+
+STATE_1436: "Marie Byrd Land"
+STATE_1436_ENDONYM: "[1436.Controller.GetStateName_1436]"
+
+STATE_1437: "Peary Coast"
+STATE_1437_ENDONYM: "[1437.Controller.GetStateName_1437]"
+
+STATE_1438: "Eights Coast"
+STATE_1438_ENDONYM: "[1438.Controller.GetStateName_1438]"
+
+STATE_1439: "Bryan Coast"
+STATE_1439_ENDONYM: "[1439.Controller.GetStateName_1439]"
+
+STATE_1440: "English Coast"
+STATE_1440_ENDONYM: "[1440.Controller.GetStateName_1440]"
+
+STATE_1441: "Eastern Wilkes Land"
+STATE_1441_ENDONYM: "[1441.Controller.GetStateName_1441]"
+
+STATE_1442: "Western Wilkes Land"
+STATE_1442_ENDONYM: "[1442.Controller.GetStateName_1442]"
+
+STATE_1443: "Western Wilhelm II Land"
+STATE_1443_ENDONYM: "[1443.Controller.GetStateName_1443]"
+
+STATE_1444: "Princess Martha Coast Base"
+STATE_1444_ENDONYM: "[1444.Controller.GetStateName_1444]"
+
+STATE_1445: "Palmer Land Station"
+STATE_1445_ENDONYM: "[1445.Controller.GetStateName_1445]"
+
+STATE_1446: "Wilkins Island"
+STATE_1446_ENDONYM: "[1446.Controller.GetStateName_1446]"
+
+STATE_1447: "Walgreen Coast"
+STATE_1447_ENDONYM: "[1447.Controller.GetStateName_1447]"
+
+STATE_1448: "Hobbs Coast Station"
+STATE_1448_ENDONYM: "[1448.Controller.GetStateName_1448]"
+
+STATE_1449: "Bryan Station"
+STATE_1449_ENDONYM: "[1449.Controller.GetStateName_1449]"
+
+STATE_1450: "Peter I Island"
+STATE_1450_ENDONYM: "[1450.Controller.GetStateName_1450]"
+STATE_1450_NORWEGIAN: "Peter I Øy"
+STATE_1450_DANISH: "Peter I's Ø"
+
+STATE_1451: "Paracel Islands"
+STATE_1451_ENDONYM: "[1451.Controller.GetStateName_1451]"
+STATE_1451_GERMAN: "Paracel-Inseln"
+STATE_1451_FRENCH: "Îles Paracels"
+STATE_1451_CHINESE: "Xīshā Qúndao"
+STATE_1451_VIETNAMESE: "Quan Dao Hoàng Sa"
+STATE_1451_JAPANESE: "Seisa Shotō"
+
+STATE_1452: "Spratly Islands"
+STATE_1452_ENDONYM: "[1452.Controller.GetStateName_1452]"
+STATE_1452_GERMAN: "Spratly-Inseln"
+STATE_1452_FRENCH: "Îles Spratleys"
+STATE_1452_CHINESE: "Nánshā Qúndao"
+STATE_1452_VIETNAMESE: "Quan Dao Truong Sa"
+STATE_1452_JAPANESE: "Nansa Shotō"
+
+STATE_1453: "Southern South China Sea Islands"
+STATE_1453_ENDONYM: "[1453.Controller.GetStateName_1453]"
+STATE_1453_GERMAN: "Südlicher Südchinesisches Meer Inseln"
+STATE_1453_CHINESE: "Nán-Nánhai Zhūdao"
+STATE_1453_JAPANESE: "Minami-Nankai Shotō"
+
+STATE_1454: "Île de l'Est"
+STATE_1454_ENDONYM: "[1454.Controller.GetStateName_1454]"
+STATE_1454_GERMAN: "Insel des Ostens"
+
+STATE_1455: "Marion Island"
+STATE_1455_ENDONYM: "[1455.Controller.GetStateName_1455]"
+STATE_1455_GERMAN: "Marioninseln"
+
+STATE_1456: "Socorro Island"
+STATE_1456_ENDONYM: "[1456.Controller.GetStateName_1456]"
+STATE_1456_SPANISH: "Isla Socorro"
+
+STATE_1457: "Île du Roi George"
+STATE_1457_ENDONYM: "[1457.Controller.GetStateName_1457]"
+STATE_1457_GERMAN: "König-Georg-Insel"
+
+STATE_1458: "Northwestern French Polynesia"
+STATE_1458_ENDONYM: "[1458.Controller.GetStateName_1458]"
+STATE_1458_GERMAN: "Nordwestdeutsch-Polynesien"
+
+STATE_1459: "Cook Islands"
+STATE_1459_ENDONYM: "[1459.Controller.GetStateName_1459]"
+
+STATE_1460: "French Polynesia"
+STATE_1460_ENDONYM: "[1460.Controller.GetStateName_1460]"
+STATE_1460_GERMAN: "Deutsch-Polynesien"
+
+STATE_1461: "Pribilof Islands"
+STATE_1461_ENDONYM: "[1460.Controller.GetStateName_1461]"
+
+STATE_1462: "Saint Matthew Island"
+STATE_1462_ENDONYM: "[1462.Controller.GetStateName_1462]"
+
+STATE_1463: "Saunders Coast"
+STATE_1463_ENDONYM: "[1463.Controller.GetStateName_1463]"
+
+STATE_1464: "Canadian Arctic Archipelago"
+STATE_1464_ENDONYM: "[1464.Controller.GetStateName_1464]"
+
+STATE_1465: "Gogland"
+STATE_1465_ENDONYM: "[1465.Controller.GetStateName_1465]"
+STATE_1465_FINNISH: "Suursaari"
+STATE_1465_SWEDISH: "Högland"
+
+STATE_1466: "Franz Josef Land"
+STATE_1466_ENDONYM: "[1466.Controller.GetStateName_1466]"
+STATE_1466_RUSSIAN: "Zemlya Frantsa-Iosifa"
+
+STATE_1467: "Spitsbergen"
+STATE_1467_ENDONYM: "[1467.Controller.GetStateName_1467]"
+
+STATE_1468: "Severnaya Zemlya"
+STATE_1468_ENDONYM: "[1468.Controller.GetStateName_1468]"
+
+STATE_1469: "Tristan da Cunha"
+STATE_1469_ENDONYM: "[1469.Controller.GetStateName_1469]"
+
+STATE_1470: "New Siberian Islands"
+STATE_1470_ENDONYM: "[1470.Controller.GetStateName_1470]"
+STATE_1470_RUSSIAN: "Novosibirskiye Ostrova"
+
+STATE_1471: "Pantelleria"
+STATE_1471_ENDONYM: "[1471.Controller.GetStateName_1471]"
+
+STATE_1472: "South Orkney Islands"
+STATE_1472_ENDONYM: "[1472.Controller.GetStateName_1472]"
+STATE_1472_SPANISH: "Islas Orcadas del Sur"
+
+STATE_1473: "Inner Greenland"
+STATE_1473_ENDONYM: "[1473.Controller.GetStateName_1473]"
+STATE_1473_DANISH: "Indre Grønland"
+STATE_1473_RUSSIAN: "Vnutrennyaya Grenlandiya"
+STATE_1473_ICELANDIC: "Innri-Grænland"
+
+STATE_1474: "Novaya Zemlya"
+STATE_1474_ENDONYM: "[1474.Controller.GetStateName_1474]"
+
+STATE_1475: "Isla Salas y Gómez"
+STATE_1475_ENDONYM: "[1475.Controller.GetStateName_1475]"
+
+STATE_1476: "Kerguelen Islands"
+STATE_1476_ENDONYM: "[1476.Controller.GetStateName_1476]"
+STATE_1476_GERMAN: "Kerguelen-Inseln"
+
+VICTORY_POINTS_14603: "Neuschwabenland Expedition"
+VICTORY_POINTS_14603_ENDONYM: "[1223.Controller.GetVictoryPointName_14603]"
