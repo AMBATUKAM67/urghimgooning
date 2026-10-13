@@ -918,7 +918,7 @@ STATE_97_FINNISH: "Pjalistoki"
 
 STATE_98: "Plock"
 STATE_98_ENDONYM: "[98.Controller.GetStateName_98]"
-STATE_98_GERMAN: "Plotzkow"
+STATE_98_GERMAN: "Plotzk"
 STATE_98_POLISH: "Płock"
 STATE_98_RUSSIAN: "Plotsk"
 STATE_98_FINNISH: "Plotski"

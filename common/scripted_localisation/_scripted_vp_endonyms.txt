@@ -3269,12 +3269,6 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetVictoryPointName_896
-	text = {
-		localization_key = VICTORY_POINTS_896
-	}
-}
-defined_text = {
 	name = GetVictoryPointName_898
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
@@ -20674,10 +20668,6 @@ defined_text = {
 		localization_key = VICTORY_POINTS_7169_CHINESE
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
-		localization_key = VICTORY_POINTS_7169_RUSSIAN
-	}
-	text = {
 		localization_key = VICTORY_POINTS_7169
 	}
 }
@@ -31114,9 +31104,11 @@ defined_text = {
 		localization_key = VICTORY_POINTS_10713_CHINESE
 	}	
 	text = {
-		trigger = {
-			is_tibetan = yes
-			has_completed_focus = TIB_Roerich_Victory
+		trigger = { 
+			AND = {
+				original_tag = TIB
+				654 = { has_state_flag = renamed_state_roerich }
+			}
 		}
 		localization_key = VICTORY_POINTS_10713_ROERICH
 	}
