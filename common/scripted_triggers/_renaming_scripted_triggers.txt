@@ -420,7 +420,7 @@ is_french_speaking_tag = {
 			}
 			AND = {
 				original_tag = COG
-				NOT = { has_completed_focus = COG_ritter_von_epp }
+				is_german_speaking_tag = no
 			}
 		}
 		AND = {
@@ -535,6 +535,7 @@ is_german_speaking_tag = {
 		AND = {
 			original_tag = COG
 			has_completed_focus = COG_ritter_von_epp
+			NOT = { has_country_flag = COG_ricky_stays = yes }
 		}
 	}
 	AND = {
