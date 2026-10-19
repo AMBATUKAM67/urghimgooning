@@ -4047,6 +4047,10 @@ defined_text = {
 		localization_key = STATE_107_CZECH
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_107_HUNGARIAN #Nándorfehérvár
+	}
+	text = {
 		localization_key = STATE_107 #Belgrade
 	}
 }
@@ -4201,6 +4205,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_113
+	text = {
+		trigger = { 
+			original_tag = NEE
+			113 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_113_LOVECRAFT #The Nameless City
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_113
@@ -4608,6 +4619,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_126
+	text = {
+		trigger = { 
+			original_tag = NEE
+			126 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_126_LOVECRAFT #Celephaïs
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_126
@@ -8335,6 +8353,10 @@ defined_text = {
 		localization_key = STATE_229_GERMAN 
 	}
 	text = {
+		trigger = { is_abkhaz = yes }
+		localization_key = STATE_229_ABKHAZ
+	}
+	text = {
 		localization_key = STATE_229 #Azerbaijan
 	}
 }
@@ -8365,6 +8387,10 @@ defined_text = {
 		localization_key = STATE_230_GERMAN 
 	}
 	text = {
+		trigger = { is_abkhaz = yes }
+		localization_key = STATE_230_ABKHAZ
+	}
+	text = {
 		localization_key = STATE_230 #Erivan
 	}
 }
@@ -8379,7 +8405,7 @@ defined_text = {
 		localization_key = STATE_231_GEORGIAN #Sakartvelo
 	}
 	text = {
-		trigger = { original_tag = ABK }
+		trigger = { is_abkhaz = yes }
 		localization_key = STATE_231_ABKHAZ
 	}
 	text = {
@@ -10107,6 +10133,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_285
 	text = {
+		trigger = { 
+			original_tag = NEE
+			285 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_285_LOVECRAFT #New R'lyeh
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_285 #New South Wales
 	}
@@ -10739,6 +10772,10 @@ defined_text = {
 		localization_key = STATE_315_NATIVE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_315_CREOLE
+	}
+	text = {
 		localization_key = STATE_315 #Havana
 	}
 }
@@ -10785,6 +10822,10 @@ defined_text = {
 		localization_key = STATE_318_SPANISH 
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_318_CREOLE
+	}
+	text = {
 		trigger = { is_french_speaking_tag = yes }
 		localization_key = STATE_318_FRENCH #Haïti
 	}
@@ -10810,6 +10851,10 @@ defined_text = {
 	text = {
 		trigger = { is_native_american = yes }
 		localization_key = STATE_319_NATIVE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_319_CREOLE
 	}
 	text = {
 		localization_key = STATE_319 #Eastern Hispaniola
@@ -11959,6 +12004,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_358
 	text = {
+		trigger = { 
+			original_tag = NEE
+			has_country_flag = NEE_nyc_is_state
+		}
+		localization_key = STATE_358_USNE #Gotham
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_358
 	}
@@ -12088,6 +12140,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_361
+	text = {
+		trigger = { 
+			original_tag = NEE
+			361 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_361_LOVECRAFT #Arkham
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_361
@@ -12487,6 +12546,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_371
+	text = {
+		trigger = { 
+			original_tag = HAI
+			371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+		}
+		localization_key = STATE_371_HAITI #Lwiziyana
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_371
@@ -14507,15 +14573,15 @@ defined_text = {
 defined_text = {
 	name = GetStateName_429
 	text = {
-		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
-		localization_key = STATE_429 #Bombay
-	}
-	text = {
 		trigger = {
 			has_global_flag = maharashtra_renamed
 			is_indian_tag = yes
 		}
-		localization_key = STATE_429_INDIAN_M #Maharashtra
+		localization_key = STATE_429_INDIAN #Maharashtra
+	}
+	text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_429 #Bombay
 	}
 	text = {
 		trigger = { is_japanese_tag = yes }
@@ -14531,7 +14597,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { is_non_hindi_indian = yes }
-		localization_key = STATE_429_INDIAN
+		localization_key = STATE_429_INDIAN_BOMBAY
 	}
 	text = {
 		trigger = { is_german_speaking_tag = yes }
@@ -14822,6 +14888,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_439
+	text = {
+		trigger = { 
+			original_tag = NEE
+			439 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_439_LOVECRAFT #New Sarnath
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_439
@@ -18258,12 +18331,19 @@ defined_text = {
 defined_text = {
 	name = GetStateName_582
 	text = {
+		trigger = { 
+			original_tag = ALO
+			582 = { has_state_flag = renamed_state_kazakh }
+		}
+		localization_key = STATE_582_KAZAKH
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_582 #Orsk
 	}
 	text = {
 		trigger = { is_central_asian_tag = yes }
-		localization_key = STATE_582_KAZAKH #Jamanqala
+		localization_key = STATE_582_KIPCHAK #Jamanqala
 	}
 	text = {
 		trigger = { is_japanese_tag = yes }
@@ -18283,6 +18363,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_583
+	text = {
+		trigger = { 
+			original_tag = ALO
+			583 = { has_state_flag = renamed_state_kazakh }
+		}
+		localization_key = STATE_583_KAZAKH
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_583 #Petropavlovsk
@@ -18454,6 +18541,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_588
 	text = {
+		trigger = { 
+			original_tag = ALO
+			588 = { has_state_flag = renamed_state_kazakh }
+		}
+		localization_key = STATE_588_KAZAKH
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_588
 	}
@@ -18517,6 +18611,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_590
+	text = {
+		trigger = { 
+			original_tag = ALO
+			590 = { has_state_flag = renamed_state_kazakh }
+		}
+		localization_key = STATE_590_KAZAKH
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_590 #Akmolinsk
@@ -21395,6 +21496,10 @@ defined_text = {
 		localization_key = STATE_686_DANISH
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_686_CREOLE
+	}
+	text = {
 		localization_key = STATE_686 #Puerto Rico
 	}
 }
@@ -21443,6 +21548,10 @@ defined_text = {
 	text = {
 		trigger = { is_danish = yes }
 		localization_key = STATE_689_DANISH
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_689_CREOLE
 	}
 	text = {
 		localization_key = STATE_689 #Jamaica
@@ -22583,6 +22692,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_739
+	text = {
+		trigger = { 
+			original_tag = NEE
+			739 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_739_LOVECRAFT #Kadath
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_739
@@ -24559,6 +24675,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_796
 	text = {
+		trigger = { 
+			original_tag = NEE
+			has_country_flag = NEE_nyc_is_state
+		}
+		localization_key = STATE_796_USNE #Hudsonia
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_796
 	}
@@ -25339,6 +25462,10 @@ defined_text = {
 		localization_key = STATE_820_NATIVE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_820_CREOLE
+	}
+	text = {
 		localization_key = STATE_820 #Santiago de Cuba
 	}
 }
@@ -26000,6 +26127,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_844
+	text = {
+		trigger = { 
+			original_tag = NOR
+			844 = { has_state_flag = NOR_norway_developed_state }
+		}
+		localization_key = STATE_844_NORWAY_DEV
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_844 #Lapland
@@ -28188,6 +28322,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_937
 	text = {
+		trigger = { 
+			original_tag = NOR
+			937 = { has_state_flag = NOR_norway_developed_state }
+		}
+		localization_key = STATE_937_NORWAY_DEV
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_937 #Finnmark
 	}
@@ -28787,15 +28928,20 @@ defined_text = {
 defined_text = {
 	name = GetStateName_963
 	text = {
-		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
-		localization_key = STATE_963
+		trigger = { 
+			original_tag = LIB
+			963 = { is_core_of = LIB }
+			has_country_flag = LIB_native_assimilation_act
+		}
+		localization_key = STATE_963_LIBERIAN
 	}
 	text = {
 		trigger = { 
 			original_tag = LIB
 			963 = { is_core_of = LIB }
+			has_country_flag = LIB_native_removal_act
 		}
-		localization_key = STATE_963_LIBERIAN
+		localization_key = STATE_963_LIBERIAN_REMOVAL
 	}
 	text = {
 		trigger = { is_czechoslovak_tag = yes }
@@ -29460,6 +29606,10 @@ defined_text = {
 	text = {
 		trigger = { is_oghuz_turkic_tag = yes }
 		localization_key = STATE_990_TURKISH
+	}
+	text = {
+		trigger = { is_abkhaz = yes }
+		localization_key = STATE_990_ABKHAZ
 	}
 	text = {
 		localization_key = STATE_990 #
@@ -33323,6 +33473,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_1123
 	text = {
+		trigger = { 
+			original_tag = CZE
+			1123 = { has_state_flag = CZE_renamed_state_bratislava }
+		}
+		localization_key = STATE_1123_BRATISLAVA
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_1123
 	}
@@ -35178,6 +35335,17 @@ defined_text = {
 defined_text = {
 	name = GetStateName_1176
 	text = {
+		trigger = { 
+			original_tag = NEE
+			1176 = { has_state_flag = NEE_renamed_state_lovecraft }
+		}
+		localization_key = STATE_1176_LOVECRAFT
+	}
+	text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_1176
+	}
+	text = {
 		localization_key = STATE_1176
 	}
 }
@@ -35399,7 +35567,7 @@ defined_text = {
 		localization_key = STATE_1190
 	}
 	text = {
-		trigger = { original_tag = ABK }
+		trigger = { is_abkhaz = yes }
 		localization_key = STATE_1190_ABKHAZ
 	}
 	text = {
@@ -36120,6 +36288,10 @@ defined_text = {
 		localization_key = STATE_1213_GREEK
 	}
 	text = {
+		trigger = { is_abkhaz = yes }
+		localization_key = STATE_1213_ABKHAZ
+	}
+	text = {
 		localization_key = STATE_1213
 	}
 }
@@ -36343,6 +36515,13 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_1224
+	text = {
+		trigger = { 
+			original_tag = ALO
+			1224 = { has_state_flag = renamed_state_kazakh }
+		}
+		localization_key = STATE_1224_KAZAKH
+	}
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_1224
@@ -40336,6 +40515,13 @@ defined_text = {
 defined_text = {
 	name = GetStateName_1361
 	text = {
+		trigger = {
+			has_global_flag = maharashtra_renamed
+			is_indian_tag = yes
+		}
+		localization_key = STATE_1361_INDIAN #Mumbai
+	}
+	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_1361
 	}
@@ -40353,7 +40539,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { is_non_hindi_indian = yes }
-		localization_key = STATE_1361_INDIAN
+		localization_key = STATE_1361_INDIAN_BOMBAY
 	}
 	text = {
 		trigger = { is_german_speaking_tag = yes }

@@ -3,10 +3,10 @@ on_actions = {
         effect = {
             if = {
                 limit = { NOT = { has_global_flag = is_mp } }
-                every_possible_country = {
-                    limit = { is_ai = no }
-                    country_event = glorp.67
-                }
+                set_variable = { global.renaming_frame = 2 }
+ 		        set_global_flag = allowrenaming_flag
+                add_to_variable = { global.kr_options_dirty = 1 }
+                every_state = { rename_state_effect = yes }
             }
         }
     }
