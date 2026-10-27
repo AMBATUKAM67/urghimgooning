@@ -171,7 +171,7 @@ defined_text = {
 		localization_key = STATE_5_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_5_JAPANESE
 	}
 	text = {
@@ -317,7 +317,7 @@ defined_text = {
 		localization_key = STATE_8_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_8_JAPANESE
 	}
 	text = {
@@ -1072,7 +1072,7 @@ defined_text = {
 		localization_key = STATE_28_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_28_JAPANESE
 	}
 	text = {
@@ -1514,7 +1514,7 @@ defined_text = {
 		localization_key = STATE_40
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_40_JAPANESE
 	}
 	text = {
@@ -1579,7 +1579,7 @@ defined_text = {
 		localization_key = STATE_42_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_42_JAPANESE
 	}
 	text = {
@@ -1731,6 +1731,10 @@ defined_text = {
 		localization_key = STATE_46_CZECH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_46_SERBIAN
+	}
+	text = {
 		localization_key = STATE_46 #Muntenia
 	}
 }
@@ -1767,6 +1771,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = STATE_47_BULGARIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_47_SERBIAN
 	}
 	text = {
 		localization_key = STATE_47 #Central Greece
@@ -1815,6 +1823,10 @@ defined_text = {
 		localization_key = STATE_48_CZECH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_48_SERBIAN 
+	}
+	text = {
 		localization_key = STATE_48 #Sofia
 	}
 }
@@ -1851,7 +1863,7 @@ defined_text = {
 		localization_key = STATE_50_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_50_JAPANESE
 	}
 	text = {
@@ -1901,7 +1913,7 @@ defined_text = {
 		localization_key = STATE_51_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_51_JAPANESE
 	}
 	text = {
@@ -1959,7 +1971,7 @@ defined_text = {
 		localization_key = STATE_52_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_52_JAPANESE
 	}
 	text = {
@@ -2009,7 +2021,7 @@ defined_text = {
 		localization_key = STATE_53_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_53_JAPANESE
 	}
 	text = {
@@ -2065,7 +2077,7 @@ defined_text = {
 		localization_key = STATE_54_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_54_JAPANESE
 	}
 	text = {
@@ -2098,7 +2110,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				is_german_speaking_tag = yes
-				is_japanese_tag = yes
+				is_japanese_speaking_tag = yes
 				is_dutch_tag = yes
 			}
 		}
@@ -2139,7 +2151,7 @@ defined_text = {
 		localization_key = STATE_56
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_56_JAPANESE
 	}
 	text = {
@@ -2194,7 +2206,7 @@ defined_text = {
 		localization_key = STATE_57_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_57_JAPANESE
 	}
 	text = {
@@ -2245,7 +2257,7 @@ defined_text = {
 		localization_key = STATE_58_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_58_JAPANESE
 	}
 	text = {
@@ -2279,7 +2291,7 @@ defined_text = {
 		localization_key = STATE_59_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_59_JAPANESE
 	}
 	text = {
@@ -2325,7 +2337,7 @@ defined_text = {
 		localization_key = STATE_60_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_60_JAPANESE
 	}
 	text = {
@@ -2367,7 +2379,7 @@ defined_text = {
 		localization_key = STATE_61_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_61_JAPANESE
 	}
 	text = {
@@ -2413,7 +2425,7 @@ defined_text = {
 		localization_key = STATE_62_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_62_JAPANESE
 	}
 	text = {
@@ -2463,7 +2475,7 @@ defined_text = {
 		localization_key = STATE_63_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_63_JAPANESE
 	}
 	text = {
@@ -2509,7 +2521,7 @@ defined_text = {
 		localization_key = STATE_64
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_64_JAPANESE
 	}
 	text = {
@@ -2559,7 +2571,7 @@ defined_text = {
 		localization_key = STATE_65_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_65_JAPANESE
 	}
 	text = {
@@ -2609,7 +2621,7 @@ defined_text = {
 		localization_key = STATE_66_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_66_JAPANESE
 	}
 	text = {
@@ -2663,7 +2675,7 @@ defined_text = {
 		localization_key = STATE_67_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_67_JAPANESE
 	}
 	text = {
@@ -2713,7 +2725,7 @@ defined_text = {
 		localization_key = STATE_68_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_68_JAPANESE
 	}
 	text = {
@@ -2840,7 +2852,7 @@ defined_text = {
 		localization_key = STATE_72_SHAN_HALF #Moeng Tai
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_72_JAPANESE
 	}
 	text = {
@@ -2985,6 +2997,10 @@ defined_text = {
 		localization_key = STATE_76_CZECH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_76_SERBIAN
+	}
+	text = {
 		localization_key = STATE_76 #Cluj
 	}
 }
@@ -3001,6 +3017,7 @@ defined_text = {
 				is_russian_speaking_tag = yes
 				is_german_speaking_tag = yes
 				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_77_BULGARIAN #Silistra
@@ -3056,6 +3073,10 @@ defined_text = {
 		localization_key = STATE_78_BULGARIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_78_SERBIAN 
+	}
+	text = {
 		localization_key = STATE_78 #Bessarabia
 	}
 }
@@ -3089,6 +3110,10 @@ defined_text = {
 	text = {
 		trigger = { is_czechoslovak_tag = yes }
 		localization_key = STATE_79_CZECH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_79_SERBIAN
 	}
 	text = {
 		localization_key = STATE_79 #Moldavia
@@ -3129,6 +3154,10 @@ defined_text = {
 		localization_key = STATE_80_BULGARIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_80_SERBIAN
+	}
+	text = {
 		localization_key = STATE_80 #Cernauti
 	}
 }
@@ -3158,6 +3187,10 @@ defined_text = {
 	text = {
 		trigger = { is_czechoslovak_tag = yes }
 		localization_key = STATE_81_CZECH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_81_SERBIAN
 	}
 	text = {
 		localization_key = STATE_81 #Oltenia
@@ -3233,6 +3266,10 @@ defined_text = {
 	text = {
 		trigger = { is_czechoslovak_tag = yes }
 		localization_key = STATE_83_CZECH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_83_SERBIAN
 	}
 	text = {
 		localization_key = STATE_83 #Partium
@@ -3316,7 +3353,7 @@ defined_text = {
 		localization_key = STATE_86_RUSSIAN_ALT
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_86_JAPANESE
 	}
 	text = {
@@ -4233,7 +4270,7 @@ defined_text = {
 		localization_key = STATE_113_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_113_JAPANESE
 	}
 	text = {
@@ -4404,7 +4441,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { is_british_tag = yes 
-					is_japanese_tag = no }
+					is_japanese_speaking_tag = no }
 		localization_key = STATE_119_BRITISH #Northern Ireland
 	}
 	text = {
@@ -4414,7 +4451,7 @@ defined_text = {
 	text = {
 		trigger = {
 			AND = {
-				is_japanese_tag = yes 
+				is_japanese_speaking_tag = yes 
 				is_british_tag = yes
 			}
 		}
@@ -4422,7 +4459,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { is_british_tag = no 
-					is_japanese_tag = yes }
+					is_japanese_speaking_tag = yes }
 		localization_key = STATE_119_JAPANESE
 	}
 	text = {
@@ -4456,7 +4493,7 @@ defined_text = {
 		localization_key = STATE_120_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_120_JAPANESE
 	}
 	text = {
@@ -4490,7 +4527,7 @@ defined_text = {
 		localization_key = STATE_121_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_121_JAPANESE
 	}
 	text = {
@@ -4520,7 +4557,7 @@ defined_text = {
 		localization_key = STATE_122_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_122_JAPANESE
 	}
 	text = {
@@ -4554,7 +4591,7 @@ defined_text = {
 		localization_key = STATE_123_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_123_JAPANESE
 	}
 	text = {
@@ -4602,7 +4639,7 @@ defined_text = {
 		localization_key = STATE_125_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_125_JAPANESE
 	}
 	text = {
@@ -4643,7 +4680,7 @@ defined_text = {
 		localization_key = STATE_126_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_126_JAPANESE
 	}
 	text = {
@@ -4673,7 +4710,7 @@ defined_text = {
 		localization_key = STATE_127_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_127_JAPANESE
 	}
 	text = {
@@ -4707,7 +4744,7 @@ defined_text = {
 		localization_key = STATE_128_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_128_JAPANESE
 	}
 	text = {
@@ -4741,7 +4778,7 @@ defined_text = {
 		localization_key = STATE_129_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_129_JAPANESE
 	}
 	text = {
@@ -4775,7 +4812,7 @@ defined_text = {
 		localization_key = STATE_130_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_130_JAPANESE
 	}
 	text = {
@@ -4825,7 +4862,7 @@ defined_text = {
 		localization_key = STATE_131_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_131_JAPANESE
 	}
 	text = {
@@ -4859,7 +4896,7 @@ defined_text = {
 		localization_key = STATE_132_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_132_JAPANESE
 	}
 	text = {
@@ -4889,7 +4926,7 @@ defined_text = {
 		localization_key = STATE_133_CELTIC #Lannraig
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_133_JAPANESE
 	}
 	text = {
@@ -4923,7 +4960,7 @@ defined_text = {
 		localization_key = STATE_134_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_134_JAPANESE
 	}
 	text = {
@@ -4957,7 +4994,7 @@ defined_text = {
 		localization_key = STATE_135_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_135_JAPANESE
 	}
 	text = {
@@ -4991,7 +5028,7 @@ defined_text = {
 		localization_key = STATE_136_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_136_JAPANESE
 	}
 	text = {
@@ -6443,6 +6480,7 @@ defined_text = {
 			OR = {
 				is_russian_speaking_tag = yes
 				is_bulgaria = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_182_RUSSIAN
@@ -6544,6 +6582,10 @@ defined_text = {
 		localization_key = STATE_184_CZECH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_184_SERBIAN
+	}
+	text = {
 		localization_key = STATE_184 #Western Thrace
 	}
 }
@@ -6567,6 +6609,7 @@ defined_text = {
 				is_russian_speaking_tag = yes 
 				is_oghuz_turkic_tag = yes
 				is_bulgaria = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_185_RUSSIAN
@@ -6599,7 +6642,12 @@ defined_text = {
 		localization_key = STATE_186_ALBANIAN
 	}
 	text = {
-		trigger = { is_oghuz_turkic_tag = yes }
+		trigger = {
+			OR = {
+				is_oghuz_turkic_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_186_TURKISH
 	}
 	text = {
@@ -6672,7 +6720,7 @@ defined_text = {
 		localization_key = STATE_188_POLISH #Kłajpeda
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_188_JAPANESE
 	}
 	text = {
@@ -7009,7 +7057,7 @@ defined_text = {
 		localization_key = STATE_195_IMPERIAL
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_195_JAPANESE
 	}
 	text = {
@@ -7409,7 +7457,7 @@ defined_text = {
 		localization_key = STATE_205_BELARUSIAN #Kałuha
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_205_JAPANESE
 	}
 	text = {
@@ -7496,7 +7544,7 @@ defined_text = {
 		localization_key = STATE_208_FINNISH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_208_JAPANESE
 	}
 	text = {
@@ -7543,7 +7591,7 @@ defined_text = {
 		localization_key = STATE_209_BELARUSIAN #Pskoŭ
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_209_JAPANESE
 	}
 	text = {
@@ -7581,7 +7629,7 @@ defined_text = {
 		localization_key = STATE_210_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_210_JAPANESE
 	}
 	text = {
@@ -7668,7 +7716,7 @@ defined_text = {
 		localization_key = STATE_213_FINNISH #Kuola
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_213_JAPANESE
 	}
 	text = {
@@ -7698,7 +7746,7 @@ defined_text = {
 		localization_key = STATE_214_RUSSIAN #Arkhangelsk
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_214_JAPANESE
 	}
 	text = {
@@ -7744,7 +7792,7 @@ defined_text = {
 		localization_key = STATE_215_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_215_JAPANESE
 	}
 	text = {
@@ -7786,7 +7834,7 @@ defined_text = {
 		localization_key = STATE_216_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_216_JAPANESE
 	}
 	text = {
@@ -7842,7 +7890,7 @@ defined_text = {
 		localization_key = STATE_217_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_217_JAPANESE
 	}
 	text = {
@@ -7885,7 +7933,7 @@ defined_text = {
 		localization_key = STATE_218_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_218_JAPANESE
 	}
 	text = {
@@ -7939,7 +7987,7 @@ defined_text = {
 		localization_key = STATE_219_RUSSIAN #Moskva
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_219_JAPANESE
 	}
 	text = {
@@ -7969,7 +8017,7 @@ defined_text = {
 		localization_key = STATE_220
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_220_JAPANESE
 	}
 	text = {
@@ -8029,7 +8077,7 @@ defined_text = {
 		localization_key = STATE_222_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_222_JAPANESE
 	}
 	text = {
@@ -8055,7 +8103,7 @@ defined_text = {
 		localization_key = STATE_223
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_223_JAPANESE
 	}
 	text = {
@@ -8086,7 +8134,7 @@ defined_text = {
 		localization_key = STATE_224_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_224_JAPANESE
 	}
 	text = {
@@ -8503,7 +8551,7 @@ defined_text = {
 		localization_key = STATE_234_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_234_JAPANESE
 	}
 	text = {
@@ -8542,7 +8590,7 @@ defined_text = {
 		localization_key = STATE_235_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_235_JAPANESE
 	}
 	text = {
@@ -8593,7 +8641,7 @@ defined_text = {
 		localization_key = STATE_236_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_236_JAPANESE
 	}
 	text = {
@@ -8628,7 +8676,7 @@ defined_text = {
 		localization_key = STATE_237_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_237_JAPANESE
 	}
 	text = {
@@ -8670,7 +8718,7 @@ defined_text = {
 		localization_key = STATE_238_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_238_JAPANESE
 	}
 	text = {
@@ -8714,7 +8762,7 @@ defined_text = {
 		localization_key = STATE_239_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_239_JAPANESE
 	}
 	text = {
@@ -8772,7 +8820,7 @@ defined_text = {
 		localization_key = STATE_240_UKRAINIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_240_JAPANESE
 	}
 	text = {
@@ -8829,7 +8877,7 @@ defined_text = {
 		localization_key = STATE_242_BELARUSIAN #Smaliensk
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_242_JAPANESE
 	}
 	text = {
@@ -8863,7 +8911,7 @@ defined_text = {
 		localization_key = STATE_243_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_243_JAPANESE
 	}
 	text = {
@@ -8889,7 +8937,7 @@ defined_text = {
 		localization_key = STATE_244_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_244_JAPANESE
 	}
 	text = {
@@ -8927,7 +8975,7 @@ defined_text = {
 		localization_key = STATE_245
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_245_JAPANESE
 	}
 	text = {
@@ -8965,7 +9013,7 @@ defined_text = {
 		localization_key = STATE_246_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_246_JAPANESE
 	}
 	text = {
@@ -9022,7 +9070,7 @@ defined_text = {
 		localization_key = STATE_247_BAKUNIN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_247_JAPANESE
 	}
 	text = {
@@ -9052,7 +9100,7 @@ defined_text = {
 		localization_key = STATE_248_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_248_JAPANESE
 	}
 	text = {
@@ -9132,7 +9180,7 @@ defined_text = {
 		localization_key = STATE_250_ULYANOVSK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_250_JAPANESE
 	}
 	text = {
@@ -9165,7 +9213,7 @@ defined_text = {
 		localization_key = STATE_251_KUYBYSHEV
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_251_JAPANESE
 	}
 	text = {
@@ -9191,7 +9239,7 @@ defined_text = {
 		localization_key = STATE_252_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_252_JAPANESE
 	}
 	text = {
@@ -9233,7 +9281,7 @@ defined_text = {
 		localization_key = STATE_253_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_253_JAPANESE
 	}
 	text = {
@@ -9319,7 +9367,7 @@ defined_text = {
 		localization_key = STATE_256_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_256_JAPANESE
 	}
 	text = {
@@ -9358,7 +9406,7 @@ defined_text = {
 		localization_key = STATE_257_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_257_JAPANESE
 	}
 	text = {
@@ -9388,7 +9436,7 @@ defined_text = {
 		localization_key = STATE_258_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_258_JAPANESE
 	}
 	text = {
@@ -9461,7 +9509,7 @@ defined_text = {
 		localization_key = STATE_260_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_260_JAPANESE
 	}
 	text = {
@@ -9499,7 +9547,7 @@ defined_text = {
 		localization_key = STATE_261_CANADIAN #Dunmore
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_261_JAPANESE
 	}
 	text = {
@@ -9579,7 +9627,7 @@ defined_text = {
 		localization_key = STATE_263_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_263_JAPANESE
 	}
 	text = {
@@ -9622,7 +9670,7 @@ defined_text = {
 		localization_key = STATE_264_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_264_JAPANESE
 	}
 	text = {
@@ -9660,7 +9708,7 @@ defined_text = {
 		localization_key = STATE_265_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_265_JAPANESE
 	}
 	text = {
@@ -9716,7 +9764,7 @@ defined_text = {
 		localization_key = STATE_267_AFGHAN #Kābel
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_267_JAPANESE
 	}
 	text = {
@@ -10033,7 +10081,7 @@ defined_text = {
 		localization_key = STATE_281_GERMAN #Malediven
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_281_JAPANESE #Marudibu Shōtō
 	}
 	text = {
@@ -10051,7 +10099,7 @@ defined_text = {
 		localization_key = STATE_282 #Kanto
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_282_JAPANESE #Kantō
 	}
 	text = {
@@ -10085,7 +10133,7 @@ defined_text = {
 		localization_key = STATE_283_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_283_JAPANESE
 	}
 	text = {
@@ -10099,6 +10147,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_283_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_283_POSTAL
 	}
 	text = {
 		localization_key = STATE_283 #Lanzhou
@@ -10115,7 +10167,7 @@ defined_text = {
 		localization_key = STATE_284_MAORI #Te Ika-a-Maui
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_284_JAPANESE #Shiroikumo
 	}
 	text = {
@@ -10144,7 +10196,7 @@ defined_text = {
 		localization_key = STATE_285 #New South Wales
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_285_JAPANESE #Shiroinendo
 	}
 	text = {
@@ -10186,7 +10238,7 @@ defined_text = {
 		localization_key = STATE_286_VIETNAMESE #Sài Gòn
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_286_JAPANESE #Saigon
 	}
 	text = {
@@ -10227,7 +10279,7 @@ defined_text = {
 		localization_key = STATE_287_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_287_JAPANESE
 	}
 	text = {
@@ -10253,7 +10305,7 @@ defined_text = {
 		localization_key = STATE_288_BURMESE #Yankoun
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_288_JAPANESE
 	}
 	text = {
@@ -10279,7 +10331,7 @@ defined_text = {
 		localization_key = STATE_289_THAI #Park Glarng
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_289_JAPANESE
 	}
 	text = {
@@ -10867,7 +10919,7 @@ defined_text = {
 		localization_key = STATE_320
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_320_JAPANESE
 	}
 	text = {
@@ -10923,7 +10975,7 @@ defined_text = {
 		localization_key = STATE_322_CHINESE #Xizang
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_322_JAPANESE
 	}
 	text = {
@@ -10945,7 +10997,7 @@ defined_text = {
 		localization_key = STATE_323_NEPAL #Nēpāla
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_323_JAPANESE
 	}
 	text = {
@@ -10983,7 +11035,7 @@ defined_text = {
 		localization_key = STATE_324_TIBETAN #Zhugyul
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_324_JAPANESE
 	}
 	text = {
@@ -11009,7 +11061,7 @@ defined_text = {
 		localization_key = STATE_325_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_325_JAPANESE
 	}
 	text = {
@@ -11035,7 +11087,7 @@ defined_text = {
 		localization_key = STATE_326 #Hong Kong
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_326_JAPANESE #Honkon
 	}
 	text = {
@@ -11069,7 +11121,7 @@ defined_text = {
 		localization_key = STATE_327_FILIPINO #Gitnang Luzon
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_327_JAPANESE #Chūō-Ruson
 	}
 	text = {
@@ -11091,7 +11143,7 @@ defined_text = {
 		localization_key = STATE_328 #Andong
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_328_JAPANESE #Antō
 	}
 	text = {
@@ -11117,6 +11169,10 @@ defined_text = {
 	text = {
 		trigger = { is_tibetan = yes }
 		localization_key = STATE_328_TIBETAN
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_328_POSTAL
 	}
 	text = {
 		localization_key = STATE_328 #Andong
@@ -11146,7 +11202,7 @@ defined_text = {
 		localization_key = STATE_329_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_329_JAPANESE
 	}
 	text = {
@@ -11188,7 +11244,7 @@ defined_text = {
 		localization_key = STATE_330_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_330_JAPANESE
 	}
 	text = {
@@ -11274,7 +11330,7 @@ defined_text = {
 		localization_key = STATE_333_INDONESIAN #Sarawak
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_333_JAPANESE #Kita-Boruneo
 	}
 	text = {
@@ -11304,7 +11360,7 @@ defined_text = {
 		localization_key = STATE_334_INDONESIAN #Kalimantan Barat
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_334_JAPANESE #Nishi-Boruneo
 	}
 	text = {
@@ -11333,7 +11389,7 @@ defined_text = {
 		trigger = { 
 			OR = {
 				is_indonesian = yes
-				is_japanese_tag = yes
+				is_japanese_speaking_tag = yes
 			}
 		 }
 		localization_key = STATE_335_INDONESIAN #Jawa
@@ -11361,7 +11417,7 @@ defined_text = {
 		localization_key = STATE_336_INDONESIAN #Singapura
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_336_JAPANESE #Shōnan-tō
 	}
 	text = {
@@ -11425,7 +11481,7 @@ defined_text = {
 		localization_key = STATE_338_GAELIC
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_338_JAPANESE
 	}
 	text = {
@@ -11501,6 +11557,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_341 #Adrianople
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_341_SERBIAN
 	}
 	text = {
 		trigger = { is_oghuz_turkic_tag = yes }
@@ -11698,7 +11758,7 @@ defined_text = {
 		localization_key = STATE_348_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_348_JAPANESE
 	}
 	text = {
@@ -11712,6 +11772,10 @@ defined_text = {
 	text = {
 		trigger = { is_tibetan = yes }
 		localization_key = STATE_348_TIBETAN
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_348_POSTAL
 	}
 	text = {
 		localization_key = STATE_348 #Ningxia
@@ -11784,7 +11848,7 @@ defined_text = {
 		localization_key = STATE_351_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_351_JAPANESE
 	}
 	text = {
@@ -11862,7 +11926,7 @@ defined_text = {
 		localization_key = STATE_353_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_353_JAPANESE
 	}
 	text = {
@@ -11966,7 +12030,7 @@ defined_text = {
 		localization_key = STATE_357_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_357_JAPANESE
 	}
 	text = {
@@ -12019,7 +12083,7 @@ defined_text = {
 		localization_key = STATE_358_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_358_JAPANESE
 	}
 	text = {
@@ -12065,7 +12129,7 @@ defined_text = {
 		localization_key = STATE_359_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_359_JAPANESE
 	}
 	text = {
@@ -12107,7 +12171,7 @@ defined_text = {
 		localization_key = STATE_360_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_360_JAPANESE
 	}
 	text = {
@@ -12152,7 +12216,7 @@ defined_text = {
 		localization_key = STATE_361
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_361_JAPANESE
 	}
 	text = {
@@ -12194,7 +12258,7 @@ defined_text = {
 		localization_key = STATE_362
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_362_JAPANESE
 	}
 	text = {
@@ -12240,7 +12304,7 @@ defined_text = {
 		localization_key = STATE_363_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_363_JAPANESE
 	}
 	text = {
@@ -12282,7 +12346,7 @@ defined_text = {
 		localization_key = STATE_364_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_364_JAPANESE
 	}
 	text = {
@@ -12324,7 +12388,7 @@ defined_text = {
 		localization_key = STATE_365_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_365_JAPANESE
 	}
 	text = {
@@ -12366,7 +12430,7 @@ defined_text = {
 		localization_key = STATE_366_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_366_JAPANESE
 	}
 	text = {
@@ -12396,7 +12460,7 @@ defined_text = {
 		localization_key = STATE_367
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_367_JAPANESE
 	}
 	text = {
@@ -12434,7 +12498,7 @@ defined_text = {
 		localization_key = STATE_368_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_368_JAPANESE
 	}
 	text = {
@@ -12472,7 +12536,7 @@ defined_text = {
 		localization_key = STATE_369
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_369_JAPANESE
 	}
 	text = {
@@ -12511,7 +12575,7 @@ defined_text = {
 		localization_key = STATE_370
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_370_JAPANESE
 	}
 	text = {
@@ -12566,7 +12630,7 @@ defined_text = {
 		localization_key = STATE_371_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_371_JAPANESE
 	}
 	text = {
@@ -12613,7 +12677,7 @@ defined_text = {
 		localization_key = STATE_372_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_372_JAPANESE
 	}
 	text = {
@@ -12651,7 +12715,7 @@ defined_text = {
 		localization_key = STATE_373
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_373_JAPANESE
 	}
 	text = {
@@ -12694,7 +12758,7 @@ defined_text = {
 		localization_key = STATE_374
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_374_JAPANESE
 	}
 	text = {
@@ -12740,7 +12804,7 @@ defined_text = {
 		localization_key = STATE_375_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_375_JAPANESE
 	}
 	text = {
@@ -12786,7 +12850,7 @@ defined_text = {
 		localization_key = STATE_376_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_376_JAPANESE
 	}
 	text = {
@@ -12870,7 +12934,7 @@ defined_text = {
 		localization_key = STATE_378_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_378_JAPANESE
 	}
 	text = {
@@ -12912,7 +12976,7 @@ defined_text = {
 		localization_key = STATE_379_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_379_JAPANESE
 	}
 	text = {
@@ -12944,7 +13008,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				is_japanese_tag = yes
+				is_japanese_speaking_tag = yes
 				is_spanish_speaking_tag = yes
 				is_russian_speaking_tag = yes
 			}
@@ -12986,7 +13050,7 @@ defined_text = {
 		localization_key = STATE_381
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_381_JAPANESE
 	}
 	text = {
@@ -13035,7 +13099,7 @@ defined_text = {
 		localization_key = STATE_382_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_382_JAPANESE
 	}
 	text = {
@@ -13065,7 +13129,7 @@ defined_text = {
 		localization_key = STATE_383
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_383_JAPANESE
 	}
 	text = {
@@ -13104,7 +13168,7 @@ defined_text = {
 		localization_key = STATE_384
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_384_JAPANESE
 	}
 	text = {
@@ -13179,7 +13243,7 @@ defined_text = {
 		localization_key = STATE_386_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_386_JAPANESE
 	}
 	text = {
@@ -13223,7 +13287,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				is_japanese_tag = yes 
+				is_japanese_speaking_tag = yes 
 				is_albanian = yes
 			}
 		}
@@ -13298,7 +13362,7 @@ defined_text = {
 		localization_key = STATE_389_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_389_JAPANESE
 	}
 	text = {
@@ -13344,7 +13408,7 @@ defined_text = {
 		localization_key = STATE_390_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_390_JAPANESE
 	}
 	text = {
@@ -13389,7 +13453,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				is_albanian = yes
-				is_japanese_tag = yes 
+				is_japanese_speaking_tag = yes 
 			}
 		}
 		localization_key = STATE_391_JAPANESE
@@ -13425,7 +13489,7 @@ defined_text = {
 		localization_key = STATE_392_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_392_JAPANESE
 	}
 	text = {
@@ -13471,7 +13535,7 @@ defined_text = {
 		localization_key = STATE_393_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_393_JAPANESE
 	}
 	text = {
@@ -13513,7 +13577,7 @@ defined_text = {
 		localization_key = STATE_394_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_394_JAPANESE
 	}
 	text = {
@@ -13559,7 +13623,7 @@ defined_text = {
 		localization_key = STATE_395_CANADIAN #Stirling
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_395_JAPANESE
 	}
 	text = {
@@ -13631,7 +13695,7 @@ defined_text = {
 		localization_key = STATE_397
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_397_JAPANESE
 	}
 	text = {
@@ -13672,7 +13736,7 @@ defined_text = {
 		localization_key = STATE_398_MOLOTOV
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_398_JAPANESE
 	}
 	text = {
@@ -13698,7 +13762,7 @@ defined_text = {
 		localization_key = STATE_399_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_399_JAPANESE
 	}
 	text = {
@@ -13743,7 +13807,7 @@ defined_text = {
 		localization_key = STATE_400_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_400_JAPANESE
 	}
 	text = {
@@ -13781,7 +13845,7 @@ defined_text = {
 		localization_key = STATE_401_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_401_JAPANESE
 	}
 	text = {
@@ -13830,7 +13894,7 @@ defined_text = {
 		localization_key = STATE_402_GERMAN 
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_402_JAPANESE
 	}
 	text = {
@@ -13856,7 +13920,7 @@ defined_text = {
 		localization_key = STATE_403_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_403_JAPANESE
 	}
 	text = {
@@ -13909,7 +13973,7 @@ defined_text = {
 		localization_key = STATE_404_RUSSIAN #Kirgizkaya Step
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_404_JAPANESE
 	}
 	text = {
@@ -13947,7 +14011,7 @@ defined_text = {
 		localization_key = STATE_405_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_405_JAPANESE
 	}
 	text = {
@@ -13977,7 +14041,7 @@ defined_text = {
 		localization_key = STATE_406_OGHUZ
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_406_JAPANESE
 	}
 	text = {
@@ -14007,7 +14071,7 @@ defined_text = {
 		localization_key = STATE_407_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_407_JAPANESE
 	}
 	text = {
@@ -14025,7 +14089,7 @@ defined_text = {
 		localization_key = STATE_408 #Vladivostok
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_408_JAPANESE #Urajio
 	}
 	text = {
@@ -14073,7 +14137,7 @@ defined_text = {
 		localization_key = STATE_409 #Khabarovsk
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_409_JAPANESE #Habarofusuku
 	}
 	text = {
@@ -14216,7 +14280,7 @@ defined_text = {
 		localization_key = STATE_415_PERSIAN #Herāt
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_415_JAPANESE
 	}
 	text = {
@@ -14380,7 +14444,7 @@ defined_text = {
 		localization_key = STATE_422_PORTUGUESE #Ceilão
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_422_JAPANESE
 	}
 	text = {
@@ -14420,7 +14484,7 @@ defined_text = {
 		localization_key = STATE_424
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_424_JAPANESE
 	}
 	text = {
@@ -14451,7 +14515,7 @@ defined_text = {
 		localization_key = STATE_425
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_425_JAPANESE
 	}
 	text = {
@@ -14509,7 +14573,7 @@ defined_text = {
 		localization_key = STATE_427
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_427_JAPANESE
 	}
 	text = {
@@ -14543,7 +14607,7 @@ defined_text = {
 		localization_key = STATE_428
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_428_JAPANESE
 	}
 	text = {
@@ -14584,7 +14648,7 @@ defined_text = {
 		localization_key = STATE_429 #Bombay
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_429_JAPANESE
 	}
 	text = {
@@ -14622,7 +14686,7 @@ defined_text = {
 		localization_key = STATE_431_HINDI #Poorvee Baangaal
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_430_JAPANESE
 	}
 	text = {
@@ -14656,7 +14720,7 @@ defined_text = {
 		localization_key = STATE_431_HINDI
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_431_JAPANESE
 	}
 	text = {
@@ -14686,7 +14750,7 @@ defined_text = {
 		localization_key = STATE_432
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_432_JAPANESE
 	}
 	text = {
@@ -14712,7 +14776,7 @@ defined_text = {
 		localization_key = STATE_433
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_433_JAPANESE
 	}
 	text = {
@@ -14747,7 +14811,7 @@ defined_text = {
 		localization_key = STATE_434
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_434_JAPANESE
 	}
 	text = {
@@ -14769,7 +14833,7 @@ defined_text = {
 		localization_key = STATE_435
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_435_JAPANESE
 	}
 	text = {
@@ -14796,7 +14860,7 @@ defined_text = {
 		localization_key = STATE_436
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_436_JAPANESE
 	}
 	text = {
@@ -14832,7 +14896,7 @@ defined_text = {
 		localization_key = STATE_437_INDIAN #Madhy Praant
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_437_JAPANESE
 	}
 	text = {
@@ -14858,7 +14922,7 @@ defined_text = {
 		localization_key = STATE_438
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_438_JAPANESE
 	}
 	text = {
@@ -14900,7 +14964,7 @@ defined_text = {
 		localization_key = STATE_439
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_439_JAPANESE
 	}
 	text = {
@@ -14935,7 +14999,7 @@ defined_text = {
 		localization_key = STATE_440_HINDI #Poorvee Panjaab
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_440_JAPANESE
 	}
 	text = {
@@ -14969,7 +15033,7 @@ defined_text = {
 		localization_key = STATE_441_HINDI #Kashmeer
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_441_JAPANESE
 	}
 	text = {
@@ -15004,7 +15068,7 @@ defined_text = {
 		localization_key = STATE_442_INDIAN #Peshaavar
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_442_JAPANESE
 	}
 	text = {
@@ -15034,7 +15098,7 @@ defined_text = {
 		localization_key = STATE_443 #Sindh
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_443_JAPANESE
 	}
 	text = {
@@ -15065,7 +15129,7 @@ defined_text = {
 		localization_key = STATE_444_INDIAN #Balochistan
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_444_JAPANESE
 	}
 	text = {
@@ -15099,7 +15163,7 @@ defined_text = {
 		localization_key = STATE_445_HINDI #Kveta
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_445_JAPANESE
 	}
 	text = {
@@ -15655,7 +15719,7 @@ defined_text = {
 		localization_key = STATE_463 #Southeast Alaska
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_463_JAPANESE #Arasuka Nantōbu
 	}
 	text = {
@@ -16648,7 +16712,7 @@ defined_text = {
 		localization_key = STATE_516_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_516_JAPANESE
 	}
 	text = {
@@ -16666,7 +16730,7 @@ defined_text = {
 		localization_key = STATE_517 #Victoria
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_517_JAPANESE #Sanindō
 	}
 	text = {
@@ -16692,7 +16756,7 @@ defined_text = {
 		localization_key = STATE_518 #Tasmania
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_518_JAPANESE #Sansenpō
 	}
 	text = {
@@ -16718,7 +16782,7 @@ defined_text = {
 		localization_key = STATE_519 #South Australia
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_519_JAPANESE #Sekkaigandō
 	}
 	text = {
@@ -16744,7 +16808,7 @@ defined_text = {
 		localization_key = STATE_520 #Northern Territory
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_520_JAPANESE #Hokurikudō
 	}
 	text = {
@@ -16770,7 +16834,7 @@ defined_text = {
 		localization_key = STATE_521 #Southern Queensland
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_521_JAPANESE #Tōkaidō
 	}
 	text = {
@@ -16796,7 +16860,7 @@ defined_text = {
 		localization_key = STATE_522 #Western Australia
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_522_JAPANESE #Komugidō
 	}
 	text = {
@@ -16866,7 +16930,7 @@ defined_text = {
 		localization_key = STATE_525 #Gyeonggi
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_525_JAPANESE #Keiki
 	}
 	text = {
@@ -16888,7 +16952,7 @@ defined_text = {
 		localization_key = STATE_526 #Ryukyu Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_526_JAPANESE #Ryūkyū Shōtō
 	}
 	text = {
@@ -16910,7 +16974,7 @@ defined_text = {
 		localization_key = STATE_527 #Yangseo
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_527_JAPANESE #Ryōsai
 	}
 	text = {
@@ -16932,7 +16996,7 @@ defined_text = {
 		localization_key = STATE_528 #Kyushu
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_528_JAPANESE #Kyūshū
 	}
 	text = {
@@ -16954,7 +17018,7 @@ defined_text = {
 		localization_key = STATE_529 #Chugoku
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_529_JAPANESE #Chūgoku
 	}
 	text = {
@@ -17012,7 +17076,7 @@ defined_text = {
 		localization_key = STATE_532 #Tokai
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_532_JAPANESE #Tōkai
 	}
 	text = {
@@ -17034,7 +17098,7 @@ defined_text = {
 		localization_key = STATE_533 #Tohoku
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_533_JAPANESE #Tōhoku
 	}
 	text = {
@@ -17088,7 +17152,7 @@ defined_text = {
 		localization_key = STATE_536 #Hokkaido
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_536_JAPANESE #Hokkaidō
 	}
 	text = {
@@ -17110,7 +17174,7 @@ defined_text = {
 		localization_key = STATE_537 #Sakhalin
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_537_JAPANESE #Karafuto
 	}
 	text = {
@@ -17236,7 +17300,7 @@ defined_text = {
 		localization_key = STATE_543_GERMAN #Madagaskar
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_543_JAPANESE #Madagasukaru
 	}
 	text = {
@@ -17414,6 +17478,10 @@ defined_text = {
 		localization_key = STATE_553_GREEK
 	}
 	text = {
+		trigger = { is_arab_tag = yes }
+		localization_key = STATE_553_ARABIC
+	}
+	text = {
 		localization_key = STATE_553 #Beirut
 	}
 }
@@ -17458,7 +17526,7 @@ defined_text = {
 		localization_key = STATE_555 #Kuril Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_555_JAPANESE #Chishima Rettō
 	}
 	text = {
@@ -17579,7 +17647,7 @@ defined_text = {
 		localization_key = STATE_560_CHINESE #Miaojie
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_560_JAPANESE
 	}
 	text = {
@@ -17613,7 +17681,7 @@ defined_text = {
 		localization_key = STATE_561 #
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_561_JAPANESE
 	}
 	text = {
@@ -17641,7 +17709,7 @@ defined_text = {
 		localization_key = STATE_562_YAKUT
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_562_JAPANESE
 	}
 	text = {
@@ -17680,7 +17748,7 @@ defined_text = {
 		localization_key = STATE_563 #
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_563_JAPANESE
 	}
 	text = {
@@ -17718,7 +17786,7 @@ defined_text = {
 		localization_key = STATE_564_MONGOLIAN #Ulan Ude
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_564_JAPANESE
 	}
 	text = {
@@ -17766,7 +17834,7 @@ defined_text = {
 		localization_key = STATE_565_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_565_JAPANESE
 	}
 	text = {
@@ -17788,7 +17856,7 @@ defined_text = {
 		localization_key = STATE_566
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_566_JAPANESE
 	}
 	text = {
@@ -17824,7 +17892,7 @@ defined_text = {
 		localization_key = STATE_567_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_567_JAPANESE
 	}
 	text = {
@@ -17867,7 +17935,7 @@ defined_text = {
 		localization_key = STATE_568_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_568_JAPANESE
 	}
 	text = {
@@ -17901,7 +17969,7 @@ defined_text = {
 		localization_key = STATE_569_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_569_JAPANESE
 	}
 	text = {
@@ -17948,7 +18016,7 @@ defined_text = {
 		localization_key = STATE_570_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_570_JAPANESE
 	}
 	text = {
@@ -17978,7 +18046,7 @@ defined_text = {
 		localization_key = STATE_571
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_571_JAPANESE
 	}
 	text = {
@@ -18004,7 +18072,7 @@ defined_text = {
 		localization_key = STATE_572_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_572_JAPANESE
 	}
 	text = {
@@ -18042,7 +18110,7 @@ defined_text = {
 		localization_key = STATE_573_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_573_JAPANESE
 	}
 	text = {
@@ -18086,7 +18154,7 @@ defined_text = {
 		localization_key = STATE_574_YAKUT
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_574_JAPANESE
 	}
 	text = {
@@ -18130,7 +18198,7 @@ defined_text = {
 		localization_key = STATE_575_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_575_JAPANESE
 	}
 	text = {
@@ -18168,7 +18236,7 @@ defined_text = {
 		localization_key = STATE_576_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_576_JAPANESE
 	}
 	text = {
@@ -18203,7 +18271,7 @@ defined_text = {
 		localization_key = STATE_577
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_577_JAPANESE
 	}
 	text = {
@@ -18231,7 +18299,7 @@ defined_text = {
 		localization_key = STATE_578
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_578_JAPANESE
 	}
 	text = {
@@ -18267,7 +18335,7 @@ defined_text = {
 		localization_key = STATE_580
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_580_JAPANESE
 	}
 	text = {
@@ -18301,7 +18369,7 @@ defined_text = {
 		localization_key = STATE_581_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_581_JAPANESE
 	}
 	text = {
@@ -18346,7 +18414,7 @@ defined_text = {
 		localization_key = STATE_582_KIPCHAK #Jamanqala
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_582_JAPANESE
 	}
 	text = {
@@ -18391,7 +18459,7 @@ defined_text = {
 		localization_key = STATE_583_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_583_JAPANESE
 	}
 	text = {
@@ -18437,7 +18505,7 @@ defined_text = {
 		localization_key = STATE_584_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_584_JAPANESE
 	}
 	text = {
@@ -18471,7 +18539,7 @@ defined_text = {
 		localization_key = STATE_585_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_585_JAPANESE
 	}
 	text = {
@@ -18493,7 +18561,7 @@ defined_text = {
 		localization_key = STATE_586_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_586_JAPANESE
 	}
 	text = {
@@ -18527,7 +18595,7 @@ defined_text = {
 		localization_key = STATE_587_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_587_JAPANESE
 	}
 	text = {
@@ -18560,7 +18628,7 @@ defined_text = {
 		localization_key = STATE_588_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_588_JAPANESE
 	}
 	text = {
@@ -18594,7 +18662,7 @@ defined_text = {
 		localization_key = STATE_589_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_589_JAPANESE
 	}
 	text = {
@@ -18635,7 +18703,7 @@ defined_text = {
 		localization_key = STATE_590_OGHUZ
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_590_JAPANESE
 	}
 	text = {
@@ -18669,7 +18737,7 @@ defined_text = {
 		localization_key = STATE_591_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_591_JAPANESE
 	}
 	text = {
@@ -18708,7 +18776,7 @@ defined_text = {
 		localization_key = STATE_592_CHINESE #Guangzhou
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_592_JAPANESE #Kōshū
 	}
 	text = {
@@ -18718,6 +18786,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_592_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_592_POSTAL
 	}
 	text = {
 		localization_key = STATE_592 #Canton
@@ -18738,7 +18810,7 @@ defined_text = {
 		localization_key = STATE_593_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_593_JAPANESE
 	}
 	text = {
@@ -18752,6 +18824,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_593_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_593_POSTAL
 	}
 	text = {
 		localization_key = STATE_593 #Yuehai
@@ -18772,7 +18848,7 @@ defined_text = {
 		localization_key = STATE_594_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_594_JAPANESE
 	}
 	text = {
@@ -18810,7 +18886,7 @@ defined_text = {
 		localization_key = STATE_595_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_595_JAPANESE
 	}
 	text = {
@@ -18848,7 +18924,7 @@ defined_text = {
 		localization_key = STATE_596_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_596_JAPANESE
 	}
 	text = {
@@ -18886,7 +18962,7 @@ defined_text = {
 		localization_key = STATE_597_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_597_JAPANESE
 	}
 	text = {
@@ -18900,6 +18976,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_597_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_597_POSTAL
 	}
 	text = {
 		localization_key = STATE_597 #Jinan
@@ -18920,7 +19000,7 @@ defined_text = {
 		localization_key = STATE_598_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_598_JAPANESE
 	}	
 	text = {
@@ -18954,7 +19034,7 @@ defined_text = {
 		localization_key = STATE_599_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_599_JAPANESE
 	}
 	text = {
@@ -18968,6 +19048,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_599_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_599_POSTAL
 	}
 	text = {
 		localization_key = STATE_599 #Guilin
@@ -18984,7 +19068,7 @@ defined_text = {
 		localization_key = STATE_600_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_600_JAPANESE
 	}
 	text = {
@@ -19030,12 +19114,16 @@ defined_text = {
 		localization_key = STATE_601_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_601_JAPANESE
 	}
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_601_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_601_POSTAL
 	}
 	text = {
 		localization_key = STATE_601 #Xikang
@@ -19060,7 +19148,7 @@ defined_text = {
 		localization_key = STATE_602_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_602_JAPANESE
 	}
 	text = {
@@ -19098,7 +19186,7 @@ defined_text = {
 		localization_key = STATE_603_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_603_JAPANESE
 	}
 	text = {
@@ -19144,7 +19232,7 @@ defined_text = {
 		localization_key = STATE_604_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_604_JAPANESE
 	}
 	text = {
@@ -19154,6 +19242,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_604_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_604_POSTAL
 	}
 	text = {
 		localization_key = STATE_604 #Xining
@@ -19178,7 +19270,7 @@ defined_text = {
 		localization_key = STATE_605_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_605_JAPANESE
 	}
 	text = {
@@ -19192,6 +19284,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_605_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_605_POSTAL
 	}
 	text = {
 		localization_key = STATE_605 #Chengdu
@@ -19216,7 +19312,7 @@ defined_text = {
 		localization_key = STATE_606_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_606_JAPANESE
 	}
 	text = {
@@ -19230,6 +19326,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_606_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_606_POSTAL
 	}
 	text = {
 		localization_key = STATE_606 #Anqing
@@ -19254,7 +19354,7 @@ defined_text = {
 		localization_key = STATE_607_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_607_JAPANESE
 	}
 	text = {
@@ -19292,7 +19392,7 @@ defined_text = {
 		localization_key = STATE_608_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_608_JAPANESE
 	}
 	text = {
@@ -19318,7 +19418,7 @@ defined_text = {
 		localization_key = STATE_609 #Tianjin
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_609_JAPANESE #Tenshin
 	}
 	text = {
@@ -19330,7 +19430,7 @@ defined_text = {
 		localization_key = STATE_609_RUSSIAN
 	}
 	text = {
-		trigger = { is_lec_still_lecing = yes }
+		trigger = { is_using_postal = yes }
 		localization_key = STATE_609_POSTAL
 	}
 	text = {
@@ -19364,15 +19464,15 @@ defined_text = {
 		localization_key = STATE_610_GERMAN
 	}
 	text = {
+		trigger = { is_japanese_speaking_tag = yes }
+		localization_key = STATE_610_JAPANESE #Nekka
+	}
+	text = {
 		trigger = { 
 			is_chinese_speaking_tag = yes 
 			is_mongolian_tag = no
 		}
 		localization_key = STATE_610_CHINESE #Rehe
-	}
-	text = {
-		trigger = { is_japanese_tag = yes }
-		localization_key = STATE_610_JAPANESE #Nekka
 	}
 	text = {
 		trigger = { is_korean = yes }
@@ -19405,6 +19505,10 @@ defined_text = {
 		localization_key = STATE_611 #Northern Chahar
 	}
 	text = {
+		trigger = { is_japanese_speaking_tag = yes }
+		localization_key = STATE_611_JAPANESE
+	}
+	text = {
 		trigger = {
 			is_chinese_speaking_tag = yes
 			controls_state = 612
@@ -19426,10 +19530,6 @@ defined_text = {
 	text = {
 		trigger = { is_french_speaking_tag = yes }
 		localization_key = STATE_611_FRENCH
-	}
-	text = {
-		trigger = { is_japanese_tag = yes }
-		localization_key = STATE_611_JAPANESE
 	}
 	text = {
 		trigger = { is_tibetan = yes }
@@ -19454,6 +19554,10 @@ defined_text = {
 		localization_key = STATE_612_MONGOLIAN #Xilingol
 	}
 	text = {
+		trigger = { is_japanese_speaking_tag = yes }
+		localization_key = STATE_612_JAPANESE
+	}
+	text = {
 		trigger = { 
 			is_chinese_speaking_tag = yes 
 			is_mongolian_tag = no
@@ -19471,10 +19575,6 @@ defined_text = {
 	text = {
 		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_612_GERMAN
-	}
-	text = {
-		trigger = { is_japanese_tag = yes }
-		localization_key = STATE_612_JAPANESE
 	}
 	text = {
 		trigger = { is_tibetan = yes }
@@ -19507,7 +19607,7 @@ defined_text = {
 		localization_key = STATE_613_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_613_JAPANESE
 	}	
 	text = {
@@ -19545,7 +19645,7 @@ defined_text = {
 		localization_key = STATE_614_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_614_JAPANESE
 	}
 	text = {
@@ -19587,7 +19687,7 @@ defined_text = {
 		localization_key = STATE_615_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_615_JAPANESE
 	}	
 	text = {
@@ -19597,6 +19697,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_615_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_615_POSTAL
 	}
 	text = {
 		localization_key = STATE_615 #Eastern Shanxi
@@ -19621,7 +19725,7 @@ defined_text = {
 		localization_key = STATE_616_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_616_JAPANESE
 	}
 	text = {
@@ -19665,7 +19769,7 @@ defined_text = {
 		localization_key = STATE_617_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_617_JAPANESE
 	}
 	text = {
@@ -19715,7 +19819,7 @@ defined_text = {
 		localization_key = STATE_618_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_618_JAPANESE
 	}
 	text = {
@@ -19756,7 +19860,7 @@ defined_text = {
 		localization_key = STATE_619_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_619_JAPANESE
 	}
 	text = {
@@ -19790,7 +19894,7 @@ defined_text = {
 		localization_key = STATE_620_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_620_JAPANESE
 	}
 	text = {
@@ -19824,7 +19928,7 @@ defined_text = {
 		localization_key = STATE_621_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_621_JAPANESE
 	}
 	text = {
@@ -19862,7 +19966,7 @@ defined_text = {
 		localization_key = STATE_622_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_622_JAPANESE
 	}
 	text = {
@@ -19888,7 +19992,7 @@ defined_text = {
 		localization_key = STATE_623_FILIPINO #Hilagang Luzon
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_623_JAPANESE #Kita-Ruson
 	}
 	text = {
@@ -19914,7 +20018,7 @@ defined_text = {
 		localization_key = STATE_624_FILIPINO #Timog Luzon
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_624_JAPANESE #Minami-Ruson
 	}
 	text = {
@@ -19936,7 +20040,7 @@ defined_text = {
 		localization_key = STATE_625 #Samar
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_625_JAPANESE #Samāru
 	}
 	text = {
@@ -19958,7 +20062,7 @@ defined_text = {
 		localization_key = STATE_626 #Palawan
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_626_JAPANESE #Parawan
 	}
 	text = {
@@ -20002,7 +20106,7 @@ defined_text = {
 		localization_key = STATE_628_FILIPINO #K. Kabisayaan
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_628_JAPANESE #Nishi-Bisaya
 	}
 	text = {
@@ -20028,7 +20132,7 @@ defined_text = {
 		localization_key = STATE_629_HAWAIIAN #Hawai'i
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_629_JAPANESE #Hawaī
 	}
 	text = {
@@ -20066,7 +20170,7 @@ defined_text = {
 		localization_key = STATE_630_HAWAIIAN #Kalama Mokiki
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_630_JAPANESE #Jonsuton-kanshō
 	}
 	text = {
@@ -20092,7 +20196,7 @@ defined_text = {
 		localization_key = STATE_631_HAWAIIAN #Pihemanu Kauihelani
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_631_JAPANESE #Minazuki-tō
 	}
 	text = {
@@ -20114,7 +20218,7 @@ defined_text = {
 		localization_key = STATE_632 #Wake Island
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_632_JAPANESE #Ōtorishima
 	}
 	text = {
@@ -20136,7 +20240,7 @@ defined_text = {
 		localization_key = STATE_633 #Marshall Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_633_JAPANESE #Māsharu-guntō
 	}
 	text = {
@@ -20158,7 +20262,7 @@ defined_text = {
 		localization_key = STATE_634 #Solomon Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_634_JAPANESE #Soromon-shōtō
 	}
 	text = {
@@ -20180,7 +20284,7 @@ defined_text = {
 		localization_key = STATE_635 #New Caledonia
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_635_JAPANESE #Nyū-Karedonia
 	}
 	text = {
@@ -20210,7 +20314,7 @@ defined_text = {
 		localization_key = STATE_636_GERMAN #Fidschi
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_636_JAPANESE
 	}
 	text = {
@@ -20228,7 +20332,7 @@ defined_text = {
 		localization_key = STATE_637
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_637_JAPANESE
 	}
 	text = {
@@ -20263,7 +20367,7 @@ defined_text = {
 		localization_key = STATE_638 #Guam
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_638_JAPANESE #Ōmiya-Jima
 	}
 	text = {
@@ -20285,7 +20389,7 @@ defined_text = {
 		localization_key = STATE_639 #Gilbert Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_639_JAPANESE #Girubāto-shōtō
 	}
 	text = {
@@ -20311,7 +20415,7 @@ defined_text = {
 		localization_key = STATE_640_BURMESE #Mantale
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_640_JAPANESE
 	}
 	text = {
@@ -20337,7 +20441,7 @@ defined_text = {
 		localization_key = STATE_641_OCEANIA #Tahiti
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_641_JAPANESE #Nichiryou-Porineshia
 	}
 	text = {
@@ -20363,7 +20467,7 @@ defined_text = {
 		localization_key = STATE_642 #Phoenix Island
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_642_JAPANESE #Fenikkusu-shōtō
 	}
 	text = {
@@ -20385,7 +20489,7 @@ defined_text = {
 		localization_key = STATE_643 #Ellice Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_643_JAPANESE #Erisu-shōtō
 	}
 	text = {
@@ -20425,7 +20529,7 @@ defined_text = {
 		localization_key = STATE_644_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_644_JAPANESE
 	}
 	text = {
@@ -20463,7 +20567,7 @@ defined_text = {
 		localization_key = STATE_645_CHINESE
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_645_JAPANESE #Iotō
 	}
 	text = {
@@ -20477,7 +20581,7 @@ defined_text = {
 		localization_key = STATE_646 #Mariana Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_646_JAPANESE #Mariana-shōtō
 	}
 	text = {
@@ -20503,7 +20607,7 @@ defined_text = {
 		localization_key = STATE_647 #Palau
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_647_JAPANESE #Parao-shōtō
 	}
 	text = {
@@ -20533,7 +20637,7 @@ defined_text = {
 		localization_key = STATE_648_CHINESE
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_648_JAPANESE #Minamitorishima
 	}
 	text = {
@@ -20581,7 +20685,7 @@ defined_text = {
 		localization_key = STATE_650_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_650_JAPANESE
 	}
 	text = {
@@ -20595,6 +20699,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_650_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_650_POSTAL
 	}
 	text = {
 		localization_key = STATE_650 #Chongqing
@@ -20629,7 +20737,7 @@ defined_text = {
 		localization_key = STATE_652_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_652_JAPANESE
 	}
 	text = {
@@ -20687,7 +20795,7 @@ defined_text = {
 		localization_key = STATE_653_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_653_JAPANESE
 	}
 	text = {
@@ -20725,7 +20833,7 @@ defined_text = {
 		localization_key = STATE_654_MONGOLIAN #Oirot
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_654_JAPANESE
 	}
 	text = {
@@ -20803,7 +20911,7 @@ defined_text = {
 		localization_key = STATE_657_CHINESE #Hailanpao
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_657_JAPANESE
 	}
 	text = {
@@ -20913,7 +21021,7 @@ defined_text = {
 		localization_key = STATE_661_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_661_JAPANESE
 	}
 	text = {
@@ -21053,7 +21161,7 @@ defined_text = {
 		localization_key = STATE_667_GERMAN #Kleine Sundainseln
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_667_JAPANESE
 	}
 	text = {
@@ -21079,7 +21187,7 @@ defined_text = {
 		localization_key = STATE_668_DUTCH #Molukken
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_668_JAPANESE
 	}
 	text = {
@@ -21109,7 +21217,7 @@ defined_text = {
 		localization_key = STATE_669_GERMAN #Nordwestneuguinea
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_669_JAPANESE
 	}
 	text = {
@@ -21131,7 +21239,7 @@ defined_text = {
 		localization_key = STATE_670_THAI #Lao
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_670_JAPANESE #Raosu
 	}
 	text = {
@@ -21187,7 +21295,7 @@ defined_text = {
 		localization_key = STATE_672_GERMAN #Ostsumatra
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_672_JAPANESE
 	}
 	text = {
@@ -21209,7 +21317,7 @@ defined_text = {
 		localization_key = STATE_673_INDONESIAN #Sulawesi
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_673_JAPANESE #Serebesu
 	}
 	text = {
@@ -21227,7 +21335,7 @@ defined_text = {
 		localization_key = STATE_674 #Central Australia
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_674_JAPANESE #Fumōdō
 	}
 	text = {
@@ -21443,7 +21551,7 @@ defined_text = {
 		localization_key = STATE_684 #Caroline Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_684_JAPANESE #Karorin-shōtō
 	}
 	text = {
@@ -21622,7 +21730,7 @@ defined_text = {
 		localization_key = STATE_693_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_693_JAPANESE
 	}
 	text = {
@@ -21843,7 +21951,7 @@ defined_text = {
 		localization_key = STATE_706 #Reunion
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_706_JAPANESE #Reyunion Tō
 	}
 	text = {
@@ -21869,7 +21977,7 @@ defined_text = {
 		localization_key = STATE_707 #Mauritius
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_707_JAPANESE #Mōrishasu Tō
 	}
 	text = {
@@ -21891,7 +21999,7 @@ defined_text = {
 		localization_key = STATE_708 #Comoros
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_708_JAPANESE #Komoro Shōtō
 	}
 	text = {
@@ -21917,7 +22025,7 @@ defined_text = {
 		localization_key = STATE_709 #Seychelles
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_709_JAPANESE #Sēsheru Shōtō
 	}
 	text = {
@@ -21939,7 +22047,7 @@ defined_text = {
 		localization_key = STATE_710 #Diego Garcia
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_710_JAPANESE #Diega Garushia Tō
 	}
 	text = {
@@ -21975,7 +22083,7 @@ defined_text = {
 		localization_key = STATE_712_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_712_JAPANESE
 	}
 	text = {
@@ -22019,6 +22127,7 @@ defined_text = {
 			OR = {
 				is_czechoslovak_tag = yes 
 				is_belarus = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_713_CZECH
@@ -22034,7 +22143,7 @@ defined_text = {
 		localization_key = STATE_714 #Nenjiang
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_714_JAPANESE #Nonkō
 	}
 	text = {
@@ -22062,6 +22171,10 @@ defined_text = {
 		localization_key = STATE_714_TIBETAN
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_714_POSTAL
+	}
+	text = {
 		localization_key = STATE_714 #Nenjiang
 	}
 }
@@ -22072,7 +22185,7 @@ defined_text = {
 		localization_key = STATE_715 #Liaobei
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_715_JAPANESE #Ryohoku
 	}
 	text = {
@@ -22100,6 +22213,10 @@ defined_text = {
 		localization_key = STATE_715_TIBETAN
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_715_POSTAL
+	}
+	text = {
 		localization_key = STATE_715 #Liaobei
 	}
 }
@@ -22110,7 +22227,7 @@ defined_text = {
 		localization_key = STATE_716 #Liaoning
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_716_JAPANESE #Ryōnei
 	}
 	text = {
@@ -22148,7 +22265,7 @@ defined_text = {
 		localization_key = STATE_717 #Hejiang
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_717_JAPANESE #Gōkō
 	}
 	text = {
@@ -22178,6 +22295,10 @@ defined_text = {
 	text = {
 		trigger = { is_tibetan = yes }
 		localization_key = STATE_717_TIBETAN
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_717_POSTAL
 	}
 	text = {
 		localization_key = STATE_717 #Hejiang
@@ -22251,7 +22372,7 @@ defined_text = {
 		localization_key = STATE_721_PORTUGUESE #Timor Português
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_721_JAPANESE
 	}
 	text = {
@@ -22304,7 +22425,7 @@ defined_text = {
 		localization_key = STATE_723_MAORI #Te Waipounamu
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_723_JAPANESE #Mizuho
 	}
 	text = {
@@ -22330,7 +22451,7 @@ defined_text = {
 		localization_key = STATE_724_THAI #Pak Tai
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_724_JAPANESE 
 	}
 	text = {
@@ -22348,7 +22469,7 @@ defined_text = {
 		localization_key = STATE_725 #Nauru
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_725_JAPANESE #Nauru-tō
 	}
 	text = {
@@ -22362,7 +22483,7 @@ defined_text = {
 		localization_key = STATE_726 #Samoa
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_726_JAPANESE #Higashi Samoa
 	}
 	text = {
@@ -22380,7 +22501,7 @@ defined_text = {
 		localization_key = STATE_727 #Line Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_727_JAPANESE #Rain-shōtō
 	}
 	text = {
@@ -22410,7 +22531,7 @@ defined_text = {
 		localization_key = STATE_728_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_728_JAPANESE
 	}
 	text = {
@@ -22444,7 +22565,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				is_russian_speaking_tag = yes
-				is_japanese_tag = yes
+				is_japanese_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_729_JAPANESE #Makao
@@ -22540,7 +22661,7 @@ defined_text = {
 		localization_key = STATE_732_KARLUK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_732_JAPANESE
 	}
 	text = {
@@ -22558,7 +22679,7 @@ defined_text = {
 		localization_key = STATE_733 #Andaman Islands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_733_JAPANESE #Andaman Shōtō
 	}
 	text = {
@@ -22669,7 +22790,7 @@ defined_text = {
 		localization_key = STATE_737 #Bismarck Archipelago
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_737_JAPANESE #Bisumaruku-shōtō
 	}
 	text = {
@@ -22845,7 +22966,7 @@ defined_text = {
 		localization_key = STATE_743_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_743_JAPANESE #Shanhai
 	}
 	text = {
@@ -22891,7 +23012,7 @@ defined_text = {
 		localization_key = STATE_744_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_744_JAPANESE
 	}
 	text = {
@@ -22907,6 +23028,10 @@ defined_text = {
 		localization_key = STATE_744_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_744_POSTAL
+	}
+	text = {
 		localization_key = STATE_744 #Qingdao
 	}
 }
@@ -22917,7 +23042,7 @@ defined_text = {
 		localization_key = STATE_745 #Kwantung
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_745_JAPANESE #Kantō-shū
 	}
 	text = {
@@ -22965,14 +23090,14 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				is_lec_still_lecing = yes
+				is_using_postal = yes
 				is_tibetan = yes
 			}
 		}
 		localization_key = STATE_746_POSTAL
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_746_JAPANESE
 	}
 	text = {
@@ -23006,11 +23131,11 @@ defined_text = {
 		localization_key = STATE_747_RUSSIAN
 	}
 	text = {
-		trigger = { is_lec_still_lecing = yes }
+		trigger = { is_using_postal = yes }
 		localization_key = STATE_747_POSTAL
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_747_JAPANESE
 	}
 	text = {
@@ -23044,7 +23169,7 @@ defined_text = {
 		localization_key = STATE_748_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_748_JAPANESE
 	}
 	text = {
@@ -23070,7 +23195,7 @@ defined_text = {
 		localization_key = STATE_749_BURMESE #Tanintharyi
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_749_JAPANESE
 	}
 	text = {
@@ -23092,7 +23217,7 @@ defined_text = {
 		localization_key = STATE_750_THAI #Phnom Penh
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_750_JAPANESE #Punonpen
 	}
 	text = {
@@ -23127,7 +23252,7 @@ defined_text = {
 		localization_key = STATE_751_THAI #Klantan
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_751_JAPANESE #Kurantan
 	}
 	text = {
@@ -23244,7 +23369,7 @@ defined_text = {
 		localization_key = STATE_755_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_755_JAPANESE
 	}
 	text = {
@@ -23289,7 +23414,7 @@ defined_text = {
 		localization_key = STATE_756_CHINESE #Menggen
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_756_JAPANESE
 	}
 	text = {
@@ -23303,7 +23428,7 @@ defined_text = {
 		localization_key = STATE_757 #New Guinea
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_757_JAPANESE #Nyū-Ginia
 	}
 	text = {
@@ -23351,6 +23476,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = STATE_758_BULGARIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_758_SERBIAN
 	}
 	text = {
 		localization_key = STATE_758 #Ionian Islands
@@ -23629,6 +23758,10 @@ defined_text = {
 		localization_key = STATE_766_BULGARIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_766_SERBIAN
+	}
+	text = {
 		localization_key = STATE_766 #Northern Epirus
 	}
 }
@@ -23700,6 +23833,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = STATE_768_BULGARIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_768_SERBIAN
 	}
 	text = {
 		localization_key = STATE_768 #Thessaly
@@ -23822,7 +23959,12 @@ defined_text = {
 		localization_key = STATE_772_GERMAN
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_772_CZECH
 	}
 	text = {
@@ -23846,6 +23988,10 @@ defined_text = {
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
 		localization_key = STATE_773_RUSSIAN #Konstantinopol
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_773_SERBIAN
 	}
 	text = {
 		trigger = { is_oghuz_turkic_tag = yes }
@@ -23894,7 +24040,7 @@ defined_text = {
 		localization_key = STATE_774_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_774_JAPANESE
 	}
 	text = {
@@ -23962,7 +24108,7 @@ defined_text = {
 		localization_key = STATE_776_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_776_JAPANESE
 	}
 	text = {
@@ -24022,7 +24168,7 @@ defined_text = {
 		localization_key = STATE_777_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_777_JAPANESE
 	}
 	text = {
@@ -24121,7 +24267,7 @@ defined_text = {
 		localization_key = STATE_780
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_780_JAPANESE
 	}
 	text = {
@@ -24151,7 +24297,7 @@ defined_text = {
 		localization_key = STATE_781 #Western Rhineland
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_781_JAPANESE
 	}
 	text = {
@@ -24222,7 +24368,7 @@ defined_text = {
 		localization_key = STATE_782_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_782_JAPANESE
 	}
 	text = {
@@ -24460,6 +24606,10 @@ defined_text = {
 		localization_key = STATE_789_BULGARIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_789_SERBIAN
+	}
+	text = {
 		localization_key = STATE_789 #Szeklerland
 	}
 }
@@ -24690,7 +24840,7 @@ defined_text = {
 		localization_key = STATE_796_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_796_JAPANESE
 	}
 	text = {
@@ -24743,7 +24893,7 @@ defined_text = {
 		localization_key = STATE_797_NORTON #Norton
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_797_JAPANESE #Seijin Furanshisuko
 	}
 	text = {
@@ -24789,7 +24939,7 @@ defined_text = {
 		localization_key = STATE_798 #Los Angeles
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_798_JAPANESE #Rosanzerusu
 	}
 	text = {
@@ -24839,7 +24989,7 @@ defined_text = {
 		localization_key = STATE_799_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_799_JAPANESE
 	}
 	text = {
@@ -24873,7 +25023,7 @@ defined_text = {
 		localization_key = STATE_800_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_800_JAPANESE
 	}
 	text = {
@@ -24887,6 +25037,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_800_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_800_POSTAL
 	}
 	text = {
 		localization_key = STATE_800 #Shaoguan
@@ -24907,11 +25061,11 @@ defined_text = {
 		localization_key = STATE_801_FRENCH
 	}
 	text = {
-		trigger = { is_lec_still_lecing = yes }
+		trigger = { is_using_postal = yes }
 		localization_key = STATE_801_POSTAL
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_801_JAPANESE
 	}
 	text = {
@@ -24949,7 +25103,7 @@ defined_text = {
 		localization_key = STATE_802_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_802_JAPANESE
 	}
 	text = {
@@ -24963,6 +25117,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_802_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_802_POSTAL
 	}
 	text = {
 		localization_key = STATE_802 #Xiamen
@@ -24987,7 +25145,7 @@ defined_text = {
 		localization_key = STATE_803_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_803_JAPANESE
 	}
 	text = {
@@ -25001,6 +25159,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_803_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_803_POSTAL
 	}
 	text = {
 		localization_key = STATE_803 #Wenzhou
@@ -25181,7 +25343,7 @@ defined_text = {
 		localization_key = STATE_810_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_810_JAPANESE
 	}
 	text = {
@@ -25207,7 +25369,7 @@ defined_text = {
 		localization_key = STATE_811_MONGOLIAN #Minsugh
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_811_JAPANESE
 	}
 	text = {
@@ -25277,7 +25439,7 @@ defined_text = {
 		localization_key = STATE_814
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_814_JAPANESE
 	}
 	text = {
@@ -25308,7 +25470,7 @@ defined_text = {
 		localization_key = STATE_815
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_815_JAPANESE
 	}
 	text = {
@@ -25350,11 +25512,16 @@ defined_text = {
 		localization_key = STATE_816_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_816_JAPANESE
 	}
 	text = {
-		trigger = { is_tibetan = yes }
+		trigger = {
+			OR = {
+				is_tibetan = yes
+				is_using_postal = yes
+			}
+		}
 		localization_key = STATE_816_TIBETAN
 	}	
 	text = {
@@ -25480,7 +25647,7 @@ defined_text = {
 		localization_key = STATE_821_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_821_JAPANESE
 	}
 	text = {
@@ -25519,7 +25686,7 @@ defined_text = {
 		localization_key = STATE_822_BURMESE #Zinme Pyi
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_822_JAPANESE
 	}
 	text = {
@@ -25537,7 +25704,7 @@ defined_text = {
 		localization_key = STATE_823
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_823_JAPANESE
 	}
 	text = {
@@ -25555,7 +25722,7 @@ defined_text = {
 		localization_key = STATE_824
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_824_JAPANESE
 	}
 	text = {
@@ -25577,7 +25744,7 @@ defined_text = {
 		localization_key = STATE_825_THAI #Phra Tabong
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_825_JAPANESE #Battodamban
 	}
 	text = {
@@ -25611,7 +25778,7 @@ defined_text = {
 		localization_key = STATE_826_THAI #Chiang Taeng
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_826_JAPANESE #Sutontoren
 	}
 	text = {
@@ -25629,7 +25796,7 @@ defined_text = {
 		localization_key = STATE_827 #Annam
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_827_JAPANESE #Annan
 	}
 	text = {
@@ -25651,7 +25818,7 @@ defined_text = {
 		localization_key = STATE_828 #Sabah
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_828_JAPANESE #Saba
 	}
 	text = {
@@ -25681,7 +25848,7 @@ defined_text = {
 		localization_key = STATE_829_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_829_JAPANESE
 	}
 	text = {
@@ -25723,7 +25890,7 @@ defined_text = {
 		localization_key = STATE_830_INDONESIAN #Patani
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_830_JAPANESE #Pattānī
 	}
 	text = {
@@ -25749,7 +25916,7 @@ defined_text = {
 		localization_key = STATE_831_BURMESE #Mawlamyine
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_831_JAPANESE
 	}
 	text = {
@@ -25820,7 +25987,7 @@ defined_text = {
 		localization_key = STATE_833_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_833_JAPANESE
 	}
 	text = {
@@ -26014,7 +26181,7 @@ defined_text = {
 		localization_key = STATE_839_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_839_JAPANESE
 	}
 	text = {
@@ -26114,7 +26281,7 @@ defined_text = {
 		localization_key = STATE_843_GERMAN #Südwestneuguinea
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_843_JAPANESE
 	}
 	text = {
@@ -26171,7 +26338,7 @@ defined_text = {
 		localization_key = STATE_846 #Johore
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_846_JAPANESE #Johōru
 	}
 	text = {
@@ -26303,7 +26470,7 @@ defined_text = {
 		localization_key = STATE_856_VIETNAMESE #Dong Bang Song Me Kong
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_856_JAPANESE #Mekonderuta
 	}
 	text = {
@@ -26329,7 +26496,7 @@ defined_text = {
 		localization_key = STATE_857 #Dong Bac
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_857_JAPANESE #Tōhoku
 	}
 	text = {
@@ -26433,7 +26600,7 @@ defined_text = {
 		localization_key = STATE_861_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_861_JAPANESE
 	}
 	text = {
@@ -26595,7 +26762,7 @@ defined_text = {
 		localization_key = STATE_867
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_867_JAPANESE
 	}
 	text = {
@@ -26629,7 +26796,7 @@ defined_text = {
 		localization_key = STATE_868
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_868_JAPANESE
 	}
 	text = {
@@ -26904,7 +27071,7 @@ defined_text = {
 		localization_key = STATE_880_GERMAN #Lettgallen
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_880_JAPANESE
 	}
 	text = {
@@ -26980,7 +27147,7 @@ defined_text = {
 		localization_key = STATE_882_LAOTIAN #Xamabouli
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_882_JAPANESE
 	}
 	text = {
@@ -26998,7 +27165,7 @@ defined_text = {
 		localization_key = STATE_883 #Heilongjiang
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_883_JAPANESE #Kokuryūkō
 	}
 	text = {
@@ -27030,6 +27197,10 @@ defined_text = {
 		localization_key = STATE_883_TIBETAN
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_883_POSTAL
+	}
+	text = {
 		localization_key = STATE_883 #Heilongjiang
 	}
 }
@@ -27040,7 +27211,7 @@ defined_text = {
 		localization_key = STATE_884 #Xing'an
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_884_JAPANESE #Kyōan
 	}
 	text = {
@@ -27048,7 +27219,12 @@ defined_text = {
 		localization_key = STATE_884_MONGOLIAN #Hulunbuir
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_russian_speaking_tag = yes
+				is_using_postal = yes
+			}
+		}
 		localization_key = STATE_884_RUSSIAN #Sinan
 	}
 	text = {
@@ -27086,7 +27262,7 @@ defined_text = {
 		localization_key = STATE_885 #Songjiang
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_885_JAPANESE #Shōkō
 	}
 	text = {
@@ -27118,6 +27294,10 @@ defined_text = {
 		localization_key = STATE_885_TIBETAN
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_885_POSTAL
+	}
+	text = {
 		localization_key = STATE_885 #Songjiang
 	}
 }
@@ -27128,7 +27308,7 @@ defined_text = {
 		localization_key = STATE_886 #Jilin
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_886_JAPANESE #Kitsurin
 	}
 	text = {
@@ -27160,6 +27340,10 @@ defined_text = {
 		localization_key = STATE_886_TIBETAN
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_886_POSTAL
+	}
+	text = {
 		localization_key = STATE_886 #Jilin
 	}
 }
@@ -27170,7 +27354,7 @@ defined_text = {
 		localization_key = STATE_887
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_887_JAPANESE
 	}
 	text = {
@@ -27205,7 +27389,7 @@ defined_text = {
 		localization_key = STATE_888
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_888_JAPANESE
 	}
 	text = {
@@ -27223,7 +27407,7 @@ defined_text = {
 		localization_key = STATE_889
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_889_JAPANESE
 	}
 	text = {
@@ -27254,7 +27438,7 @@ defined_text = {
 		localization_key = STATE_890
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_890_JAPANESE
 	}
 	text = {
@@ -27289,7 +27473,7 @@ defined_text = {
 		localization_key = STATE_891_HINDI #Pashchim Paanjaab
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_891_JAPANESE
 	}
 	text = {
@@ -27346,7 +27530,7 @@ defined_text = {
 		localization_key = STATE_893
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_893_JAPANESE
 	}
 	text = {
@@ -27426,7 +27610,7 @@ defined_text = {
 		localization_key = STATE_897
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_897_JAPANESE
 	}
 	text = {
@@ -28017,7 +28201,7 @@ defined_text = {
 		localization_key = STATE_929
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_929_JAPANESE
 	}
 	text = {
@@ -28059,7 +28243,7 @@ defined_text = {
 		localization_key = STATE_930
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_930_JAPANESE
 	}
 	text = {
@@ -28093,7 +28277,7 @@ defined_text = {
 		localization_key = STATE_931
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_931_JAPANESE
 	}
 	text = {
@@ -28136,7 +28320,7 @@ defined_text = {
 		localization_key = STATE_932
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_932_JAPANESE
 	}
 	text = {
@@ -28178,7 +28362,7 @@ defined_text = {
 		localization_key = STATE_933
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_933_JAPANESE
 	}
 	text = {
@@ -28212,7 +28396,7 @@ defined_text = {
 		localization_key = STATE_934
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_934_JAPANESE
 	}
 	text = {
@@ -28254,7 +28438,7 @@ defined_text = {
 		localization_key = STATE_935
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_935_JAPANESE
 	}
 	text = {
@@ -28378,7 +28562,7 @@ defined_text = {
 		localization_key = STATE_938_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_938_JAPANESE
 	}
 	text = {
@@ -28423,6 +28607,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = STATE_939_BULGARIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_939_SERBIAN
 	}
 	text = {
 		localization_key = STATE_939 #Évora
@@ -28481,7 +28669,7 @@ defined_text = {
 		localization_key = STATE_941_OCEANIA #Western Samoa
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_941_JAPANESE #Nishi Samoa
 	}
 	text = {
@@ -29120,7 +29308,7 @@ defined_text = {
 		localization_key = STATE_972_INDONESIAN #Kepulauan Aru
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_972_JAPANESE
 	}
 	text = {
@@ -29461,7 +29649,7 @@ defined_text = {
 		localization_key = STATE_985 #Canberra
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_985_JAPANESE #Kyanbera
 	}
 	text = {
@@ -29487,7 +29675,7 @@ defined_text = {
 		localization_key = STATE_986 #North Queensland
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_986_JAPANESE #Sangoumidō
 	}
 	text = {
@@ -29513,7 +29701,7 @@ defined_text = {
 		localization_key = STATE_987 #Kimberly
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_987_JAPANESE #Nishiyamado
 	}
 	text = {
@@ -29539,7 +29727,7 @@ defined_text = {
 		localization_key = STATE_988 #Pilbara
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_988_JAPANESE #Akasaka
 	}
 	text = {
@@ -29573,6 +29761,7 @@ defined_text = {
 			OR = {
 				is_bulgaria = yes 
 				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_989_BULGARIAN #Solun
@@ -29730,7 +29919,7 @@ defined_text = {
 		localization_key = STATE_996_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_996_JAPANESE
 	}
 	text = {
@@ -29858,7 +30047,7 @@ defined_text = {
 		localization_key = STATE_999_CHINESE #Jidazhou
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_999_JAPANESE #Keda
 	}
 	text = {
@@ -30210,7 +30399,7 @@ defined_text = {
 		localization_key = STATE_1012_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1012_JAPANESE
 	}
 	text = {
@@ -30244,7 +30433,7 @@ defined_text = {
 		localization_key = STATE_1013_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1013_JAPANESE
 	}
 	text = {
@@ -30278,7 +30467,7 @@ defined_text = {
 		localization_key = STATE_1014_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1014_JAPANESE
 	}
 	text = {
@@ -30316,7 +30505,7 @@ defined_text = {
 		localization_key = STATE_1015_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1015_JAPANESE
 	}	
 	text = {
@@ -30326,6 +30515,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1015_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1015_POSTAL
 	}
 	text = {
 		localization_key = STATE_1015 #Liangshan
@@ -30350,7 +30543,7 @@ defined_text = {
 		localization_key = STATE_1016_INDONESIAN #Kalimantan Timur
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1016_JAPANESE #Higashi-Boruneo
 	}
 	text = {
@@ -30384,7 +30577,7 @@ defined_text = {
 		localization_key = STATE_1017_SPANISH #Timor Occidental
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1017_JAPANESE
 	}
 	text = {
@@ -30418,7 +30611,7 @@ defined_text = {
 		localization_key = STATE_1018_SPANISH #Flores y Sumba
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1018_JAPANESE
 	}
 	text = {
@@ -30448,7 +30641,7 @@ defined_text = {
 		localization_key = STATE_1019_INDONESIAN #Jawa Timur
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1019_JAPANESE
 	}
 	text = {
@@ -30470,7 +30663,7 @@ defined_text = {
 		localization_key = STATE_1020_INDONESIAN #Djakarta
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1020_JAPANESE
 	}
 	text = {
@@ -30496,7 +30689,7 @@ defined_text = {
 		localization_key = STATE_1021_INDONESIAN #Sumatera Selatan
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1021_JAPANESE
 	}
 	text = {
@@ -30526,7 +30719,7 @@ defined_text = {
 		localization_key = STATE_1022_INDONESIAN #Sumatera Tengah
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1022_JAPANESE
 	}
 	text = {
@@ -30556,7 +30749,7 @@ defined_text = {
 		localization_key = STATE_1023_INDONESIAN #Sumatera Utara
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1023_JAPANESE
 	}
 	text = {
@@ -30754,7 +30947,7 @@ defined_text = {
 		localization_key = STATE_1034_INDIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1034_JAPANESE
 	}
 	text = {
@@ -30930,7 +31123,7 @@ defined_text = {
 		localization_key = STATE_1042_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1042_JAPANESE
 	}
 	text = {
@@ -30978,7 +31171,7 @@ defined_text = {
 		localization_key = STATE_1044_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1044_JAPANESE
 	}
 	text = {
@@ -31016,7 +31209,7 @@ defined_text = {
 		localization_key = STATE_1045_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1045_JAPANESE
 	}
 	text = {
@@ -31054,7 +31247,7 @@ defined_text = {
 		localization_key = STATE_1046_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1046_JAPANESE
 	}
 	text = {
@@ -31092,7 +31285,7 @@ defined_text = {
 		localization_key = STATE_1047_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1047_JAPANESE
 	}	
 	text = {
@@ -31126,7 +31319,7 @@ defined_text = {
 		localization_key = STATE_1048_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1048_JAPANESE
 	}
 	text = {
@@ -31160,7 +31353,7 @@ defined_text = {
 		localization_key = STATE_1049_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1049_JAPANESE
 	}
 	text = {
@@ -31198,7 +31391,7 @@ defined_text = {
 		localization_key = STATE_1050_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1050_JAPANESE
 	}	
 	text = {
@@ -31236,7 +31429,7 @@ defined_text = {
 		localization_key = STATE_1051_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1051_JAPANESE
 	}
 	text = {
@@ -31250,6 +31443,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1051_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1051_POSTAL
 	}
 	text = {
 		localization_key = STATE_1051 #Guixi
@@ -31274,7 +31471,7 @@ defined_text = {
 		localization_key = STATE_1052_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1052_JAPANESE
 	}
 	text = {
@@ -31312,7 +31509,7 @@ defined_text = {
 		localization_key = STATE_1053_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1053_JAPANESE
 	}
 	text = {
@@ -31346,7 +31543,7 @@ defined_text = {
 		localization_key = STATE_1054_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1054_JAPANESE
 	}
 	text = {
@@ -31384,7 +31581,7 @@ defined_text = {
 		localization_key = STATE_1055_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1055_JAPANESE
 	}
 	text = {
@@ -31422,7 +31619,7 @@ defined_text = {
 		localization_key = STATE_1056_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1056_JAPANESE
 	}
 	text = {
@@ -31457,7 +31654,7 @@ defined_text = {
 		localization_key = STATE_1057_INDIAN #Poorvee Praant
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1057_JAPANESE
 	}
 	text = {
@@ -31495,7 +31692,7 @@ defined_text = {
 		localization_key = STATE_1058_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1058_JAPANESE
 	}
 	text = {
@@ -31525,7 +31722,7 @@ defined_text = {
 		localization_key = STATE_1059_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1059_JAPANESE
 	}
 	text = {
@@ -31563,7 +31760,7 @@ defined_text = {
 		localization_key = STATE_1060_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1060_JAPANESE
 	}
 	text = {
@@ -31577,6 +31774,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1060_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1060_POSTAL
 	}
 	text = {
 		localization_key = STATE_1060 #Hebi
@@ -31597,7 +31798,7 @@ defined_text = {
 		localization_key = STATE_1061_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1061_JAPANESE
 	}
 	text = {
@@ -31605,7 +31806,12 @@ defined_text = {
 		localization_key = STATE_1061_CHINESE
 	}
 	text = {
-		trigger = { is_tibetan = yes }
+		trigger = {
+			OR = {
+				is_tibetan = yes
+				is_using_postal = yes
+			}
+		}
 		localization_key = STATE_1061_TIBETAN
 	}
 	text = {
@@ -31631,7 +31837,7 @@ defined_text = {
 		localization_key = STATE_1062_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1062_JAPANESE
 	}
 	text = {
@@ -31645,6 +31851,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1062_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1062_POSTAL
 	}
 	text = {
 		localization_key = STATE_1062 #Baoding
@@ -31669,7 +31879,7 @@ defined_text = {
 		localization_key = STATE_1063_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1063_JAPANESE
 	}
 	text = {
@@ -31699,7 +31909,12 @@ defined_text = {
 		localization_key = STATE_1064_GERMAN
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_russian_speaking_tag = yes
+				is_using_postal = yes
+			}
+		}
 		localization_key = STATE_1064_RUSSIAN
 	}
 	text = {
@@ -31707,7 +31922,7 @@ defined_text = {
 		localization_key = STATE_1064_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1064_JAPANESE
 	}
 	text = {
@@ -31741,7 +31956,7 @@ defined_text = {
 		localization_key = STATE_1065_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1065_JAPANESE
 	}
 	text = {
@@ -31755,6 +31970,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1065_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1065_POSTAL
 	}
 	text = {
 		localization_key = STATE_1065 #Jiaodong
@@ -31775,7 +31994,7 @@ defined_text = {
 		localization_key = STATE_1066_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1066_JAPANESE
 	}
 	text = {
@@ -31813,7 +32032,7 @@ defined_text = {
 		localization_key = STATE_1067_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1067_JAPANESE
 	}
 	text = {
@@ -31827,6 +32046,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1067_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1067_POSTAL
 	}
 	text = {
 		localization_key = STATE_1067 #Jinhua
@@ -31851,7 +32074,7 @@ defined_text = {
 		localization_key = STATE_1068_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1068_JAPANESE
 	}
 	text = {
@@ -31889,7 +32112,7 @@ defined_text = {
 		localization_key = STATE_1069_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1069_JAPANESE
 	}
 	text = {
@@ -31955,7 +32178,7 @@ defined_text = {
 		localization_key = STATE_1072_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1072_JAPANESE
 	}
 	text = {
@@ -32025,7 +32248,7 @@ defined_text = {
 		localization_key = STATE_1075_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1075_JAPANESE
 	}	
 	text = {
@@ -32061,6 +32284,10 @@ defined_text = {
 	text = {
 		trigger = { is_oghuz_turkic_tag = yes }
 		localization_key = STATE_1076_TURKISH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1076_SERBIAN
 	}
 	text = {
 		localization_key = STATE_1076 #Veria
@@ -32194,7 +32421,7 @@ defined_text = {
 		localization_key = STATE_1083_CHINESE #Hami
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1083_JAPANESE
 	}
 	text = {
@@ -32237,7 +32464,7 @@ defined_text = {
 		localization_key = STATE_1084_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1084_JAPANESE
 	}
 	text = {
@@ -32286,7 +32513,7 @@ defined_text = {
 		localization_key = STATE_1085_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1085_JAPANESE
 	}
 	text = {
@@ -32328,7 +32555,7 @@ defined_text = {
 		localization_key = STATE_1086_RUSSIAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1086_JAPANESE
 	}
 	text = {
@@ -32439,6 +32666,10 @@ defined_text = {
 		localization_key = STATE_1089_CZECH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1089_SERBIAN 
+	}
+	text = {
 		localization_key = STATE_1089 #Kardzhali
 	}
 }
@@ -32501,7 +32732,7 @@ defined_text = {
 		localization_key = STATE_1092
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1092_JAPANESE
 	}
 	text = {
@@ -32532,7 +32763,7 @@ defined_text = {
 		localization_key = STATE_1093
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1093_JAPANESE
 	}
 	text = {
@@ -32567,7 +32798,7 @@ defined_text = {
 		localization_key = STATE_1094
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1094_JAPANESE
 	}
 	text = {
@@ -32594,7 +32825,7 @@ defined_text = {
 		localization_key = STATE_1095
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1095_JAPANESE
 	}
 	text = {
@@ -32634,7 +32865,7 @@ defined_text = {
 		localization_key = STATE_1096_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1096_JAPANESE
 	}
 	text = {
@@ -33179,7 +33410,12 @@ defined_text = {
 		localization_key = STATE_1112_RUSSIAN
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1112_CZECH
 	}
 	text = {
@@ -33197,6 +33433,7 @@ defined_text = {
 			OR = {
 				is_romance_speaking_tag = yes
 				is_bulgaria = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_1113_ROMANIAN
@@ -33266,6 +33503,10 @@ defined_text = {
 		localization_key = STATE_1115_BULGARIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1115_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1115
 	}
 }
@@ -33297,7 +33538,12 @@ defined_text = {
 		localization_key = STATE_1116_RUSSIAN
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1116_CZECH
 	}
 	text = {
@@ -33327,6 +33573,7 @@ defined_text = {
 			OR = {
 				is_russian_speaking_tag = yes
 				is_bulgaria = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_1117_RUSSIAN
@@ -33350,6 +33597,7 @@ defined_text = {
 			OR = {
 				is_romance_speaking_tag = yes
 				is_bulgaria = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_1118_ROMANIAN
@@ -34235,7 +34483,7 @@ defined_text = {
 		localization_key = STATE_1150_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1150_JAPANESE
 	}
 	text = {
@@ -34281,7 +34529,7 @@ defined_text = {
 		localization_key = STATE_1151_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1151_JAPANESE
 	}
 	text = {
@@ -34331,7 +34579,7 @@ defined_text = {
 		localization_key = STATE_1152_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1152_JAPANESE
 	}
 	text = {
@@ -34377,7 +34625,7 @@ defined_text = {
 		localization_key = STATE_1153_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1153_JAPANESE
 	}
 	text = {
@@ -34423,7 +34671,7 @@ defined_text = {
 		localization_key = STATE_1154_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1154_JAPANESE
 	}
 	text = {
@@ -34465,7 +34713,7 @@ defined_text = {
 		localization_key = STATE_1155_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1155_JAPANESE
 	}
 	text = {
@@ -34511,7 +34759,7 @@ defined_text = {
 		localization_key = STATE_1156_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1156_JAPANESE
 	}
 	text = {
@@ -34553,7 +34801,7 @@ defined_text = {
 		localization_key = STATE_1157_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1157_JAPANESE
 	}
 	text = {
@@ -34591,7 +34839,7 @@ defined_text = {
 		localization_key = STATE_1158
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1158_JAPANESE
 	}
 	text = {
@@ -34630,7 +34878,7 @@ defined_text = {
 		localization_key = STATE_1159
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1159_JAPANESE
 	}
 	text = {
@@ -34676,7 +34924,7 @@ defined_text = {
 		localization_key = STATE_1160_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1160_JAPANESE
 	}
 	text = {
@@ -34722,7 +34970,7 @@ defined_text = {
 		localization_key = STATE_1161_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1161_JAPANESE
 	}
 	text = {
@@ -34764,7 +35012,7 @@ defined_text = {
 		localization_key = STATE_1162_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1162_JAPANESE
 	}
 	text = {
@@ -34806,7 +35054,7 @@ defined_text = {
 		localization_key = STATE_1163_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1163_JAPANESE
 	}
 	text = {
@@ -34848,7 +35096,7 @@ defined_text = {
 		localization_key = STATE_1164_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1164_JAPANESE
 	}
 	text = {
@@ -34888,7 +35136,7 @@ defined_text = {
 	text = {
 		trigger = { 
 			OR = {
-				is_japanese_tag = yes
+				is_japanese_speaking_tag = yes
 				is_jewish = yes
 				is_russian_speaking_tag = yes
 				is_albanian = yes
@@ -34919,7 +35167,7 @@ defined_text = {
 		localization_key = STATE_1166
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1166_JAPANESE
 	}
 	text = {
@@ -34966,7 +35214,7 @@ defined_text = {
 		localization_key = STATE_1167_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1167_JAPANESE
 	}
 	text = {
@@ -35012,7 +35260,7 @@ defined_text = {
 		localization_key = STATE_1168_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1168_JAPANESE
 	}
 	text = {
@@ -35054,7 +35302,7 @@ defined_text = {
 		localization_key = STATE_1169_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1169_JAPANESE
 	}
 	text = {
@@ -35096,7 +35344,7 @@ defined_text = {
 		localization_key = STATE_1170_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1170_JAPANESE
 	}
 	text = {
@@ -35138,7 +35386,7 @@ defined_text = {
 		localization_key = STATE_1171_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1171_JAPANESE
 	}
 	text = {
@@ -35180,7 +35428,7 @@ defined_text = {
 		localization_key = STATE_1172_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1172_JAPANESE
 	}
 	text = {
@@ -35218,7 +35466,7 @@ defined_text = {
 		localization_key = STATE_1173
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1173_JAPANESE
 	}
 	text = {
@@ -35260,7 +35508,7 @@ defined_text = {
 		localization_key = STATE_1174
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1174_JAPANESE
 	}
 	text = {
@@ -35301,7 +35549,7 @@ defined_text = {
 		localization_key = STATE_1175_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1175_JAPANESE
 	}
 	text = {
@@ -35633,7 +35881,7 @@ defined_text = {
 		localization_key = STATE_1193_IMPERIAL
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1193_JAPANESE
 	}
 	text = {
@@ -35671,7 +35919,7 @@ defined_text = {
 		localization_key = STATE_1194_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1194_JAPANESE
 	}
 	text = {
@@ -35705,7 +35953,7 @@ defined_text = {
 		localization_key = STATE_1195_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1195_JAPANESE
 	}
 	text = {
@@ -35743,7 +35991,7 @@ defined_text = {
 		localization_key = STATE_1196_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1196_JAPANESE
 	}
 	text = {
@@ -35769,7 +36017,7 @@ defined_text = {
 		localization_key = STATE_1197_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1197_JAPANESE
 	}
 	text = {
@@ -35803,7 +36051,7 @@ defined_text = {
 		localization_key = STATE_1198_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1198_JAPANESE
 	}
 	text = {
@@ -35829,7 +36077,7 @@ defined_text = {
 		localization_key = STATE_1199_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1199_JAPANESE
 	}
 	text = {
@@ -35857,7 +36105,7 @@ defined_text = {
 		localization_key = STATE_1200
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1200_JAPANESE
 	}
 	text = {
@@ -35891,7 +36139,7 @@ defined_text = {
 		localization_key = STATE_1201_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1201_JAPANESE
 	}
 	text = {
@@ -35929,7 +36177,7 @@ defined_text = {
 		localization_key = STATE_1202_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1202_JAPANESE
 	}
 	text = {
@@ -35968,7 +36216,7 @@ defined_text = {
 		localization_key = STATE_1203_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1203_JAPANESE
 	}
 	text = {
@@ -35986,7 +36234,7 @@ defined_text = {
 		localization_key = STATE_1204
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1204_JAPANESE
 	}
 	text = {
@@ -36016,7 +36264,7 @@ defined_text = {
 		localization_key = STATE_1205_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1205_JAPANESE
 	}
 	text = {
@@ -36099,7 +36347,7 @@ defined_text = {
 		localization_key = STATE_1207_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1207_JAPANESE
 	}
 	text = {
@@ -36133,7 +36381,7 @@ defined_text = {
 		localization_key = STATE_1208_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1208_JAPANESE
 	}
 	text = {
@@ -36171,7 +36419,7 @@ defined_text = {
 		localization_key = STATE_1209_KARLUK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1209_JAPANESE
 	}
 	text = {
@@ -36197,7 +36445,7 @@ defined_text = {
 		localization_key = STATE_1210_KARLUK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1210_JAPANESE
 	}
 	text = {
@@ -36223,7 +36471,7 @@ defined_text = {
 		localization_key = STATE_1211_KARLUK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1211_JAPANESE
 	}
 	text = {
@@ -36249,7 +36497,7 @@ defined_text = {
 		localization_key = STATE_1212_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1212_JAPANESE
 	}
 	text = {
@@ -36340,7 +36588,7 @@ defined_text = {
 		localization_key = STATE_1217
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1217_JAPANESE
 	}
 	text = {
@@ -36366,7 +36614,7 @@ defined_text = {
 		localization_key = STATE_1218
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1218_JAPANESE
 	}
 	text = {
@@ -36392,7 +36640,7 @@ defined_text = {
 		localization_key = STATE_1219
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1219_JAPANESE
 	}
 	text = {
@@ -36500,7 +36748,12 @@ defined_text = {
 		localization_key = STATE_1222_ROMANIAN
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1222_CZECH
 	}
 	text = {
@@ -36547,7 +36800,7 @@ defined_text = {
 		localization_key = STATE_1224_GERMAN 
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1224_JAPANESE
 	}
 	text = {
@@ -36593,7 +36846,7 @@ defined_text = {
 		localization_key = STATE_1225_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1225_JAPANESE
 	}
 	text = {
@@ -36619,7 +36872,7 @@ defined_text = {
 		localization_key = STATE_1226_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1226_JAPANESE
 	}
 	text = {
@@ -36661,7 +36914,7 @@ defined_text = {
 		localization_key = STATE_1227_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1227_JAPANESE
 	}
 	text = {
@@ -36750,7 +37003,7 @@ defined_text = {
 		localization_key = STATE_1229_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1229_JAPANESE
 	}
 	text = {
@@ -36822,7 +37075,7 @@ defined_text = {
 		localization_key = STATE_1231_UKRAINIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1231_JAPANESE
 	}
 	text = {
@@ -37444,7 +37697,7 @@ defined_text = {
 		localization_key = STATE_1246
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1246_JAPANESE
 	}
 	text = {
@@ -37742,7 +37995,7 @@ defined_text = {
 		localization_key = STATE_1263_UKRAINIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1263_JAPANESE
 	}
 	text = {
@@ -37772,7 +38025,7 @@ defined_text = {
 		localization_key = STATE_1264_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1264_JAPANESE
 	}
 	text = {
@@ -37802,7 +38055,7 @@ defined_text = {
 		localization_key = STATE_1265
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1265_JAPANESE
 	}
 	text = {
@@ -37845,7 +38098,7 @@ defined_text = {
 		localization_key = STATE_1266_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1266_JAPANESE
 	}
 	text = {
@@ -38073,7 +38326,7 @@ defined_text = {
 		localization_key = STATE_1274_FINNISH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1274_JAPANESE
 	}
 	text = {
@@ -38104,7 +38357,7 @@ defined_text = {
 		localization_key = STATE_1275_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1275_JAPANESE
 	}
 	text = {
@@ -38142,7 +38395,7 @@ defined_text = {
 		localization_key = STATE_1276_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1276_JAPANESE
 	}
 	text = {
@@ -38176,7 +38429,7 @@ defined_text = {
 		localization_key = STATE_1277_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1277_JAPANESE
 	}
 	text = {
@@ -38202,7 +38455,7 @@ defined_text = {
 		localization_key = STATE_1278_KIPCHAK
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1278_JAPANESE
 	}
 	text = {
@@ -38238,7 +38491,7 @@ defined_text = {
 		localization_key = STATE_1279_RUSSIAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1279_JAPANESE
 	}
 	text = {
@@ -38286,7 +38539,7 @@ defined_text = {
 		localization_key = STATE_1281_GERMAN
 	}	
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1281_JAPANESE
 	}
 	text = {
@@ -38467,7 +38720,7 @@ defined_text = {
 		localization_key = STATE_1287_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1287_JAPANESE
 	}
 	text = {
@@ -38514,7 +38767,7 @@ defined_text = {
 		localization_key = STATE_1288_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1288_JAPANESE
 	}
 	text = {
@@ -38561,7 +38814,7 @@ defined_text = {
 		localization_key = STATE_1289_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1289_JAPANESE
 	}
 	text = {
@@ -38613,7 +38866,7 @@ defined_text = {
 		localization_key = STATE_1290_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1290_JAPANESE
 	}
 	text = {
@@ -38662,7 +38915,7 @@ defined_text = {
 		localization_key = STATE_1291_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1291_JAPANESE
 	}
 	text = {
@@ -38703,7 +38956,7 @@ defined_text = {
 		localization_key = STATE_1292_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1292_JAPANESE
 	}
 	text = {
@@ -38733,7 +38986,7 @@ defined_text = {
 		localization_key = STATE_1293_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1293_JAPANESE
 	}
 	text = {
@@ -39189,7 +39442,7 @@ defined_text = {
 		localization_key = STATE_1315_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1315_JAPANESE
 	}
 	text = {
@@ -39258,7 +39511,7 @@ defined_text = {
 		localization_key = STATE_1317_FRENCH
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1317_JAPANESE
 	}
 	text = {
@@ -39326,6 +39579,10 @@ defined_text = {
 	text = {
 		trigger = { is_czechoslovak_tag = yes }
 		localization_key = STATE_1320_CZECH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1320_SERBIAN 
 	}
 	text = {
 		localization_key = STATE_1320
@@ -39489,7 +39746,7 @@ defined_text = {
 		localization_key = STATE_1327_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1327_JAPANESE
 	}
 	text = {
@@ -39531,7 +39788,7 @@ defined_text = {
 		localization_key = STATE_1328_GERMAN
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1328_JAPANESE
 	}
 	text = {
@@ -40012,7 +40269,7 @@ defined_text = {
 		localization_key = STATE_1345 #Samnam
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1345_JAPANESE #Sānhán
 	}
 	text = {
@@ -40038,7 +40295,7 @@ defined_text = {
 		localization_key = STATE_1346 #Jeju
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1346_JAPANESE #Saishū
 	}
 	text = {
@@ -40064,7 +40321,7 @@ defined_text = {
 		localization_key = STATE_1347 #Kwanbuk
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1347_JAPANESE #Kanhoku
 	}
 	text = {
@@ -40090,7 +40347,7 @@ defined_text = {
 		localization_key = STATE_1348 #Southcentral Alaska
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1348_JAPANESE #Arasuka Minamichūbu
 	}
 	text = {
@@ -40139,7 +40396,7 @@ defined_text = {
 		localization_key = STATE_1349 #Southwest Alaska
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1349_JAPANESE #Arasuka Minamiseibu
 	}
 	text = {
@@ -40188,7 +40445,7 @@ defined_text = {
 		localization_key = STATE_1350 #North Alaska
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1350_JAPANESE #Arasuka Hokubu
 	}
 	text = {
@@ -40237,7 +40494,7 @@ defined_text = {
 		localization_key = STATE_1351 #North Kanto
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1351_JAPANESE #Kita-Kantō
 	}
 	text = {
@@ -40259,7 +40516,7 @@ defined_text = {
 		localization_key = STATE_1352 #South Kyushu
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1352_JAPANESE #Minami-Kyūshū
 	}
 	text = {
@@ -40303,7 +40560,7 @@ defined_text = {
 		localization_key = STATE_1354_CHINESE
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1354_JAPANESE #Hyōgo
 	}
 	text = {
@@ -40321,7 +40578,7 @@ defined_text = {
 		localization_key = STATE_1355 #Koshinsei
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1355_JAPANESE #Kōshinsei
 	}
 	text = {
@@ -40343,7 +40600,7 @@ defined_text = {
 		localization_key = STATE_1356 #North Tohoku
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1356_JAPANESE #Kita-Tōhoku
 	}
 	text = {
@@ -40380,7 +40637,7 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6282_RUSSIAN_ALT
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1357_JAPANESE
 	}
 	text = {
@@ -40414,7 +40671,7 @@ defined_text = {
 		localization_key = STATE_1358
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1358_JAPANESE
 	}
 	text = {
@@ -40449,7 +40706,7 @@ defined_text = {
 		localization_key = STATE_1359
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1359_JAPANESE
 	}
 	text = {
@@ -40483,7 +40740,7 @@ defined_text = {
 		localization_key = STATE_1360
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1360_JAPANESE
 	}
 	text = {
@@ -40526,7 +40783,7 @@ defined_text = {
 		localization_key = STATE_1361
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1361_JAPANESE
 	}
 	text = {
@@ -40562,7 +40819,7 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				is_japanese_tag = yes
+				is_japanese_speaking_tag = yes
 				is_german_speaking_tag = yes
 				is_russian_speaking_tag = yes
 			}
@@ -40593,7 +40850,7 @@ defined_text = {
 		localization_key = STATE_1363
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1363_JAPANESE
 	}
 	text = {
@@ -40624,7 +40881,7 @@ defined_text = {
 		localization_key = STATE_1364 #Sepik
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1364_JAPANESE #Sepikku
 	}
 	text = {
@@ -40646,7 +40903,7 @@ defined_text = {
 		localization_key = STATE_1365 #New Guinea Highlands
 	}
 	text = {
-		trigger = { is_japanese_tag = yes }
+		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_1365_JAPANESE #Sentoraru Sanmyaku
 	}
 	text = {

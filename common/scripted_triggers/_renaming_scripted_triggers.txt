@@ -200,7 +200,7 @@ is_chinese_speaking_tag = {
 					is_mongolian_tag = yes
 					is_tibetan = yes
 					is_uighur_speaking_tag = yes
-					is_lec_still_lecing = yes
+					is_using_postal = yes
 					AND = {
 						original_tag = SQI
 						OR = {
@@ -216,7 +216,7 @@ is_chinese_speaking_tag = {
 		is_russian_imposed_tag = no
 		is_german_imposed_tag = no
 		is_french_imposed_tag = no
-		is_japanese_tag = no
+		is_japanese_imposed_tag = no
 		is_english_imposed_tag = no
 		is_tibetan_imposed = no
 		is_vietnamese_imposed = no
@@ -450,6 +450,8 @@ is_german_tag = {
 			tag = GEX
 			tag = MAF
 			tag = GEA
+			tag = PGU
+			tag = AWR
 			AND = {
 				original_tag = BAT
 				has_socialist_government = no
@@ -607,6 +609,10 @@ is_polish_tag = {
 			tag = POL
 			tag = KRK
 			tag = GAL
+			AND = {
+				original_tag = SLS
+				has_cosmetic_tag = SLS_polish
+			}
 		}
 	}
 }
@@ -766,7 +772,7 @@ is_russian_tag_that_can_integrate = {
 			}
 		}
 		AND = {
-			has_event_target = soviet_russia
+			hidden_trigger = { has_event_target = soviet_russia }
 			has_country_flag = soviet_russia_restored
 			owns_state = 219
 		}
@@ -784,6 +790,10 @@ is_russian_mio_tag = {
 		is_russian_tag = yes
 		original_tag = DKB
 		original_tag = ORE
+		AND = {
+			original_tag = CRM
+			has_event_target = soviet_russia
+		}
 	}
 }
 is_using_russian_alt = {
@@ -1049,10 +1059,9 @@ is_finnish_tag = {
 		is_icelandic_imposed = no
 	}
 }
-is_japanese_tag = { #Japanese speaking
+is_japanese_tag = {
 	OR = {
 		tag = JAP
-		is_japanese_imposed_tag = yes
 		AND = {
 			tag = TRM
 			has_country_flag = TRM_uses_japanese
@@ -1061,6 +1070,12 @@ is_japanese_tag = { #Japanese speaking
 			tag = CAL
 			has_country_flag = JAP_Ministers_Allowed
 		}
+	}
+}
+is_japanese_speaking_tag = {
+	OR = {
+		is_japanese_tag = yes
+		is_japanese_imposed_tag = yes
 		AND = {
 			tag = GRU
 			has_cosmetic_tag = GRU_japanese
@@ -1079,7 +1094,7 @@ is_japanese_tag = { #Japanese speaking
 		AND = {
 			tag = ALA
 			has_completed_focus = ALA_japanese_publications
-		}	
+		}
 	}
 	AND = {
 		is_russian_imposed_tag = no
@@ -1527,6 +1542,7 @@ is_greek_tag = { #Greek speaking
 			is_czech_imposed = no
 			is_german_imposed_tag = no
 			is_bulgarian_imposed = no
+			is_south_slav_imposed = no
 		}
 	}
 }
@@ -1588,6 +1604,7 @@ is_romance_speaking_tag = {
 					is_turkish_imposed = no
 					is_czech_imposed = no
 					is_bulgarian_imposed = no
+					is_south_slav_imposed = no
 				}
 			}
 		}
@@ -1652,6 +1669,7 @@ is_albanian = {
 		is_greek_imposed = no
 		is_czech_imposed = no
 		is_bulgarian_imposed = no
+		is_south_slav_imposed = no
 	}
 }
 is_thai_speaking = {
@@ -1734,6 +1752,7 @@ is_bulgaria = {
 		is_turkish_imposed = no
 		is_greek_imposed = no
 		is_czech_imposed = no
+		is_south_slav_imposed = no
 	}
 }
 is_catalan = {
@@ -1802,16 +1821,22 @@ is_aboriginal = {
 	original_tag = AST
 	has_country_flag = AST_jindy_elected
 }
-is_lec_still_lecing = {
-	original_tag = LEC
-	NOT = {
-		OR = {
-			has_country_flag = LEC_Triad_Power
-			has_country_flag = LEC_Shuntian_Power
-			is_japanese_imposed_tag = yes
-			is_german_imposed_tag = yes
-			is_russian_imposed_tag = yes
+is_using_postal = {
+	OR = {
+		AND = {
+			original_tag = LEC
+			NOT = {
+				OR = {
+					has_country_flag = LEC_Triad_Power
+					has_country_flag = LEC_Shuntian_Power
+					is_japanese_imposed_tag = yes
+					is_german_imposed_tag = yes
+					is_russian_imposed_tag = yes
+				}
+			}
 		}
+		is_english_tag = yes
+		is_english_imposed_tag = yes
 	}
 }
 is_basque = {
@@ -1947,7 +1972,6 @@ is_bhutan = {
 is_abkhaz = {
 	OR = {
 		original_tag = ABK
-		is_abkhaz_imposed = yes
 	}
 	AND = {
 		is_russian_imposed_tag = no
@@ -2010,6 +2034,17 @@ is_german_imposed_tag = {
 				NOT = { has_country_flag = WHR_revolution_success }
 			}
 		}
+		NOT = { #Kill
+			OR = {
+				original_tag = MNT
+				original_tag = HUN
+				original_tag = CRO
+				original_tag = FIU
+				original_tag = ITA
+				original_tag = CZE
+				original_tag = GAL
+			}
+		}
 	}
 }
 is_russian_imposed_tag = {
@@ -2026,7 +2061,7 @@ is_spanish_imposed_tag = {
 }
 is_japanese_imposed_tag = {
 	is_subject = yes
-	overlord = { is_japanese_tag = yes }
+	overlord = { is_japanese_speaking_tag = yes }
 	NOT = {
 		AND = {
 			original_tag = TRM
