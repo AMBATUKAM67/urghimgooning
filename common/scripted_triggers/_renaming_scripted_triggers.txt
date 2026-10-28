@@ -618,7 +618,18 @@ is_polish_tag = {
 }
 is_polish_speaking_tag = {
 	OR = {
-		is_polish_tag = yes
+		AND = {
+			is_polish_tag = yes
+			NOT = {
+				AND = {
+					OR = {
+						original_tag = KRK
+						original_tag = GAL
+					}
+					is_south_slav_imposed = yes
+				}
+			}
+		}
 		is_polish_imposed = yes
 	}
 	AND = {
@@ -1500,6 +1511,7 @@ is_czechoslovak_tag = { #Czechoslovak speaking
 			is_german_imposed_tag = no
 			is_english_imposed_tag = no
 			is_spanish_imposed_tag = no
+			is_south_slav_imposed = no
 		}
 	}
 }

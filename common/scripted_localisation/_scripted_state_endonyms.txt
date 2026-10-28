@@ -379,6 +379,10 @@ defined_text = {
 		localization_key = STATE_9_SPANISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_9_SERBIAN
+	}
+	text = {
 		localization_key = STATE_9 #Prague
 	}
 }
@@ -2779,6 +2783,10 @@ defined_text = {
 		localization_key = STATE_69_SPANISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_69_SERBIAN
+	}
+	text = {
 		localization_key = STATE_69 #Liberec
 	}
 }
@@ -2805,6 +2813,10 @@ defined_text = {
 		localization_key = STATE_70_RUSSIAN #Trenchin
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_70_SERBIAN
+	}
+	text = {
 		localization_key = STATE_70 #Slovakia
 	}
 }
@@ -2829,6 +2841,10 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_71_SPANISH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_71_SERBIAN
 	}
 	text = {
 		localization_key = STATE_71 #Danubian Plain
@@ -2910,6 +2926,10 @@ defined_text = {
 		localization_key = STATE_73_ROMANIAN #Maramures
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_73_SERBIAN
+	}
+	text = {
 		localization_key = STATE_73 #Transcarpathia
 	}
 }
@@ -2960,6 +2980,10 @@ defined_text = {
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
 		localization_key = STATE_75_RUSSIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_75_SERBIAN
 	}
 	text = {
 		localization_key = STATE_75 #Moravia
@@ -3433,6 +3457,10 @@ defined_text = {
 		localization_key = STATE_88_BELARUSIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_88_SERBIAN
+	}
+	text = {
 		localization_key = STATE_88 #Krakow
 	}
 }
@@ -3480,6 +3508,7 @@ defined_text = {
 			OR = {
 				is_russian_speaking_tag = yes 
 				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_89_RUSSIAN #Stanislavov
@@ -3548,6 +3577,10 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_91_BELARUSIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_91_SERBIAN
 	}
 	text = {
 		localization_key = STATE_91 #Lwow
@@ -10289,6 +10322,10 @@ defined_text = {
 	text = {
 		trigger = { is_tibetan = yes }
 		localization_key = STATE_287_TIBETAN
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_287_POSTAL
 	}
 	text = {
 		localization_key = STATE_287 #Hotan
@@ -18753,6 +18790,10 @@ defined_text = {
 		localization_key = STATE_591_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_591_POSTAL
+	}
+	text = {
 		localization_key = STATE_591 #Qiongya
 	}
 }
@@ -18902,6 +18943,10 @@ defined_text = {
 		localization_key = STATE_595_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_595_POSTAL
+	}
+	text = {
 		localization_key = STATE_595 #Jian'an
 	}
 }
@@ -18938,6 +18983,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_596_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_596_POSTAL
 	}
 	text = {
 		localization_key = STATE_596 #Qiantang
@@ -19016,6 +19065,10 @@ defined_text = {
 		localization_key = STATE_598_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_598_POSTAL
+	}
+	text = {
 		localization_key = STATE_598 #Huaiyang
 	}
 }
@@ -19082,6 +19135,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_600_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_600_POSTAL
 	}
 	text = {
 		localization_key = STATE_600 #Gannan
@@ -19164,6 +19221,10 @@ defined_text = {
 		localization_key = STATE_602_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_602_POSTAL
+	}
+	text = {
 		localization_key = STATE_602 #Xiangjiang
 	}
 }
@@ -19200,6 +19261,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_603_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_603_POSTAL
 	}
 	text = {
 		localization_key = STATE_603 #Qianzhong
@@ -19370,6 +19435,10 @@ defined_text = {
 		localization_key = STATE_607_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_607_POSTAL
+	}
+	text = {
 		localization_key = STATE_607 #Heluo
 	}
 }
@@ -19406,6 +19475,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_608_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_608_POSTAL
 	}
 	text = {
 		localization_key = STATE_608 #Jingzhao
@@ -19623,6 +19696,10 @@ defined_text = {
 		localization_key = STATE_613_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_613_POSTAL
+	}
+	text = {
 		localization_key = STATE_613 #Jinling
 	}
 }
@@ -19781,6 +19858,10 @@ defined_text = {
 		localization_key = STATE_617_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_617_POSTAL
+	}
+	text = {
 		localization_key = STATE_617 #Dihua
 	}
 }
@@ -19908,6 +19989,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_620_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_620_POSTAL
 	}
 	text = {
 		localization_key = STATE_620 #Xiangyang
@@ -21037,6 +21122,10 @@ defined_text = {
 		localization_key = STATE_661_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_661_POSTAL
+	}
+	text = {
 		localization_key = STATE_661 #Daxian
 	}
 }
@@ -21097,6 +21186,14 @@ defined_text = {
 	text = {
 		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_664_GERMAN #Mischkolz
+	}
+	text = {
+		trigger = { is_russian_speaking_tag = yes }
+		localization_key = STATE_664_RUSSIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_664_SERBIAN
 	}
 	text = {
 		localization_key = STATE_664 #Miskolc
@@ -22541,7 +22638,11 @@ defined_text = {
 	text = {
 		trigger = { is_tibetan = yes }
 		localization_key = STATE_728_TIBETAN
-	}	
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_728_POSTAL
+	}
 	text = {
 		localization_key = STATE_728 #Guangzhouwan
 	}
@@ -24528,6 +24629,10 @@ defined_text = {
 		localization_key = STATE_786_SPANISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_786_SERBIAN
+	}
+	text = {
 		localization_key = STATE_786 #Budejovice
 	}
 }
@@ -25003,6 +25108,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_799_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_799_POSTAL
 	}
 	text = {
 		localization_key = STATE_799 #Guanzhong
@@ -30415,6 +30524,10 @@ defined_text = {
 		localization_key = STATE_1012_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1012_POSTAL
+	}
+	text = {
 		localization_key = STATE_1012 #Chaoxun
 	}
 }
@@ -31187,6 +31300,10 @@ defined_text = {
 		localization_key = STATE_1044_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1044_POSTAL
+	}
+	text = {
 		localization_key = STATE_1044 #Yuzhang
 	}
 }
@@ -31223,6 +31340,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1045_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1045_POSTAL
 	}
 	text = {
 		localization_key = STATE_1045 #Xunyang
@@ -31263,6 +31384,10 @@ defined_text = {
 		localization_key = STATE_1046_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1046_POSTAL
+	}
+	text = {
 		localization_key = STATE_1046 #Tingzhang
 	}
 }
@@ -31299,6 +31424,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1047_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1047_POSTAL
 	}
 	text = {
 		localization_key = STATE_1047 #Xuhai
@@ -31369,6 +31498,10 @@ defined_text = {
 		localization_key = STATE_1049_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1049_POSTAL
+	}
+	text = {
 		localization_key = STATE_1049 #Shihe
 	}
 }
@@ -31405,6 +31538,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1050_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1050_POSTAL
 	}
 	text = {
 		localization_key = STATE_1050 #Huaisi
@@ -31485,6 +31622,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1052_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1052_POSTAL
 	}
 	text = {
 		localization_key = STATE_1052 #Zhenyuan
@@ -31597,6 +31738,10 @@ defined_text = {
 		localization_key = STATE_1055_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1055_POSTAL
+	}
+	text = {
 		localization_key = STATE_1055 #Liujiang
 	}
 }
@@ -31633,6 +31778,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1056_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1056_POSTAL
 	}
 	text = {
 		localization_key = STATE_1056 #Qinlian
@@ -31895,6 +32044,10 @@ defined_text = {
 		localization_key = STATE_1063_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1063_POSTAL
+	}
+	text = {
 		localization_key = STATE_1063 #Cangzhou
 	}
 }
@@ -32010,6 +32163,10 @@ defined_text = {
 		localization_key = STATE_1066_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1066_POSTAL
+	}
+	text = {
 		localization_key = STATE_1066 #Minhou
 	}
 }
@@ -32088,6 +32245,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1068_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1068_POSTAL
 	}
 	text = {
 		localization_key = STATE_1068 #Kuaiji
@@ -32236,7 +32397,12 @@ defined_text = {
 		localization_key = STATE_1075
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_german_speaking_tag = yes
+				is_using_postal = yes
+			}
+		}
 		localization_key = STATE_1075_GERMAN
 	}
 	text = {
@@ -32429,7 +32595,12 @@ defined_text = {
 		localization_key = STATE_1083_VIETNAMESE
 	}
 	text = {
-		trigger = { is_tibetan = yes }
+		trigger = {
+			OR = {
+				is_tibetan = yes
+				is_using_postal = yes
+			}
+		}
 		localization_key = STATE_1083_TIBETAN
 	}
 	text = {
@@ -33637,6 +33808,10 @@ defined_text = {
 		localization_key = STATE_1119_ROMANIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1119_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1119
 	}
 }
@@ -33681,7 +33856,12 @@ defined_text = {
 		localization_key = STATE_1121_HUNGARIAN
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1121_CZECH
 	}
 	text = {
@@ -33707,7 +33887,12 @@ defined_text = {
 		localization_key = STATE_1122_HUNGARIAN
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1122_CZECH
 	}
 	text = {
@@ -33748,6 +33933,10 @@ defined_text = {
 		localization_key = STATE_1123_RUSSIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1123_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1123
 	}
 }
@@ -33770,6 +33959,7 @@ defined_text = {
 			OR = {
 				is_russian_speaking_tag = yes 
 				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_1124_RUSSIAN
@@ -33811,7 +34001,11 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_1125_BELARUSIAN
-	}	
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1125_SERBIAN
+	}
 	text = {
 		localization_key = STATE_1125
 	}
@@ -33841,6 +34035,10 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_1126_BELARUSIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1126_SERBIAN
 	}
 	text = {
 		localization_key = STATE_1126
@@ -33922,7 +34120,12 @@ defined_text = {
 		localization_key = STATE_1129
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes }
+		trigger = { 
+			OR = {
+				is_german_speaking_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1129_GERMAN
 	}
 	text = {
@@ -33966,6 +34169,10 @@ defined_text = {
 		localization_key = STATE_1130_FINNISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1130_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1130
 	}
 }
@@ -33996,6 +34203,10 @@ defined_text = {
 		localization_key = STATE_1131_SPANISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1131_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1131
 	}
 }
@@ -34016,6 +34227,14 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_1132_SPANISH
+	}
+	text = {
+		trigger = { is_russian_speaking_tag = yes }
+		localization_key = STATE_1132_RUSSIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1132_SERBIAN
 	}
 	text = {
 		localization_key = STATE_1132
@@ -34042,6 +34261,10 @@ defined_text = {
 	text = {
 		trigger = { is_finnish_tag = yes }
 		localization_key = STATE_1133_FINNISH
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1133_SERBIAN
 	}
 	text = {
 		localization_key = STATE_1133
@@ -34114,6 +34337,10 @@ defined_text = {
 		localization_key = STATE_1136_RUSSIAN
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1136_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1136
 	}
 }
@@ -34174,6 +34401,10 @@ defined_text = {
 		localization_key = STATE_1138_FINNISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1138_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1138
 	}
 }
@@ -34204,6 +34435,10 @@ defined_text = {
 		localization_key = STATE_1139_SPANISH
 	}
 	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1139_SERBIAN
+	}
+	text = {
 		localization_key = STATE_1139
 	}
 }
@@ -34218,7 +34453,7 @@ defined_text = {
 			OR = {
 				is_russian_speaking_tag = yes
 				is_german_speaking_tag = yes
-			 	 is_czechoslovak_tag = yes  
+			 	is_czechoslovak_tag = yes  
 			}
 		}
 		localization_key = STATE_1140_RUSSIAN
@@ -34226,6 +34461,10 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_1140_BELARUSIAN
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1140_SERBIAN
 	}
 	text = {
 		localization_key = STATE_1140
@@ -39422,7 +39661,11 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_1314_BELARUSIAN
-	}	
+	}
+	text = {
+		trigger = { is_south_slavic_speaking_tag = yes }
+		localization_key = STATE_1314_SERBIAN
+	}
 	text = {
 		localization_key = STATE_1314
 	}
@@ -40937,7 +41180,12 @@ defined_text = {
 		localization_key = STATE_1366_RUSSIAN #Tarnuv
 	}
 	text = {
-		trigger = { is_czechoslovak_tag = yes }
+		trigger = {
+			OR = {
+				is_czechoslovak_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = STATE_1366_CZECH
 	}
 	text = {
