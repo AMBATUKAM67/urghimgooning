@@ -10733,6 +10733,10 @@ defined_text = {
 		localization_key = STATE_309_SPANISH
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_309_CREOLE
+	}
+	text = {
 		localization_key = STATE_309 #Suriname
 	}
 }
@@ -10753,6 +10757,10 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_310_SPANISH
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_310_CREOLE
 	}
 	text = {
 		localization_key = STATE_310 #East Guyana
@@ -21723,6 +21731,10 @@ defined_text = {
 		localization_key = STATE_687_SPANISH
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_687_CREOLE
+	}
+	text = {
 		localization_key = STATE_687 #West Guyana
 	}
 }
@@ -21785,6 +21797,10 @@ defined_text = {
 	text = {
 		trigger = { is_danish = yes }
 		localization_key = STATE_691_DANISH
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_691_CREOLE
 	}
 	text = {
 		localization_key = STATE_691 #Trinidad & Tobago
@@ -21853,6 +21869,10 @@ defined_text = {
 		localization_key = STATE_694_DANISH
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_694_CREOLE
+	}
+	text = {
 		localization_key = STATE_694 #French Caribbean
 	}
 }
@@ -21876,6 +21896,14 @@ defined_text = {
 }
 defined_text = {
 	name = GetStateName_696
+	text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = STATE_696
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_696_CREOLE
+	}
 	text = {
 		localization_key = STATE_696 #Bermuda
 	}
@@ -31666,6 +31694,10 @@ defined_text = {
 		localization_key = STATE_1053_VIETNAMESE
 	}
 	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1053_POSTAL
+	}
+	text = {
 		localization_key = STATE_1053 #Zhennan
 	}
 }
@@ -31698,6 +31730,10 @@ defined_text = {
 	text = {
 		trigger = { is_vietnamese_speaking = yes }
 		localization_key = STATE_1054_VIETNAMESE
+	}
+	text = {
+		trigger = { is_using_postal = yes }
+		localization_key = STATE_1054_POSTAL
 	}
 	text = {
 		localization_key = STATE_1054 #Tiannan
@@ -32472,6 +32508,10 @@ defined_text = {
 	text = {
 		trigger = { is_danish = yes }
 		localization_key = STATE_1077_DANISH
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1077_CREOLE
 	}
 	text = {
 		localization_key = STATE_1077 #Saint Martin
@@ -39609,6 +39649,10 @@ defined_text = {
 	text = {
 		trigger = { is_danish = yes }
 		localization_key = STATE_1312_DANISH
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1312_CREOLE
 	}
 	text = {
 		localization_key = STATE_1312

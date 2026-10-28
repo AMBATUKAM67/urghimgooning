@@ -379,6 +379,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_177_DANISH
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_177_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_177
 	}
 }
@@ -5612,6 +5616,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_1440_DANISH
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_1440_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_1440
 	}
 }
@@ -9232,6 +9240,10 @@ defined_text = {
 	text = {
 		trigger = { is_danish = yes }
 		localization_key = VICTORY_POINTS_3284_DANISH
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_3284_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_3284
@@ -14089,6 +14101,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_4507_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_4507_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_4507
 	}
 }
@@ -16063,6 +16079,10 @@ defined_text = {
 			NOT = { original_tag = ALA }
 		}
 		localization_key = VICTORY_POINTS_4982_TOWNER
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_4982_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_4982
@@ -28020,7 +28040,12 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9468
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_russian_speaking_tag = yes
+				is_south_slavic_speaking_tag = yes
+			}
+		}
 		localization_key = VICTORY_POINTS_9468_RUSSIAN
 	}
 	text = {
@@ -28034,10 +28059,6 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = VICTORY_POINTS_9468_BELARUSIAN
-	}	
-	text = {
-		trigger = { is_south_slavic_speaking_tag = yes }
-		localization_key = VICTORY_POINTS_9468_SERBIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9468
@@ -42087,6 +42108,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_12401_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_12401_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_12401
 	}
 }
@@ -44085,6 +44110,14 @@ defined_text = {
 }
 defined_text = {
 	name = GetVictoryPointName_12885
+	text = {
+		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		localization_key = VICTORY_POINTS_12885
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_12885_CREOLE
+	}
 	text = {
 		localization_key = VICTORY_POINTS_12885
 	}
