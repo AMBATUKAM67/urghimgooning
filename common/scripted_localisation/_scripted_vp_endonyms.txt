@@ -37871,6 +37871,18 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11586_HUNGARIAN
 	}
 	text = {
+		trigger = {
+			AND = {
+				OR = {
+					original_tag = AUS
+					is_subject_of = AUS
+				}
+				has_global_flag = KX_POLICEMAN_SWEAR_TO_GOD
+			}
+		}
+		localization_key = VICTORY_POINTS_11586_FUN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_11586
 	}
 }
@@ -38167,12 +38179,24 @@ defined_text = {
 defined_text = {
 	name = GetVictoryPointName_11666
 	text = {
-		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
+		trigger = {
+			NOT = {
+				has_global_flag = allowrenaming_flag
+				has_country_flag = vienna_is_named_atlantis_flag
+			}
+		}
 		localization_key = VICTORY_POINTS_11666
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes }
+		trigger = {
+			is_german_tag = yes
+			NOT = { has_country_flag = vienna_is_named_atlantis_flag }
+		}
 		localization_key = VICTORY_POINTS_11666_GERMAN
+	}
+	text = {
+		trigger = { has_country_flag = vienna_is_named_atlantis_flag }
+		localization_key = VICTORY_POINTS_11666_ATLANTIS
 	}
 	text = {
 		trigger = { is_russian_speaking_tag = yes }
@@ -39176,6 +39200,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_11833_GREEK
+	}
+	text = {
+		trigger = { is_british_tag = yes }
+		localization_key = VICTORY_POINTS_11833_ENGLISH
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11833
