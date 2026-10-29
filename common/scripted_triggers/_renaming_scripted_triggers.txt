@@ -60,6 +60,7 @@ is_arab_tag = {
 			AND = {
 				original_tag = EGY
 				is_italian_imposed = no
+				is_hungarian_imposed = no
 			}
 			original_tag = YEM
 			original_tag = OMA
@@ -263,7 +264,10 @@ is_hungarian_tag = {
 	}
 }
 is_hungarian_speaking_tag = {
-	is_hungarian_tag = yes
+	OR = {
+		is_hungarian_tag = yes
+		is_hungarian_imposed = yes
+	}
 	AND = {
 		is_russian_imposed_tag = no
 		is_german_imposed_tag = no
@@ -2163,6 +2167,10 @@ is_south_slav_imposed = {
 is_polish_imposed = {
 	is_subject = yes
 	overlord = { is_polish_speaking_tag = yes }
+}
+is_hungarian_imposed = {
+	is_subject = yes
+	overlord = { is_hungarian_speaking_tag = yes }
 }
 is_english_imposed_tag = {
 	AND = {
