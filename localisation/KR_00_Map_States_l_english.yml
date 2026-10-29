@@ -7568,7 +7568,7 @@ STATE_989_GERMAN: "Thessaloniki"
 STATE_990: "Baku"
 STATE_990_ENDONYM: "[990.Controller.GetStateName_990]"
 STATE_990_TURKISH: "Baki"
-STATE_990_ABKHAZ: "Baķwa"
+STATE_990_ABKHAZ: "Bakwa"
 
 STATE_991: "Summan"
 STATE_991_ARABIC: "al-Sumān"

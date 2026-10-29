@@ -2046,17 +2046,6 @@ is_german_imposed_tag = {
 				NOT = { has_country_flag = WHR_revolution_success }
 			}
 		}
-		NOT = { #Kill
-			OR = {
-				original_tag = MNT
-				original_tag = HUN
-				original_tag = CRO
-				original_tag = FIU
-				original_tag = ITA
-				original_tag = CZE
-				original_tag = GAL
-			}
-		}
 	}
 }
 is_russian_imposed_tag = {
