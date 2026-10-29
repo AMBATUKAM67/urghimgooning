@@ -2627,6 +2627,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_688_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_688_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_688
 	}
 }
@@ -3629,6 +3633,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = VICTORY_POINTS_937_BULGARIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_937_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_937
@@ -10954,6 +10962,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3663_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_3663_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_3663
 	}
 }
@@ -11205,6 +11217,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_3707_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_3707_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_3707
@@ -19860,6 +19876,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6652_GERMAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6652_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6652
 	}
 }
@@ -20204,6 +20224,7 @@ defined_text = {
 			OR = {
 				is_czechoslovak_tag = yes
 				is_south_slavic_speaking_tag = yes
+				is_hungarian_speaking_tag = yes
 			}
 		}
 		localization_key = VICTORY_POINTS_6706_CZECH
@@ -20429,6 +20450,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_6727_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6727_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6727
@@ -25149,20 +25174,6 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetVictoryPointName_7925
-	text = {
-		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
-		localization_key = VICTORY_POINTS_7925
-	}
-	text = {
-		trigger = { is_arab_tag = yes }
-		localization_key = VICTORY_POINTS_7925_ARABIC
-	}
-	text = {
-		localization_key = VICTORY_POINTS_7925
-	}
-}
-defined_text = {
 	name = GetVictoryPointName_7934
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
@@ -29191,7 +29202,12 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9617_TURKISH
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_german_speaking_tag = yes
+				is_hungarian_speaking_tag = yes
+			}
+		}
 		localization_key = VICTORY_POINTS_9617_GERMAN
 	}
 	text = {
@@ -29538,7 +29554,12 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9665_CZECH
 	}
 	text = {
-		trigger = { is_south_slavic_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_south_slavic_speaking_tag = yes
+				is_hungarian_speaking_tag = yes
+			}
+		}
 		localization_key = VICTORY_POINTS_9665_SERBIAN
 	}
 	text = {
@@ -29844,6 +29865,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_9716_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9716_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9716
@@ -38630,6 +38655,10 @@ defined_text = {
 	text = {
 		trigger = { is_greek_tag = yes }
 		localization_key = VICTORY_POINTS_11735_GREEK
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_11735_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11735
@@ -47836,6 +47865,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_665_SPANISH
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_665_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_665
 	}
 }
@@ -48052,6 +48085,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_704_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_704_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_704
@@ -52788,6 +52825,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6552_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6552_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6552
 	}
 }
@@ -53074,6 +53115,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6690_FRENCH
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6690_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6690
 	}
 }
@@ -53231,6 +53276,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_6739_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_6739_HUNGARIAN
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6739
@@ -53577,7 +53626,12 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6957
 	}
 	text = {
-		trigger = { is_greek_tag = yes }
+		trigger = {
+			OR = {
+				is_greek_tag = yes
+				is_hungarian_speaking_tag = yes
+			}
+		}
 		localization_key = VICTORY_POINTS_6957_GREEK
 	}
 	text = {
@@ -55595,6 +55649,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9821_GERMAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = VICTORY_POINTS_9821_HUNGARIAN
+	}
+	text = {
 		localization_key = VICTORY_POINTS_9821
 	}
 }
@@ -56481,24 +56539,6 @@ defined_text = {
 	name = GetVictoryPointName_10762
 	text = {
 		localization_key = VICTORY_POINTS_10762
-	}
-}
-defined_text = {
-	name = GetVictoryPointName_10764
-	text = {
-		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
-		localization_key = VICTORY_POINTS_10764
-	}
-	text = {
-		trigger = { is_arab_tag = yes }
-		localization_key = VICTORY_POINTS_10764_ARABIC
-	}
-	text = {
-		trigger = { is_russian_speaking_tag = yes }
-		localization_key = VICTORY_POINTS_10764_RUSSIAN
-	}
-	text = {
-		localization_key = VICTORY_POINTS_10764
 	}
 }
 defined_text = {
