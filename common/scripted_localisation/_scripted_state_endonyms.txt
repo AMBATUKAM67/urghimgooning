@@ -1516,6 +1516,10 @@ defined_text = {
 		localization_key = STATE_39_SERBIAN 
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_39_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_39 #Southern Tyrol
 	}
 }
@@ -2863,6 +2867,10 @@ defined_text = {
 		localization_key = STATE_71_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_71_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_71 #Danubian Plain
 	}
 }
@@ -2974,6 +2982,10 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_74_SPANISH
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_74_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_74 #Czech Silesia
@@ -3208,6 +3220,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = STATE_80_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_80_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_80 #Cernauti
@@ -3493,6 +3509,10 @@ defined_text = {
 		localization_key = STATE_88_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_88_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_88 #Krakow
 	}
 }
@@ -3548,6 +3568,10 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_89_BELARUSIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_89_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_89 #Stanislawow
@@ -3613,6 +3637,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = STATE_91_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_91_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_91 #Lwow
@@ -3973,6 +4001,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = STATE_102_BULGARIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_102_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_102 #Carniola
@@ -5567,6 +5599,7 @@ defined_text = {
 				is_russian_speaking_tag = yes
 				is_spanish_speaking_tag = yes
 				is_south_slavic_speaking_tag = yes
+				is_hungarian_speaking_tag = yes
 			}
 		}
 		localization_key = STATE_153_GERMAN #Tirol
@@ -22366,6 +22399,10 @@ defined_text = {
 		localization_key = STATE_713_CZECH
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_713_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_713 #Suceava
 	}
 }
@@ -23015,6 +23052,10 @@ defined_text = {
 			}
 		}
 		localization_key = STATE_736_BULGARIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_736_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_736 #Istria
@@ -24785,6 +24826,10 @@ defined_text = {
 		localization_key = STATE_786_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_786_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_786 #Budejovice
 	}
 }
@@ -26308,7 +26353,12 @@ defined_text = {
 		localization_key = STATE_835_GERMAN #Kärnten
 	}
 	text = {
-		trigger = { is_russian_speaking_tag = yes }
+		trigger = {
+			OR = {
+				is_russian_speaking_tag = yes
+				is_bulgaria = yes
+			}
+		}
 		localization_key = STATE_835_RUSSIAN
 	}
 	text = {
@@ -26328,8 +26378,8 @@ defined_text = {
 		localization_key = STATE_835_SERBIAN 
 	}
 	text = {
-		trigger = { is_bulgaria = yes }
-		localization_key = STATE_835_BULGARIAN
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_835_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_835 #Carinthia
@@ -28972,6 +29022,10 @@ defined_text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_942_SPANISH
 	}	
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_942_HUNGARIAN
+	}
 	text = {
 		localization_key = STATE_942 #Vorarlberg
 	}
@@ -33389,6 +33443,10 @@ defined_text = {
 		localization_key = STATE_1100_CZECH
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1100_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1100
 	}
 }
@@ -33433,6 +33491,10 @@ defined_text = {
 	text = {
 		trigger = { is_bulgaria = yes }
 		localization_key = STATE_1101_BULGARIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1101_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_1101
@@ -33520,6 +33582,10 @@ defined_text = {
 		localization_key = STATE_1103_BULGARIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1103_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1103
 	}
 }
@@ -33549,6 +33615,10 @@ defined_text = {
 	text = {
 		trigger = { is_spanish_speaking_tag = yes }
 		localization_key = STATE_1104_SPANISH
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1104_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_1104
@@ -34161,6 +34231,10 @@ defined_text = {
 		localization_key = STATE_1124_BELARUSIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1124_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1124
 	}
 }
@@ -34199,6 +34273,10 @@ defined_text = {
 		localization_key = STATE_1125_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1125_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1125
 	}
 }
@@ -34231,6 +34309,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = STATE_1126_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1126_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_1126
@@ -34369,6 +34451,10 @@ defined_text = {
 		localization_key = STATE_1130_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1130_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1130
 	}
 }
@@ -34401,6 +34487,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = STATE_1131_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1131_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_1131
@@ -34647,6 +34737,10 @@ defined_text = {
 		localization_key = STATE_1139_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1139_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1139
 	}
 }
@@ -34673,6 +34767,10 @@ defined_text = {
 	text = {
 		trigger = { is_south_slavic_speaking_tag = yes }
 		localization_key = STATE_1140_SERBIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1140_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_1140
@@ -39913,6 +40011,10 @@ defined_text = {
 		localization_key = STATE_1314_SERBIAN
 	}
 	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1314_HUNGARIAN
+	}
+	text = {
 		localization_key = STATE_1314
 	}
 }
@@ -40039,6 +40141,10 @@ defined_text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_1319_BELARUSIAN
 	}	
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1319_HUNGARIAN
+	}
 	text = {
 		localization_key = STATE_1319
 	}
@@ -41437,6 +41543,10 @@ defined_text = {
 	text = {
 		trigger = { is_belarus = yes }
 		localization_key = STATE_1366_BELARUSIAN
+	}
+	text = {
+		trigger = { is_hungarian_speaking_tag = yes }
+		localization_key = STATE_1366_HUNGARIAN
 	}
 	text = {
 		localization_key = STATE_1366 #Tarnow
