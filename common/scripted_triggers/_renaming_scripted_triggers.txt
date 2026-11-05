@@ -2003,6 +2003,19 @@ is_using_creole = {
 		has_country_leader = { name = "Papa Doc" ruling_only = yes }
 	}
 }
+is_armenian = {
+	OR = {
+		original_tag = ARM
+		is_armenian_imposed = yes
+	}
+	AND = {
+		is_russian_imposed_tag = no
+		is_german_imposed_tag = no
+	}
+}
+# is_cantonesing = {
+# 	original_tag = GXC
+# }
 #################
 is_german_imposed_tag = { 
 	AND = {
@@ -2171,6 +2184,10 @@ is_polish_imposed = {
 is_hungarian_imposed = {
 	is_subject = yes
 	overlord = { is_hungarian_speaking_tag = yes }
+}
+is_armenian_imposed = {
+	is_subject = yes
+	overlord = { is_armenian = yes }
 }
 is_english_imposed_tag = {
 	AND = {
