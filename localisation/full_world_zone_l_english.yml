@@ -6,8 +6,8 @@ STATE_1477_DANISH: "Nordgrønland"
 STATE_1477_RUSSIAN: "Severnaya Grenlandiya"
 STATE_1477_ICELANDIC: "Norður-Grænland"
 
-STATE_1368: "Bryan Coast Base"
-STATE_1368_ENDONYM: "[1368.Controller.GetStateName_1368]"
+#STATE_1368: "Bryan Coast Base"
+#STATE_1368_ENDONYM: "[1368.Controller.GetStateName_1368]"
 
 STATE_1369: "Desventuradas Islands"
 STATE_1369_ENDONYM: "[1369.Controller.GetStateName_1369]"
