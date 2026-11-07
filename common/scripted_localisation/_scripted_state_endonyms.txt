@@ -12996,6 +12996,10 @@ defined_text = {
 		localization_key = STATE_374_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_374_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_374 #Oklahoma
 	}
 }
@@ -13094,6 +13098,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_376_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_376_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_376 #New Mexico
@@ -13270,6 +13278,10 @@ defined_text = {
 		localization_key = STATE_380_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_380_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_380 #Utah
 	}
 }
@@ -13307,6 +13319,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_381_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_381_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_381 #Wyoming
@@ -13347,6 +13363,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_382_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_382_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_382 #Colorado
@@ -13420,6 +13440,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_384_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_384_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_384 #Nebraska
@@ -13590,6 +13614,10 @@ defined_text = {
 		localization_key = STATE_388_ALBANIAN
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_388_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_388 #Montana
 	}
 }
@@ -13636,6 +13664,10 @@ defined_text = {
 		localization_key = STATE_389_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_389_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_389 #North Dakota
 	}
 }
@@ -13680,6 +13712,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_390_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_390_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_390 #South Dakota
@@ -16058,6 +16094,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_463_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_463_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_463 #Southeast Alaska
@@ -25437,6 +25477,10 @@ defined_text = {
 		localization_key = STATE_798_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_798_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_798 #Los Angeles
 	}
 }
@@ -33492,6 +33536,10 @@ defined_text = {
 		localization_key = STATE_1096_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1096_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1096 #Yaounde
 	}
 }
@@ -35264,6 +35312,10 @@ defined_text = {
 		localization_key = STATE_1150_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1150_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1150
 	}
 }
@@ -35606,6 +35658,10 @@ defined_text = {
 		localization_key = STATE_1157_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1157_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1157
 	}
 }
@@ -35787,6 +35843,10 @@ defined_text = {
 		localization_key = STATE_1161_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1161_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1161 #Eastern New Mexico
 	}
 }
@@ -35921,6 +35981,10 @@ defined_text = {
 		localization_key = STATE_1164_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1164_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1164
 	}
 }
@@ -35952,6 +36016,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_1165_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1165_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_1165
@@ -36360,6 +36428,10 @@ defined_text = {
 		localization_key = STATE_1174_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1174_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1174
 	}
 }
@@ -36400,6 +36472,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_1175_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1175_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_1175
@@ -41240,6 +41316,10 @@ defined_text = {
 		localization_key = STATE_1348_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1348_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1348 #Southcentral Alaska
 	}
 }
@@ -41289,6 +41369,10 @@ defined_text = {
 		localization_key = STATE_1349_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1349_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1349 #Southwest Alaska
 	}
 }
@@ -41336,6 +41420,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_1350_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1350_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_1350 #North Alaska
