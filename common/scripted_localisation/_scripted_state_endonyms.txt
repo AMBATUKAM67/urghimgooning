@@ -20648,6 +20648,10 @@ defined_text = {
 		localization_key = STATE_632_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_632_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_632 #Wake Island
 	}
 }
@@ -20797,6 +20801,10 @@ defined_text = {
 		localization_key = STATE_638_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_638_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_638 #Guam
 	}
 }
@@ -20895,7 +20903,11 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_642_CHINESE
-	}	
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_642_HAWAIIAN
+	}
 	text = {
 		localization_key = STATE_642 #Phoenix Island
 	}
@@ -22947,6 +22959,10 @@ defined_text = {
 	text = {
 		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_726_GERMAN #Ostsamoa
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_726_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_726 #Samoa
@@ -36065,6 +36081,10 @@ defined_text = {
 		localization_key = STATE_1166_CHINESE
 	}
 	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1166_HAWAIIAN
+	}
+	text = {
 		localization_key = STATE_1166
 	}
 }
@@ -39235,6 +39255,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_1273_CHINESE
+	}
+	text = {
+		trigger = { is_hawaii = yes }
+		localization_key = STATE_1273_HAWAIIAN
 	}
 	text = {
 		localization_key = STATE_1273
