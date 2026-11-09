@@ -1843,7 +1843,10 @@ is_using_postal = {
 			original_tag = LEC
 			NOT = {
 				OR = {
-					has_country_flag = LEC_Triad_Power
+					AND = {
+						has_country_flag = LEC_Triad_Power
+						NOT = { has_completed_focus = LEC_pockmarked_huang_jinrong_pulls_ahead }
+					}
 					has_country_flag = LEC_Shuntian_Power
 					is_japanese_imposed_tag = yes
 					is_german_imposed_tag = yes
@@ -2001,6 +2004,7 @@ is_using_creole = {
 		has_country_leader = { name = "François Duvalier" ruling_only = yes }
 		has_country_leader = { name = "François 'Papa Doc' Duvalier" ruling_only = yes }
 		has_country_leader = { name = "Papa Doc" ruling_only = yes }
+		has_country_flag = HAI_faustin_takeover
 	}
 }
 is_armenian = {

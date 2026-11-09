@@ -5730,8 +5730,13 @@ defined_text = {
 	name = GetVictoryPointName_1453
 	text = {
 		trigger = { 
-			original_tag = HAI
-			371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+			OR = {
+				AND = {
+					original_tag = HAI
+					371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+				}
+				is_using_creole = yes
+			}
 		}
 		localization_key = VICTORY_POINTS_1453_HAITI
 	}
@@ -7032,6 +7037,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = VICTORY_POINTS_1843_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_1843_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_1843
@@ -11996,6 +12005,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3878_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_3878_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_3878
 	}
 }
@@ -12272,6 +12285,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3957_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_3957_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_3957
 	}
 }
@@ -12337,7 +12354,12 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3960_SPANISH
 	}
 	text = {
-		trigger = { is_jewish = yes }
+		trigger = {
+			OR = {
+				is_jewish = yes
+				is_using_creole = yes
+			}
+		}
 		localization_key = VICTORY_POINTS_3960_JEWISH
 	}
 	text = {
@@ -21856,6 +21878,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6984_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6984_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6984
 	}
 }
@@ -24153,8 +24179,13 @@ defined_text = {
 	name = GetVictoryPointName_7552
 	text = {
 		trigger = { 
-			original_tag = HAI
-			371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+			OR = {
+				AND = {
+					original_tag = HAI
+					371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+				}
+				is_using_creole = yes
+			}
 		}
 		localization_key = VICTORY_POINTS_7552_HAITI
 	}
@@ -32965,6 +32996,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_10337_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_10337_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_10337
 	}
 }
@@ -34375,6 +34410,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_10798_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_10798_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_10798
@@ -58763,7 +58802,12 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11892_GAELIC
 	}
 	text = {
-		trigger = { is_jewish = yes }
+		trigger = {
+			OR = {
+				is_jewish = yes
+				is_using_creole = yes
+			}
+		}
 		localization_key = VICTORY_POINTS_11892_JEWISH
 	}
 	text = {

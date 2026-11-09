@@ -9709,6 +9709,10 @@ defined_text = {
 		localization_key = STATE_261_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_261_CREOLE
+	}
+	text = {
 		localization_key = STATE_261 #Ohio
 	}
 }
@@ -12269,6 +12273,10 @@ defined_text = {
 		localization_key = STATE_358_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_358_CREOLE
+	}
+	text = {
 		localization_key = STATE_358 #New York City
 	}
 }
@@ -12315,6 +12323,10 @@ defined_text = {
 		localization_key = STATE_359_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_359_CREOLE
+	}
+	text = {
 		localization_key = STATE_359 #New Jersey
 	}
 }
@@ -12359,6 +12371,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_360_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_360_CREOLE
 	}
 	text = {
 		localization_key = STATE_360 #Philadelphia
@@ -12414,6 +12430,10 @@ defined_text = {
 		localization_key = STATE_361_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_361_CREOLE
+	}
+	text = {
 		localization_key = STATE_361 #Maryland
 	}
 }
@@ -12460,6 +12480,10 @@ defined_text = {
 		localization_key = STATE_362_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_362_CREOLE
+	}
+	text = {
 		localization_key = STATE_362 #Virginia
 	}
 }
@@ -12504,6 +12528,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_363_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_363_CREOLE
 	}
 	text = {
 		localization_key = STATE_363 #North Carolina
@@ -12598,6 +12626,10 @@ defined_text = {
 		localization_key = STATE_365_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_365_CREOLE
+	}
+	text = {
 		localization_key = STATE_365 #Georgia
 	}
 }
@@ -12634,6 +12666,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_366_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_366_CREOLE
 	}
 	text = {
 		localization_key = STATE_366 #Florida
@@ -12720,6 +12756,10 @@ defined_text = {
 		localization_key = STATE_368_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_368_CREOLE
+	}
+	text = {
 		localization_key = STATE_368 #Tennessee
 	}
 }
@@ -12763,6 +12803,10 @@ defined_text = {
 		localization_key = STATE_369_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_369_CREOLE
+	}
+	text = {
 		localization_key = STATE_369 #Kentucky
 	}
 }
@@ -12790,6 +12834,7 @@ defined_text = {
 				is_jewish = yes 
 				is_albanian = yes
 				is_czechoslovak_tag = yes
+				is_using_creole = yes
 			}
 		}
 		localization_key = STATE_370_JEWISH
@@ -12814,8 +12859,13 @@ defined_text = {
 	name = GetStateName_371
 	text = {
 		trigger = { 
-			original_tag = HAI
-			371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+			OR = {
+				AND = {
+					original_tag = HAI
+					371 = { has_state_flag = HAI_renamed_state_lwiziyana }
+				}
+				is_using_creole = yes
+			}
 		}
 		localization_key = STATE_371_HAITI #Lwiziyana
 	}
@@ -12915,6 +12965,10 @@ defined_text = {
 		localization_key = STATE_372_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_372_CREOLE
+	}
+	text = {
 		localization_key = STATE_372 #Arkansas
 	}
 }
@@ -12962,6 +13016,10 @@ defined_text = {
 		localization_key = STATE_373_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_373_CREOLE
+	}
+	text = {
 		localization_key = STATE_373 #Missouri
 	}
 }
@@ -12998,6 +13056,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_374_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_374_CREOLE
 	}
 	text = {
 		localization_key = STATE_374 #Oklahoma
@@ -13052,6 +13114,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_375_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_375_CREOLE
 	}
 	text = {
 		localization_key = STATE_375 #Northern Texas
@@ -13412,6 +13478,10 @@ defined_text = {
 		localization_key = STATE_383_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_383_CREOLE
+	}
+	text = {
 		localization_key = STATE_383 #Kansas
 	}
 }
@@ -13736,6 +13806,7 @@ defined_text = {
 			OR = {
 				is_albanian = yes
 				is_japanese_speaking_tag = yes 
+				is_using_creole = yes
 			}
 		}
 		localization_key = STATE_391_JAPANESE
@@ -13807,6 +13878,10 @@ defined_text = {
 		localization_key = STATE_392_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_392_CREOLE
+	}
+	text = {
 		localization_key = STATE_392 #Iowa
 	}
 }
@@ -13851,6 +13926,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_393_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_393_CREOLE
 	}
 	text = {
 		localization_key = STATE_393 #Michigan
@@ -13989,6 +14068,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_396_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_396_CREOLE
 	}
 	text = {
 		localization_key = STATE_396 #Indiana
@@ -26557,6 +26640,10 @@ defined_text = {
 		localization_key = STATE_833_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_833_CREOLE
+	}
+	text = {
 		localization_key = STATE_833 #Southern Texas
 	}
 }
@@ -28786,6 +28873,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_929_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_929_CREOLE
 	}
 	text = {
 		localization_key = STATE_929 #West Virginia
@@ -35436,6 +35527,10 @@ defined_text = {
 		localization_key = STATE_1152_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1152_CREOLE
+	}
+	text = {
 		localization_key = STATE_1152 #Wisconsin
 	}
 }
@@ -36271,6 +36366,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = STATE_1170_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1170_CREOLE
 	}
 	text = {
 		localization_key = STATE_1170
