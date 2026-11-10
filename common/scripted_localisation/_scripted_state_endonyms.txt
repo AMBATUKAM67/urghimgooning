@@ -167,7 +167,11 @@ defined_text = {
 		localization_key = STATE_5 #East Prussia
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes is_belarusian_imposed = no }
+		trigger = { is_belarus = yes }
+		localization_key = STATE_5_BELARUSIAN
+	}
+	text = {
+		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_5_GERMAN #Ostpreußen
 	}
 	text = {
@@ -189,10 +193,6 @@ defined_text = {
 	text = {
 		trigger = { is_dano_norwegian = yes }
 		localization_key = STATE_5_DANISH
-	}
-	text = {
-		trigger = { is_belarus = yes }
-		localization_key = STATE_5_BELARUSIAN
 	}
 	text = {
 		trigger = { is_finnish_tag = yes }
@@ -2483,7 +2483,11 @@ defined_text = {
 		localization_key = STATE_63 #Farther Pomerania
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes is_belarusian_imposed = no }
+		trigger = { is_belarus = yes }
+		localization_key = STATE_63_BELARUSIAN
+	}
+	text = {
+		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_63_GERMAN #Hinterpommern
 	}
 	text = {
@@ -2513,10 +2517,6 @@ defined_text = {
 	text = {
 		trigger = { is_norwegian = yes }
 		localization_key = STATE_63_NORWEGIAN
-	}
-	text = {
-		trigger = { is_belarus = yes }
-		localization_key = STATE_63_BELARUSIAN
 	}
 	text = {
 		trigger = { is_finnish_tag = yes }
@@ -2629,7 +2629,11 @@ defined_text = {
 		localization_key = STATE_66 #Lower Silesia
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes is_belarusian_imposed = no }
+		trigger = { is_belarus = yes }
+		localization_key = STATE_66_BELARUSIAN
+	}
+	text = {
+		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_66_GERMAN #Niederschlesien
 	}
 	text = {
@@ -2655,10 +2659,6 @@ defined_text = {
 	text = {
 		trigger = { is_dano_norwegian = yes }
 		localization_key = STATE_66_DANISH
-	}	
-	text = {
-		trigger = { is_belarus = yes }
-		localization_key = STATE_66_BELARUSIAN
 	}
 	text = {
 		trigger = { is_finnish_tag = yes }
@@ -2683,7 +2683,11 @@ defined_text = {
 		localization_key = STATE_67 #Upper Silesia
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes is_belarusian_imposed = no }
+		trigger = { is_belarus = yes }
+		localization_key = STATE_67_BELARUSIAN
+	}
+	text = {
+		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_67_GERMAN #Oberschlesien
 	}
 	text = {
@@ -2709,10 +2713,6 @@ defined_text = {
 	text = {
 		trigger = { is_dano_norwegian = yes }
 		localization_key = STATE_67_DANISH
-	}	
-	text = {
-		trigger = { is_belarus = yes }
-		localization_key = STATE_67_BELARUSIAN
 	}
 	text = {
 		trigger = { is_finnish_tag = yes }
@@ -5463,11 +5463,12 @@ defined_text = {
 		localization_key = STATE_149 #East Bothnia
 	}
 	text = {
-		trigger = { original_tag = SCA }
-		localization_key = STATE_149_FINNISH #Pohjanmaa
-	}
-	text = {
-		trigger = { is_finnish_tag = yes }
+		trigger = {
+			OR = {
+				is_finnish_tag = yes
+				original_tag = SCA
+			}
+		}
 		localization_key = STATE_149_FINNISH #Pohjanmaa
 	}
 	text = {
@@ -24689,7 +24690,11 @@ defined_text = {
 		localization_key = STATE_776 #West Prussia
 	}
 	text = {
-		trigger = { is_german_speaking_tag = yes is_belarusian_imposed = no }
+		trigger = { is_belarus = yes }
+		localization_key = STATE_776_BELARUSIAN
+	}
+	text = {
+		trigger = { is_german_speaking_tag = yes }
 		localization_key = STATE_776_GERMAN #Westpreußen
 	}
 	text = {
@@ -24716,10 +24721,6 @@ defined_text = {
 		trigger = { is_dano_norwegian = yes }
 		localization_key = STATE_776_DANISH
 	}	
-	text = {
-		trigger = { is_belarus = yes }
-		localization_key = STATE_776_BELARUSIAN
-	}
 	text = {
 		trigger = { is_finnish_tag = yes }
 		localization_key = STATE_776_FINNISH
@@ -26853,11 +26854,12 @@ defined_text = {
 		localization_key = STATE_840 #Nyland
 	}
 	text = {
-		trigger = { original_tag = SCA }
-		localization_key = STATE_840_FINNISH #Uusimaa
-	}
-	text = {
-		trigger = { is_finnish_tag = yes }
+		trigger = {
+			OR = {
+				is_finnish_tag = yes
+				original_tag = SCA
+			}
+		}
 		localization_key = STATE_840_FINNISH #Uusimaa
 	}
 	text = {
@@ -27274,11 +27276,12 @@ defined_text = {
 		localization_key = STATE_863 #Southwest Finland
 	}
 	text = {
-		trigger = { original_tag = SCA }
-		localization_key = STATE_863_FINNISH #Varsinais-Suomi
-	}
-	text = {
-		trigger = { is_finnish_tag = yes }
+		trigger = {
+			OR = {
+				is_finnish_tag = yes
+				original_tag = SCA
+			}
+		}
 		localization_key = STATE_863_FINNISH #Varsinais-Suomi
 	}
 	text = {
@@ -33094,13 +33097,7 @@ defined_text = {
 		localization_key = STATE_1080 #Abkhazia
 	}
 	text = {
-		trigger = {
-			AND = {
-				tag = GEO 
-				is_german_imposed_tag = no
-				is_russian_imposed_tag = no
-			}
-		}
+		trigger = { is_georgia = yes }
 		localization_key = STATE_1080_GEORGIAN #Apkhazeti
 	}
 	text = {
@@ -40787,11 +40784,12 @@ defined_text = {
 		localization_key = STATE_1327
 	}
 	text = {
-		trigger = { original_tag = SCA }
-		localization_key = STATE_1327_FINNISH
-	}
-	text = {
-		trigger = { is_finnish_tag = yes }
+		trigger = {
+			OR = {
+				is_finnish_tag = yes
+				original_tag = SCA
+			}
+		}
 		localization_key = STATE_1327_FINNISH
 	}
 	text = {
@@ -40829,11 +40827,12 @@ defined_text = {
 		localization_key = STATE_1328
 	}
 	text = {
-		trigger = { original_tag = SCA }
-		localization_key = STATE_1328_FINNISH
-	}
-	text = {
-		trigger = { is_finnish_tag = yes }
+		trigger = {
+			OR = {
+				is_finnish_tag = yes
+				original_tag = SCA
+			}
+		}
 		localization_key = STATE_1328_FINNISH
 	}
 	text = {
