@@ -3147,6 +3147,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_788_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_788_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_788
 	}
 }
@@ -5722,6 +5726,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_1445_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_1445_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_1445
@@ -11793,6 +11801,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_3823_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_3823_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_3823
@@ -20362,6 +20374,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6696_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6696_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6696
 	}
 }
@@ -20522,6 +20538,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_6710_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6710_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6710
@@ -20775,6 +20795,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_6732_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6732_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6732
@@ -21289,6 +21313,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6855_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6855_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6855
 	}
 }
@@ -21435,6 +21463,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_6882_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6882_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_6882
 	}
 }
@@ -21574,6 +21606,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_6890_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_6890_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_6890
@@ -30201,6 +30237,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9713_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_9713_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_9713
 	}
 }
@@ -30504,6 +30544,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_9758_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_9758_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9758
@@ -30863,6 +30907,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9832_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_9832_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_9832
 	}
 }
@@ -31049,6 +31097,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_9850_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_9850_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9850
@@ -38683,6 +38735,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11654_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_11654_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_11654
 	}
 }
@@ -39449,6 +39505,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_11782_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_11782_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_11782
 	}
 }
@@ -39502,6 +39562,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_11785_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_11785_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11785
@@ -39626,6 +39690,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_11800_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_11800_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_11800
@@ -42401,6 +42469,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_12357_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_12357_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_12357
@@ -48984,6 +49056,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_822_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_822_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_822
 	}
 }
@@ -51369,6 +51445,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_3824_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_3824_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_3824
 	}
 }
@@ -51454,6 +51534,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_3863_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_3863_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_3863
@@ -52710,6 +52794,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_5022_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_5022_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_5022
@@ -56260,6 +56348,10 @@ defined_text = {
 		localization_key = VICTORY_POINTS_9673_HAWAIIAN
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_9673_CREOLE
+	}
+	text = {
 		localization_key = VICTORY_POINTS_9673
 	}
 }
@@ -56517,6 +56609,10 @@ defined_text = {
 	text = {
 		trigger = { is_hawaii = yes }
 		localization_key = VICTORY_POINTS_9864_HAWAIIAN
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = VICTORY_POINTS_9864_CREOLE
 	}
 	text = {
 		localization_key = VICTORY_POINTS_9864
