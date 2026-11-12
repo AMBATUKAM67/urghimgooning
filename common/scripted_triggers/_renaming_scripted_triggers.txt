@@ -412,7 +412,10 @@ is_french_speaking_tag = {
 			}
 			tag = QUE
 			tag = WLL
-			tag = HAI
+			AND = {
+				tag = HAI
+				is_using_creole = no
+			}
 			AND = {
 				original_tag = GUA
 				has_completed_focus = GUA_french_cuck
@@ -435,7 +438,7 @@ is_french_speaking_tag = {
 			is_basque_imposed = no
 			is_italian_imposed = no
 			is_chinese_imposed_tag = no
-			is_using_creole = no
+			is_creole_imposed = no
 		}
 	}
 }
@@ -836,6 +839,7 @@ is_belgian_but_only_for_renames = {
 		is_finnish_imposed = no
 		is_basque_imposed = no
 		is_chinese_imposed_tag = no
+		is_creole_imposed = no
 	}
 }
 is_south_slav_tag = {
@@ -1951,6 +1955,7 @@ is_luxembourg = {
 		is_czech_imposed = no
 		is_spanish_imposed_tag = no
 		is_chinese_imposed_tag = no
+		is_creole_imposed = no
 	}
 }
 is_iceland = {
@@ -1999,12 +2004,17 @@ is_abkhaz = {
 	}
 }
 is_using_creole = {
-	original_tag = HAI
 	OR = {
-		has_country_leader = { name = "François Duvalier" ruling_only = yes }
-		has_country_leader = { name = "François 'Papa Doc' Duvalier" ruling_only = yes }
-		has_country_leader = { name = "Papa Doc" ruling_only = yes }
-		has_country_flag = HAI_faustin_takeover
+		AND = {
+			original_tag = HAI
+			OR = {
+				has_country_leader = { name = "François Duvalier" ruling_only = yes }
+				has_country_leader = { name = "François 'Papa Doc' Duvalier" ruling_only = yes }
+				has_country_leader = { name = "Papa Doc" ruling_only = yes }
+				has_country_flag = HAI_faustin_takeover
+			}
+		}
+		is_creole_imposed = yes
 	}
 }
 is_armenian = {
@@ -2192,6 +2202,10 @@ is_hungarian_imposed = {
 is_armenian_imposed = {
 	is_subject = yes
 	overlord = { is_armenian = yes }
+}
+is_creole_imposed = {
+	is_subject = yes
+	overlord = { is_using_creole = yes }
 }
 is_english_imposed_tag = {
 	AND = {

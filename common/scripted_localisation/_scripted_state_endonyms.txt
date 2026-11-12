@@ -30,6 +30,10 @@ defined_text = {
 		localization_key = STATE_1_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1_CREOLE
+	}
+	text = {
 		localization_key = STATE_1 #Corsica
 	}
 }
@@ -221,6 +225,10 @@ defined_text = {
 		localization_key = STATE_6 #Flanders
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_6_CREOLE
+	}
+	text = {
 		trigger = { 
 			OR = {
 				is_dutch_tag = yes 
@@ -306,6 +314,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_8 #Luxembourg
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_8_CREOLE
 	}
 	text = {
 		trigger = {
@@ -615,6 +627,10 @@ defined_text = {
 		localization_key = STATE_14_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_14_CREOLE
+	}
+	text = {
 		localization_key = STATE_14 #Upper Brittany
 	}
 }
@@ -653,6 +669,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_15_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_15_CREOLE
 	}
 	text = {
 		localization_key = STATE_15 #Normandy
@@ -731,6 +751,10 @@ defined_text = {
 		localization_key = STATE_17_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_17_CREOLE
+	}
+	text = {
 		localization_key = STATE_17 #Pas-de-Calais
 	}
 }
@@ -763,6 +787,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_18_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_18_CREOLE
 	}
 	text = {
 		localization_key = STATE_18 #Champagne
@@ -800,6 +828,10 @@ defined_text = {
 		localization_key = STATE_19_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_19_CREOLE
+	}
+	text = {
 		localization_key = STATE_19 #Aquitaine
 	}
 }
@@ -832,6 +864,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_20_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_20_CREOLE
 	}
 	text = {
 		localization_key = STATE_20 #Lyonnais
@@ -868,6 +904,10 @@ defined_text = {
 		localization_key = STATE_21_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_21_CREOLE
+	}
+	text = {
 		localization_key = STATE_21
 	}
 }
@@ -892,6 +932,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_22_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_22_CREOLE
 	}
 	text = {
 		localization_key = STATE_22 #Languedoc
@@ -923,6 +967,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_23_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_23_CREOLE
 	}
 	text = {
 		localization_key = STATE_23 #Poitou
@@ -963,6 +1011,10 @@ defined_text = {
 		localization_key = STATE_24_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_24_CREOLE
+	}
+	text = {
 		localization_key = STATE_24 #Picardy
 	}
 }
@@ -991,6 +1043,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_25_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_25_CREOLE
 	}
 	text = {
 		localization_key = STATE_25 #Limousin
@@ -1026,6 +1082,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_26_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_26_CREOLE
 	}
 	text = {
 		localization_key = STATE_26 #Auvergne
@@ -1064,6 +1124,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_27_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_27_CREOLE
 	}
 	text = {
 		localization_key = STATE_27 #Burgundy
@@ -1124,6 +1188,10 @@ defined_text = {
 		localization_key = STATE_28_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_28_CREOLE
+	}
+	text = {
 		localization_key = STATE_28 #Alsace-Lorraine
 	}
 }
@@ -1170,6 +1238,10 @@ defined_text = {
 		localization_key = STATE_29_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_29_CREOLE
+	}
+	text = {
 		localization_key = STATE_29 #Dunkirk
 	}
 }
@@ -1194,6 +1266,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_30_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_30_CREOLE
 	}
 	text = {
 		localization_key = STATE_30 #Maine
@@ -1263,6 +1339,10 @@ defined_text = {
 		localization_key = STATE_32_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_32_CREOLE
+	}
+	text = {
 		localization_key = STATE_32 #Rhône
 	}
 }
@@ -1293,6 +1373,10 @@ defined_text = {
 		localization_key = STATE_33_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_33_CREOLE
+	}
+	text = {
 		localization_key = STATE_33 #Orléanais
 	}
 }
@@ -1301,6 +1385,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_34 #Wallonia
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_34_CREOLE
 	}
 	text = {
 		trigger = { is_dutch_tag = yes }
@@ -1355,6 +1443,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_35 #North Brabant
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_35_CREOLE
 	}
 	text = {
 		trigger = { is_dutch_tag = yes }
@@ -1580,6 +1672,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_42 #Palatinate
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_42_CREOLE
 	}
 	text = {
 		trigger = {
@@ -1927,6 +2023,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_51 #Eastern Rhineland
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_51_CREOLE
 	}
 	text = {
 		trigger = { is_german_speaking_tag = yes }
@@ -6034,6 +6134,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_165 #Catalonia
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_165_CREOLE
 	}
 	text = {
 		trigger = { is_catalan = yes }
@@ -23372,6 +23476,10 @@ defined_text = {
 		localization_key = STATE_735_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_735_CREOLE
+	}
+	text = {
 		localization_key = STATE_735 #Savoy
 	}
 }
@@ -23502,6 +23610,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_741 #Ardennes
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_741_CREOLE
 	}
 	text = {
 		trigger = { is_belgian_but_only_for_renames = yes }
@@ -24170,6 +24282,10 @@ defined_text = {
 		localization_key = STATE_760 #Romandy
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_760_CREOLE
+	}
+	text = {
 		trigger = {
 			OR = {
 				is_french_speaking_tag = yes 
@@ -24274,6 +24390,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_762_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_762_CREOLE
 	}
 	text = {
 		localization_key = STATE_762 #Nice
@@ -24883,6 +25003,7 @@ defined_text = {
 			OR = {
 				is_russian_speaking_tag = yes 
 				is_basque = yes
+				is_using_creole = yes
 			}
 		}
 		localization_key = STATE_779_RUSSIAN
@@ -24950,6 +25071,10 @@ defined_text = {
 	text = {
 		trigger = { is_japanese_speaking_tag = yes }
 		localization_key = STATE_781_JAPANESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_781_CREOLE
 	}
 	text = {
 		trigger = { is_german_speaking_tag = yes }
@@ -25151,6 +25276,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_785_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_785_CREOLE
 	}
 	text = {
 		localization_key = STATE_785 #Lorraine
@@ -26240,6 +26369,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_817_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_817_CREOLE
 	}
 	text = {
 		localization_key = STATE_817 #Roussillon
@@ -29509,6 +29642,10 @@ defined_text = {
 		localization_key = STATE_943_BASQUE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_943_CREOLE
+	}
+	text = {
 		localization_key = STATE_943 #Upper Savoy
 	}
 }
@@ -30162,6 +30299,10 @@ defined_text = {
 		localization_key = STATE_978 #Limburg
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_978_CREOLE
+	}
+	text = {
 		trigger = { is_french_speaking_tag = yes }
 		localization_key = STATE_978_FRENCH #Limbourg
 	}
@@ -30199,6 +30340,10 @@ defined_text = {
 	text = {
 		trigger = { NOT = { has_global_flag = allowrenaming_flag } }
 		localization_key = STATE_979 #Westerscheldt
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_979_CREOLE
 	}
 	text = {
 		trigger = { 
@@ -30283,6 +30428,10 @@ defined_text = {
 		localization_key = STATE_980_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_980_CREOLE
+	}
+	text = {
 		localization_key = STATE_980 #Lille
 	}
 }
@@ -30358,6 +30507,10 @@ defined_text = {
 		localization_key = STATE_983_CHINESE
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_983_CREOLE
+	}
+	text = {
 		localization_key = STATE_983 #Brittany
 	}
 }
@@ -30395,6 +30548,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_984_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_984_CREOLE
 	}
 	text = {
 		localization_key = STATE_984 #Pyrenees
@@ -40541,6 +40698,10 @@ defined_text = {
 		localization_key = STATE_1313
 	}
 	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1313_CREOLE
+	}
+	text = {
 		trigger = { is_french_speaking_tag = yes }
 		localization_key = STATE_1313_FRENCH
 	}
@@ -41180,6 +41341,10 @@ defined_text = {
 	text = {
 		trigger = { is_chinese_speaking_tag = yes }
 		localization_key = STATE_1334_CHINESE
+	}
+	text = {
+		trigger = { is_using_creole = yes }
+		localization_key = STATE_1334_CREOLE
 	}
 	text = {
 		localization_key = STATE_1334 #Labourd
